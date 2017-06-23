@@ -1,5 +1,5 @@
 <?php
-echo "nani kakak";
-echo "dhur bal";
-echo "yoo sexy";
+echo "congress";
+echo "tmc";
+echo "bjp";
 ?>
