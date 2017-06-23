@@ -1,5 +1,3 @@
 <?php
-echo "congress";
-echo "tmc";
-echo "bjp";
+echo "something";
 ?>
