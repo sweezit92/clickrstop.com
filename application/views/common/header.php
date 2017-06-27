@@ -2,8 +2,8 @@
 		<header>
 			<!-- LOGO -->
 			<a href="index.html">
-				<figure class="logo">
-					<img src="<?php echo base_url();?>images/logo.png" alt="logo">
+				<figure class="logo" >
+					<img src="<?php echo base_url();?>images/log2.png" alt="logo" style="height:90px;margin-top:-15px;">
 				</figure>
 			</a>
 			<!-- /LOGO -->

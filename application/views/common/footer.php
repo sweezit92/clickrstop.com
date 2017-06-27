@@ -226,7 +226,6 @@
 <!-- User Quickview Dropdown -->
 <script src="<?php echo base_url();?>js/user-board.js"></script>
 <!-- Home Alerts -->
-<script src="<?php echo base_url();?>js/home-alerts.js"></script>
 <!-- Footer -->
 <script src="<?php echo base_url();?>js/footer.js"></script>
 
