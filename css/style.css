@@ -2232,7 +2232,7 @@ header {
     margin: 0 auto;
     position: relative; } }
 .banner-wrap {
-  background: url("../images/home_banner.jpg") no-repeat center;
+  background: url("../images/newbg.png") no-repeat center;
   background-size: cover; }
 
 .banner {

@@ -6,4 +6,4 @@
 	<link rel="stylesheet" href="<?php echo base_url();?>css/style.css">
 	<link rel="stylesheet" href="<?php echo base_url();?>css/jquery.range.css">
 	<!-- favicon -->
-	<link rel="icon" href="favicon.ico">
+	<link rel="icon" href="<?php echo base_url();?>images/favicon.png">

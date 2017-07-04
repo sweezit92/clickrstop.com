@@ -6,10 +6,10 @@
 				<!-- COMPANY INFO -->
 				<div class="company-info">
 					<figure class="logo small">
-						<img src="<?php echo base_url();?>images/logo_small.png" alt="logo-small">
+						<img src="<?php echo base_url();?>images/log2.png" alt="logo-small">
 					</figure>
-					<p>Lorem ipsum dolor sit amet, consectetur isicing elit, sed do eiusmod tempor incididunt ut labo dolore magna ua.</p>
-					<ul class="company-info-list">
+					<p>&nbsp;</p>
+					<!--<ul class="company-info-list">
 						<li class="company-info-item">
 							<span class="icon-present"></span>
 							<p><span>850.296</span> Products</p>
@@ -22,7 +22,7 @@
 							<span class="icon-user"></span>
 							<p><span>74.059</span> Sellers</p>
 						</li>
-					</ul>
+					</ul>-->
 					<!-- SOCIAL LINKS -->
 					<ul class="social-links">
 						<li class="social-link fb">
@@ -34,9 +34,7 @@
 						<li class="social-link db">
 							<a href="#"></a>
 						</li>
-						<li class="social-link rss">
-							<a href="#"></a>
-						</li>
+
 					</ul>
 					<!-- /SOCIAL LINKS -->
 				</div>
