@@ -15,7 +15,7 @@
 	<!-- /MAIN MENU -->
 
 	<!-- BANNER -->
-	<div class="banner-wrap" style="background:url('<?php echo base_url();?>images/newbg.png');">
+	<div class="banner-wrap" style="background:url('<?php echo base_url();?>images/collage_slider.png');">
 		<section class="banner">
 			<h5>Welcome to</h5>
 			<h1>Photographers <span> Marketplace</span></h1>
