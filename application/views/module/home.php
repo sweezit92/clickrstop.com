@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <?php
-		 $this->load->view("common/meta_links");
-	?>
-	<title>Hire professional photographers | Clickrstop</title>
+	 $this->load->view("common/meta_links");
+?>
+	<title>Hire professional photographers |  Click R stop</title>
 </head>
 <body>
 
@@ -29,14 +28,6 @@
 					<label for="categories" class="select-block">
 						<select name="categories" id="categories">
 							<option value="0">All Categories</option>
-							<option value="1">PSD Templates</option>
-							<option value="2">Hero Images</option>
-							<option value="3">Shopify</option>
-							<option value="4">Icon Packs</option>
-							<option value="5">Graphics</option>
-							<option value="6">Flyers</option>
-							<option value="7">Backgrounds</option>
-							<option value="8">Social Covers</option>
 						</select>
 						<!-- SVG ARROW -->
 						<svg class="svg-arrow">

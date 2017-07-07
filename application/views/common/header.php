@@ -1,7 +1,7 @@
 	<div class="header-wrap">
 		<header>
 			<!-- LOGO -->
-			<a href="index.html">
+			<a href="<?php echo base_url();?>">
 				<figure class="logo">
 					<img src="<?php echo base_url();?>images/log2.png" alt="logo" style="height:70px;width:180px;margin-top:-6px;">
 				</figure>
@@ -9,7 +9,7 @@
 			<!-- /LOGO -->
 
 			<!-- LOGO MOBILE -->
-			<a href="index.html">
+			<a href="<?php echo base_url();?>">
 				<figure class="logo-mobile">
 					<img src="<?php echo base_url();?>images/log2.png" alt="logo" style="height:70px;width:180px;margin-top:-6px;margin-left:-60px;">
 				</figure>
@@ -80,9 +80,8 @@
 					<a href="<?php echo base_url();?>blogs/" class="interesting-link">Our blogs</a>
 					<a href="<?php echo base_url();?>blogs/" class="interesting-link">Why choose us</a>
 					<a href="<?php echo base_url();?>blogs/" class="interesting-link">How it works</a>
-					<a href="#" class="button primary">Become a seller</a>
-					<a href="#" class="button primary">Register</a>
-					<a href="#" class="button secondary">Login</a>
+					<a href="<?php echo base_url()?>index.php/register" class="button primary">Register</a>
+					<a href="<?php echo base_url();?>index.php/login" class="button secondary">Login</a>
 				</div>
 				<!-- /ACCOUNT ACTIONS -->
 			</div>
@@ -106,7 +105,7 @@
 		<!-- SIDE MENU HEADER -->
 		<div class="side-menu-header">
 			<figure class="logo small">
-				<img src="<?php echo base_url();?>images/logo.png" alt="logo">
+				<img src="<?php echo base_url();?>images/log2.png" alt="logo">
 			</figure>
 		</div>
 		<!-- /SIDE MENU HEADER -->
@@ -273,8 +272,8 @@
 			<nav>
 				<ul class="main-menu">
 					<!-- MENU ITEM -->
-					<li class="menu-item">
-						<a href="<?php echo base_url()?>index.php/">Home</a>
+					<li class="menu-item active">
+						<a href="<?php echo base_url()?>" class="active">Home</a>
 					</li>
 					<!-- /MENU ITEM -->
 

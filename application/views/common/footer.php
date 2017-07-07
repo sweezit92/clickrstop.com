@@ -1,5 +1,5 @@
 	<!-- FOOTER -->
-	<footer>
+	<footer >
 		<!-- FOOTER TOP -->
 		<div id="footer-top-wrap">
 			<div id="footer-top">
@@ -42,118 +42,118 @@
 
 				<!-- LINK INFO -->
 				<div class="link-info">
-					<p class="footer-title">Our Community</p>
-					<!-- LINK LIST -->
 					<ul class="link-list">
 						<li class="link-item">
 							<div class="bullet"></div>
-							<a href="#">How to Join us</a>
+							<a href="#">How it work?</a>
 						</li>
 						<li class="link-item">
 							<div class="bullet"></div>
-							<a href="#">Buying and Selling</a>
+							<a href="#">News and blogs</a>
 						</li>
 						<li class="link-item">
 							<div class="bullet"></div>
-							<a href="forum.html">Emerald Forum</a>
+							<a href="forum.html">Why choose us</a>
 						</li>
 						<li class="link-item">
 							<div class="bullet"></div>
-							<a href="blog-v1.html">Emerald Blog</a>
+							<a href="blog-v1.html">Privacy Policy</a>
 						</li>
 						<li class="link-item">
 							<div class="bullet"></div>
-							<a href="#">Free Goods</a>
+							<a href="#">Terms and conditions</a>
+						</li>
+					</ul>
+				</div>
+				<!-- /LINK INFO -->
+
+				<div class="link-info">
+					<ul class="link-list">
+						<li class="link-item">
+							<div class="bullet"></div>
+							<a href="#">Category</a>
 						</li>
 						<li class="link-item">
 							<div class="bullet"></div>
-							<a href="#">Job Oportunities</a>
+							<a href="#">Category</a>
+						</li>
+						<li class="link-item">
+							<div class="bullet"></div>
+							<a href="#">Category</a>
+						</li>
+						<li class="link-item">
+							<div class="bullet"></div>
+							<a href="#">Category</a>
+						</li>
+						<li class="link-item">
+							<div class="bullet"></div>
+							<a href="#">Category</a>
 						</li>
 					</ul>
 					<!-- /LINK LIST -->
+				</div>
+
+				<!-- LINK INFO -->
+				<div class="link-info">
+					<ul class="link-list">
+						<li class="link-item">
+							<div class="bullet"></div>
+							<a href="#">Category</a>
+						</li>
+						<li class="link-item">
+							<div class="bullet"></div>
+							<a href="#">Category</a>
+						</li>
+						<li class="link-item">
+							<div class="bullet"></div>
+							<a href="#">Category</a>
+						</li>
+						<li class="link-item">
+							<div class="bullet"></div>
+							<a href="#">Category</a>
+						</li>
+						<li class="link-item">
+							<div class="bullet"></div>
+							<a href="#">Category</a>
+						</li>
+					</ul>
 				</div>
 				<!-- /LINK INFO -->
 
 				<!-- LINK INFO -->
-				<div class="link-info">
-					<p class="footer-title">Member Links</p>
-					<!-- LINK LIST -->
+				<div class="link-info" >
 					<ul class="link-list">
 						<li class="link-item">
 							<div class="bullet"></div>
-							<a href="#">Partner Program</a>
+							<a href="#">Category</a>
 						</li>
 						<li class="link-item">
 							<div class="bullet"></div>
-							<a href="#">Starting a Shop</a>
+							<a href="#">Category</a>
 						</li>
 						<li class="link-item">
 							<div class="bullet"></div>
-							<a href="#">Purchase Credits</a>
+							<a href="#">Category</a>
 						</li>
 						<li class="link-item">
 							<div class="bullet"></div>
-							<a href="#">Withdrawals</a>
+							<a href="#">Category</a>
 						</li>
 						<li class="link-item">
 							<div class="bullet"></div>
-							<a href="#">World Meetings</a>
-						</li>
-						<li class="link-item">
-							<div class="bullet"></div>
-							<a href="#">How to Auction</a>
+							<a href="#">Category</a>
 						</li>
 					</ul>
-					<!-- /LINK LIST -->
 				</div>
 				<!-- /LINK INFO -->
-
-				<!-- LINK INFO -->
-				<div class="link-info">
-					<p class="footer-title">Help and FAQs</p>
-					<!-- LINK LIST -->
-					<ul class="link-list">
-						<li class="link-item">
-							<div class="bullet"></div>
-							<a href="#">Help Center</a>
-						</li>
-						<li class="link-item">
-							<div class="bullet"></div>
-							<a href="#">FAQs</a>
-						</li>
-						<li class="link-item">
-							<div class="bullet"></div>
-							<a href="#">Terms and Conditions</a>
-						</li>
-						<li class="link-item">
-							<div class="bullet"></div>
-							<a href="#">Products Licenses</a>
-						</li>
-						<li class="link-item">
-							<div class="bullet"></div>
-							<a href="#">Security Information</a>
-						</li>
-					</ul>
-					<!-- /LINK LIST -->
-				</div>
-				<!-- /LINK INFO -->
-
-				<!-- TWITTER FEED -->
-				<div class="twitter-feed">
-					<p class="footer-title">Twitter Feed</p>
-					<!-- TWEETS -->
-					<ul class="tweets"></ul>
-					<!-- /TWEETS -->
-				</div>
-				<!-- /TWITTER FEED -->
 			</div>
 		</div>
 		<!-- /FOOTER TOP -->
 
 		<!-- FOOTER BOTTOM -->
-		<div id="footer-bottom-wrap">
-			<div id="footer-bottom">
-				<p><span>&copy;</span><a href="index.html">Emerald Dragon</a> Template - All Rights Reserved 2015</p>
+		<div id="footer-bottom-wrap"  style="text-align:center;">
+			<div id="footer-bottom" style="text-align:center;">
+				<p>MADE WITH LOVE IN INDIA</p>
 			</div>
 		</div>
 		<!-- /FOOTER BOTTOM -->
@@ -195,8 +195,7 @@
 <script src="<?php echo base_url();?>js/jquery.tooltipster.min.js"></script>
 <!-- Owl Carousel -->
 <script src="<?php echo base_url();?>js/owl.carousel.min.js"></script>
-<!-- Tweet -->
-<script src="<?php echo base_url();?>js/twitter/jquery.tweet.min.js"></script>
+
 <!-- xmAlerts -->
 <script src="<?php echo base_url();?>js/jquery.xmalert.min.js"></script>
 <!-- Side Menu -->
@@ -224,6 +223,3 @@
 <!-- User Quickview Dropdown -->
 <script src="<?php echo base_url();?>js/user-board.js"></script>
 <!-- Home Alerts -->
-<!-- Footer -->
-<script src="<?php echo base_url();?>js/footer.js"></script>
-
