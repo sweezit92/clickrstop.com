@@ -290,7 +290,7 @@
 
 					<!-- MENU ITEM -->
 					<li class="menu-item">
-						<a href="services.html">GIGS / Services</a>
+						<a href="<?php echo base_url()?>index.php/gig_listing">GIGS / Services</a>
 					</li>
 					<!-- /MENU ITEM -->
 
