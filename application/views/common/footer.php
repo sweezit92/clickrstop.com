@@ -57,11 +57,11 @@
 						</li>
 						<li class="link-item">
 							<div class="bullet"></div>
-							<a href="blog-v1.html">Privacy Policy</a>
+							<a href="<?php echo base_url();?>index.php/privacy">Privacy Policy</a>
 						</li>
 						<li class="link-item">
 							<div class="bullet"></div>
-							<a href="#">Terms and conditions</a>
+							<a href="<?php echo base_url();?>index.php/terms">Terms and conditions</a>
 						</li>
 					</ul>
 				</div>

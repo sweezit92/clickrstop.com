@@ -21,7 +21,9 @@
 				<span class="icon-user"></span>
 			</div>
 			<!-- /MOBILE ACCOUNT OPTIONS HANDLER -->
-
+			<?php
+				if(isset($_SESSION['user_id']) && $_SESSION['user_id'] != ''){
+			?>
 			<!-- USER BOARD -->
 			<div class="user-board">
 				<!-- USER QUICKVIEW -->
@@ -74,7 +76,9 @@
 					<!-- /DROPDOWN -->
 				</div>
 				<!-- /USER QUICKVIEW -->
-
+				<?php
+				}
+				?>
 				<!-- ACCOUNT ACTIONS -->
 				<div class="account-actions">
 					<a href="<?php echo base_url();?>blogs/" class="interesting-link">Our blogs</a>
@@ -85,6 +89,7 @@
 				</div>
 				<!-- /ACCOUNT ACTIONS -->
 			</div>
+			
 			<!-- /USER BOARD -->
 		</header>
 	</div>

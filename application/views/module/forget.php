@@ -6,7 +6,7 @@
 	$this->load->view("common/meta_links");
 ?>
 
-	<title>Login to your account | Click R stop</title>
+	<title>Forget password | Click R stop</title>
 </head>
 <body>
 
@@ -36,16 +36,15 @@
 
 				<!-- FORM POPUP CONTENT -->
 				<div class="form-popup-content">
-					<h4 class="popup-title">Login to your Account</h4>
+					<h4 class="popup-title">Restore your password</h4>
 					<hr class="line-separator double">
-
+					<p class="spaced">You would be sent a new password to your respective email address linked with your account.</p>
 					<form id="login-form">
-						<input type="text" id="email" name="email" placeholder="Email">
-						<input type="password" id="password5" name="password5" placeholder="Password">
+						<input type="text" id="username5" name="username5" placeholder="Enter your Email">
 						<!-- CHECKBOX -->
 						<input type="checkbox" id="remember2" name="remember2" checked>
 						<!-- /CHECKBOX -->
-						<p>Forgot your password? <a href="<?php echo base_url();?>index.php/forget" class="primary">Click here!</a></p>
+						
 						<button class="button mid dark">Login <span class="primary">Now!</span></button>
 					</form>
 				</div>
