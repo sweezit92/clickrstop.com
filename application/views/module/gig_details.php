@@ -512,19 +512,34 @@
 
 			<div class="sidebar right">
 				<!-- SIDEBAR ITEM -->
-				<div class="sidebar-item void buttons">
-					<a href="#" class="button big secondary-dark purchase">
-						<span class="currency">260</span>
-						<span class="primary">Order Service!</span>
-					</a>
-					<a href="#" class="button big secondary wfav">
-						<span class="icon-heart"></span>
-						<span class="fav-count">652</span>
-						Add to Favourites
-					</a>
-				</div>
+			
 				<!-- /SIDEBAR ITEM -->
+				<div class="sidebar-item">
+					<p class="price large"><span>$</span>28.00</p>
+					<hr class="line-separator">
+					<form id="aux_form" name="aux_form"></form>
 
+					<!-- CHECKBOX -->
+					<input type="radio" id="regular-license" name="regular-license" form="aux_form" checked>
+					<label class="b-label linked-check" for="regular-license">
+						<span class="checkbox primary"><span></span></span>
+						Regular License
+					</label>
+					<!-- /CHECKBOX -->
+					<p class="license-text" data-license="regular-license" style="display: block;">Lorem ipsum dolor sit amet, sectetur adipisicing elit, sed do eiusmod tempor cididunt ut labore.</p>
+
+					<!-- CHECKBOX -->
+					<input type="radio" id="extended-license" name="extended-license" form="aux_form">
+					<label class="b-label linked-check" for="extended-license">
+						<span class="checkbox primary"><span></span></span>
+						Extended License
+					</label>
+					<!-- /CHECKBOX -->
+					<p class="license-text" data-license="extended-license">Lorem ipsum dolor sit amet, sectetur adipisicing elit, sed do eiusmod tempor cididunt ut labore.</p>
+					<a href="#" class="button mid dark spaced"><span class="primary">Purchase Now!</span></a>
+				
+					<div class="clearfix"></div>
+				</div>
 				<!-- SIDEBAR ITEM -->
 				<div class="sidebar-item author-bio v2">
 					<h4>Service Author</h4>
@@ -642,121 +657,7 @@
 				<!-- /SIDEBAR ITEM -->
 
 				<!-- SIDEBAR ITEM -->
-				<div class="sidebar-item author-items">
-					<h4>Other Author's Services</h4>
-					<!-- PRODUCT LIST -->
-					<div class="product-list grid column4-wrap">
-						<!-- PRODUCT ITEM -->
-						<div class="product-item column">
-							<!-- PRODUCT PREVIEW ACTIONS -->
-							<div class="product-preview-actions">
-								<!-- PRODUCT PREVIEW IMAGE -->
-								<figure class="product-preview-image">
-									<img src="<?php echo base_url();?>images/logos_m.jpg" alt="product-image">
-								</figure>
-								<!-- /PRODUCT PREVIEW IMAGE -->
-
-								<!-- PREVIEW ACTIONS -->
-								<div class="preview-actions">
-									<!-- PREVIEW ACTION -->
-									<div class="preview-action">
-										<a href="service-page.html">
-											<div class="circle tiny primary">
-												<span class="icon-tag"></span>
-											</div>
-										</a>
-										<a href="service-page.html">
-											<p>Go to Item</p>
-										</a>
-									</div>
-									<!-- /PREVIEW ACTION -->
-
-									<!-- PREVIEW ACTION -->
-									<div class="preview-action">
-										<a href="#">
-											<div class="circle tiny secondary">
-												<span class="icon-heart"></span>
-											</div>
-										</a>
-										<a href="#">
-											<p>Favourites +</p>
-										</a>
-									</div>
-									<!-- /PREVIEW ACTION -->
-								</div>
-								<!-- /PREVIEW ACTIONS -->
-							</div>
-							<!-- /PRODUCT PREVIEW ACTIONS -->
-
-							<!-- PRODUCT INFO -->
-							<div class="product-info">
-								<a href="service-page.html">
-									<p class="text-header">Professional Corporate Logos</p>
-								</a>
-								<p class="product-description">Lorem ipsum dolor sit urarde...</p>
-								<a href="services.html">
-									<p class="category secondary">Graphic Design</p>
-								</a>
-								<p class="price"><span>$</span>260</p>
-							</div>
-							<!-- /PRODUCT INFO -->
-							<hr class="line-separator">
-
-							<!-- USER RATING -->
-							<div class="user-rating">
-								<a href="author-profile.html">
-									<figure class="user-avatar small">
-										<img src="<?php echo base_url();?>images/avatar_14.jpg" alt="user-avatar">
-									</figure>
-								</a>
-								<a href="author-profile.html">
-									<p class="text-header tiny">Jenny_Block</p>
-								</a>
-								<ul class="rating tooltip" title="Author's Reputation">
-									<li class="rating-item">
-										<!-- SVG STAR -->
-										<svg class="svg-star">
-											<use xlink:href="#svg-star"></use>
-										</svg>
-										<!-- /SVG STAR -->
-									</li>
-									<li class="rating-item">
-										<!-- SVG STAR -->
-										<svg class="svg-star">
-											<use xlink:href="#svg-star"></use>
-										</svg>
-										<!-- /SVG STAR -->
-									</li>
-									<li class="rating-item">
-										<!-- SVG STAR -->
-										<svg class="svg-star">
-											<use xlink:href="#svg-star"></use>
-										</svg>
-										<!-- /SVG STAR -->
-									</li>
-									<li class="rating-item">
-										<!-- SVG STAR -->
-										<svg class="svg-star">
-											<use xlink:href="#svg-star"></use>
-										</svg>
-										<!-- /SVG STAR -->
-									</li>
-									<li class="rating-item empty">
-										<!-- SVG STAR -->
-										<svg class="svg-star">
-											<use xlink:href="#svg-star"></use>
-										</svg>
-										<!-- /SVG STAR -->
-									</li>
-								</ul>
-							</div>
-							<!-- /USER RATING -->
-						</div>
-						<!-- /PRODUCT ITEM -->
-					</div>
-					<!-- /PRODUCT LIST -->
-					<div class="clearfix"></div>
-				</div>
+		
 				<!-- /SIDEBAR ITEM -->
 			</div>
 			<!-- CONTENT -->
