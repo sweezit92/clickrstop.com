@@ -88,12 +88,12 @@
 								<div class="preview-actions">
 									<!-- PREVIEW ACTION -->
 									<div class="preview-action">
-										<a href="service-page.html">
+										<a href="<?php echo base_url()?>index.php/gig_details">
 											<div class="circle tiny primary">
 												<span class="icon-tag"></span>
 											</div>
 										</a>
-										<a href="service-page.html">
+										<a href="<?php echo base_url()?>index.php/gig_details">
 											<p>Go to Item</p>
 										</a>
 									</div>
@@ -118,7 +118,7 @@
 
 							<!-- PRODUCT INFO -->
 							<div class="product-info">
-								<a href="service-page.html">
+								<a href="<?php echo base_url()?>index.php/gig_details">
 									<p class="text-header">Professional Corporate Logos</p>
 								</a>
 								<p class="product-description">Lorem ipsum dolor sit urarde...</p>
@@ -196,12 +196,12 @@
 								<div class="preview-actions">
 									<!-- PREVIEW ACTION -->
 									<div class="preview-action">
-										<a href="service-page.html">
+										<a href="<?php echo base_url()?>index.php/gig_details">
 											<div class="circle tiny primary">
 												<span class="icon-tag"></span>
 											</div>
 										</a>
-										<a href="service-page.html">
+										<a href="<?php echo base_url()?>index.php/gig_details">
 											<p>Go to Item</p>
 										</a>
 									</div>
@@ -226,7 +226,7 @@
 
 							<!-- PRODUCT INFO -->
 							<div class="product-info">
-								<a href="service-page.html">
+								<a href="<?php echo base_url()?>index.php/gig_details">
 									<p class="text-header">Clean Cartoon Characters</p>
 								</a>
 								<p class="product-description">Lorem ipsum dolor sit urarde...</p>
@@ -304,12 +304,12 @@
 								<div class="preview-actions">
 									<!-- PREVIEW ACTION -->
 									<div class="preview-action">
-										<a href="service-page.html">
+										<a href="<?php echo base_url()?>index.php/gig_details">
 											<div class="circle tiny primary">
 												<span class="icon-tag"></span>
 											</div>
 										</a>
-										<a href="service-page.html">
+										<a href="<?php echo base_url()?>index.php/gig_details">
 											<p>Go to Item</p>
 										</a>
 									</div>
@@ -334,7 +334,7 @@
 
 							<!-- PRODUCT INFO -->
 							<div class="product-info">
-								<a href="service-page.html">
+								<a href="<?php echo base_url()?>index.php/gig_details">
 									<p class="text-header">Professional Party Flyers</p>
 								</a>
 								<p class="product-description">Lorem ipsum dolor sit urarde...</p>
@@ -412,12 +412,12 @@
 								<div class="preview-actions">
 									<!-- PREVIEW ACTION -->
 									<div class="preview-action">
-										<a href="service-page.html">
+										<a href="<?php echo base_url()?>index.php/gig_details">
 											<div class="circle tiny primary">
 												<span class="icon-tag"></span>
 											</div>
 										</a>
-										<a href="service-page.html">
+										<a href="<?php echo base_url()?>index.php/gig_details">
 											<p>Go to Item</p>
 										</a>
 									</div>
@@ -442,7 +442,7 @@
 
 							<!-- PRODUCT INFO -->
 							<div class="product-info">
-								<a href="service-page.html">
+								<a href="<?php echo base_url()?>index.php/gig_details">
 									<p class="text-header">Vector Icons for Web Apps</p>
 								</a>
 								<p class="product-description">Lorem ipsum dolor sit urarde...</p>
@@ -502,9 +502,229 @@
 									</li>
 								</ul>
 							</div>
+
+
+
 							<!-- /USER RATING -->
 						</div>
 						<!-- /PRODUCT ITEM -->
+
+						<div class="product-item column">
+							<!-- PRODUCT PREVIEW ACTIONS -->
+							<div class="product-preview-actions">
+								<!-- PRODUCT PREVIEW IMAGE -->
+								<figure class="product-preview-image">
+									<img src="<?php echo base_url();?>images/app_m.jpg" alt="product-image">
+								</figure>
+								<!-- /PRODUCT PREVIEW IMAGE -->
+
+								<!-- PREVIEW ACTIONS -->
+								<div class="preview-actions">
+									<!-- PREVIEW ACTION -->
+									<div class="preview-action">
+										<a href="<?php echo base_url()?>index.php/gig_details">
+											<div class="circle tiny primary">
+												<span class="icon-tag"></span>
+											</div>
+										</a>
+										<a href="<?php echo base_url()?>index.php/gig_details">
+											<p>Go to Item</p>
+										</a>
+									</div>
+									<!-- /PREVIEW ACTION -->
+
+									<!-- PREVIEW ACTION -->
+									<div class="preview-action">
+										<a href="#">
+											<div class="circle tiny secondary">
+												<span class="icon-heart"></span>
+											</div>
+										</a>
+										<a href="#">
+											<p>Favourites +</p>
+										</a>
+									</div>
+									<!-- /PREVIEW ACTION -->
+								</div>
+								<!-- /PREVIEW ACTIONS -->
+							</div>
+							<!-- /PRODUCT PREVIEW ACTIONS -->
+
+							<!-- PRODUCT INFO -->
+							<div class="product-info">
+								<a href="<?php echo base_url()?>index.php/gig_details">
+									<p class="text-header">Vector Icons for Web Apps</p>
+								</a>
+								<p class="product-description">Lorem ipsum dolor sit urarde...</p>
+								<a href="services.html">
+									<p class="category secondary">UI/UX</p>
+								</a>
+								<p class="price"><span>$</span>260</p>
+							</div>
+							<!-- /PRODUCT INFO -->
+							<hr class="line-separator">
+
+							<!-- USER RATING -->
+							<div class="user-rating">
+								<a href="author-profile.html">
+									<figure class="user-avatar small">
+										<img src="<?php echo base_url();?>images/avatar_03.jpg" alt="user-avatar">
+									</figure>
+								</a>
+								<a href="author-profile.html">
+									<p class="text-header tiny">Thomas_Ket</p>
+								</a>
+								<ul class="rating tooltip" title="Author's Reputation">
+									<li class="rating-item">
+										<!-- SVG STAR -->
+										<svg class="svg-star">
+											<use xlink:href="#svg-star"></use>
+										</svg>
+										<!-- /SVG STAR -->
+									</li>
+									<li class="rating-item">
+										<!-- SVG STAR -->
+										<svg class="svg-star">
+											<use xlink:href="#svg-star"></use>
+										</svg>
+										<!-- /SVG STAR -->
+									</li>
+									<li class="rating-item">
+										<!-- SVG STAR -->
+										<svg class="svg-star">
+											<use xlink:href="#svg-star"></use>
+										</svg>
+										<!-- /SVG STAR -->
+									</li>
+									<li class="rating-item">
+										<!-- SVG STAR -->
+										<svg class="svg-star">
+											<use xlink:href="#svg-star"></use>
+										</svg>
+										<!-- /SVG STAR -->
+									</li>
+									<li class="rating-item empty">
+										<!-- SVG STAR -->
+										<svg class="svg-star">
+											<use xlink:href="#svg-star"></use>
+										</svg>
+										<!-- /SVG STAR -->
+									</li>
+								</ul>
+							</div>
+
+
+
+							<!-- /USER RATING -->
+						</div>
+						<div class="product-item column">
+							<!-- PRODUCT PREVIEW ACTIONS -->
+							<div class="product-preview-actions">
+								<!-- PRODUCT PREVIEW IMAGE -->
+								<figure class="product-preview-image">
+									<img src="<?php echo base_url();?>images/app_m.jpg" alt="product-image">
+								</figure>
+								<!-- /PRODUCT PREVIEW IMAGE -->
+
+								<!-- PREVIEW ACTIONS -->
+								<div class="preview-actions">
+									<!-- PREVIEW ACTION -->
+									<div class="preview-action">
+										<a href="<?php echo base_url()?>index.php/gig_details">
+											<div class="circle tiny primary">
+												<span class="icon-tag"></span>
+											</div>
+										</a>
+										<a href="<?php echo base_url()?>index.php/gig_details">
+											<p>Go to Item</p>
+										</a>
+									</div>
+									<!-- /PREVIEW ACTION -->
+
+									<!-- PREVIEW ACTION -->
+									<div class="preview-action">
+										<a href="#">
+											<div class="circle tiny secondary">
+												<span class="icon-heart"></span>
+											</div>
+										</a>
+										<a href="#">
+											<p>Favourites +</p>
+										</a>
+									</div>
+									<!-- /PREVIEW ACTION -->
+								</div>
+								<!-- /PREVIEW ACTIONS -->
+							</div>
+							<!-- /PRODUCT PREVIEW ACTIONS -->
+
+							<!-- PRODUCT INFO -->
+							<div class="product-info">
+								<a href="<?php echo base_url()?>index.php/gig_details">
+									<p class="text-header">Vector Icons for Web Apps</p>
+								</a>
+								<p class="product-description">Lorem ipsum dolor sit urarde...</p>
+								<a href="services.html">
+									<p class="category secondary">UI/UX</p>
+								</a>
+								<p class="price"><span>$</span>260</p>
+							</div>
+							<!-- /PRODUCT INFO -->
+							<hr class="line-separator">
+
+							<!-- USER RATING -->
+							<div class="user-rating">
+								<a href="author-profile.html">
+									<figure class="user-avatar small">
+										<img src="<?php echo base_url();?>images/avatar_03.jpg" alt="user-avatar">
+									</figure>
+								</a>
+								<a href="author-profile.html">
+									<p class="text-header tiny">Thomas_Ket</p>
+								</a>
+								<ul class="rating tooltip" title="Author's Reputation">
+									<li class="rating-item">
+										<!-- SVG STAR -->
+										<svg class="svg-star">
+											<use xlink:href="#svg-star"></use>
+										</svg>
+										<!-- /SVG STAR -->
+									</li>
+									<li class="rating-item">
+										<!-- SVG STAR -->
+										<svg class="svg-star">
+											<use xlink:href="#svg-star"></use>
+										</svg>
+										<!-- /SVG STAR -->
+									</li>
+									<li class="rating-item">
+										<!-- SVG STAR -->
+										<svg class="svg-star">
+											<use xlink:href="#svg-star"></use>
+										</svg>
+										<!-- /SVG STAR -->
+									</li>
+									<li class="rating-item">
+										<!-- SVG STAR -->
+										<svg class="svg-star">
+											<use xlink:href="#svg-star"></use>
+										</svg>
+										<!-- /SVG STAR -->
+									</li>
+									<li class="rating-item empty">
+										<!-- SVG STAR -->
+										<svg class="svg-star">
+											<use xlink:href="#svg-star"></use>
+										</svg>
+										<!-- /SVG STAR -->
+									</li>
+								</ul>
+							</div>
+
+
+
+							<!-- /USER RATING -->
+						</div>
 					</div>
 					<!-- /PRODUCT LIST -->
 				</div>
