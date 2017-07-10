@@ -88,12 +88,12 @@
 								<div class="preview-actions">
 									<!-- PREVIEW ACTION -->
 									<div class="preview-action">
-										<a href="<?php echo base_url()?>index.php/gig_details">
+										<a href="<?php echo base_url()?>index.php/services_details">
 											<div class="circle tiny primary">
 												<span class="icon-tag"></span>
 											</div>
 										</a>
-										<a href="<?php echo base_url()?>index.php/gig_details">
+										<a href="<?php echo base_url()?>index.php/services_details">
 											<p>Go to Item</p>
 										</a>
 									</div>
@@ -118,7 +118,7 @@
 
 							<!-- PRODUCT INFO -->
 							<div class="product-info">
-								<a href="<?php echo base_url()?>index.php/gig_details">
+								<a href="<?php echo base_url()?>index.php/services_details">
 									<p class="text-header">Professional Corporate Logos</p>
 								</a>
 								<p class="product-description">Lorem ipsum dolor sit urarde...</p>
@@ -196,12 +196,12 @@
 								<div class="preview-actions">
 									<!-- PREVIEW ACTION -->
 									<div class="preview-action">
-										<a href="<?php echo base_url()?>index.php/gig_details">
+										<a href="<?php echo base_url()?>index.php/services_details">
 											<div class="circle tiny primary">
 												<span class="icon-tag"></span>
 											</div>
 										</a>
-										<a href="<?php echo base_url()?>index.php/gig_details">
+										<a href="<?php echo base_url()?>index.php/services_details">
 											<p>Go to Item</p>
 										</a>
 									</div>
@@ -226,7 +226,7 @@
 
 							<!-- PRODUCT INFO -->
 							<div class="product-info">
-								<a href="<?php echo base_url()?>index.php/gig_details">
+								<a href="<?php echo base_url()?>index.php/services_details">
 									<p class="text-header">Clean Cartoon Characters</p>
 								</a>
 								<p class="product-description">Lorem ipsum dolor sit urarde...</p>
@@ -304,12 +304,12 @@
 								<div class="preview-actions">
 									<!-- PREVIEW ACTION -->
 									<div class="preview-action">
-										<a href="<?php echo base_url()?>index.php/gig_details">
+										<a href="<?php echo base_url()?>index.php/services_details">
 											<div class="circle tiny primary">
 												<span class="icon-tag"></span>
 											</div>
 										</a>
-										<a href="<?php echo base_url()?>index.php/gig_details">
+										<a href="<?php echo base_url()?>index.php/services_details">
 											<p>Go to Item</p>
 										</a>
 									</div>
@@ -334,7 +334,7 @@
 
 							<!-- PRODUCT INFO -->
 							<div class="product-info">
-								<a href="<?php echo base_url()?>index.php/gig_details">
+								<a href="<?php echo base_url()?>index.php/services_details">
 									<p class="text-header">Professional Party Flyers</p>
 								</a>
 								<p class="product-description">Lorem ipsum dolor sit urarde...</p>
@@ -412,12 +412,12 @@
 								<div class="preview-actions">
 									<!-- PREVIEW ACTION -->
 									<div class="preview-action">
-										<a href="<?php echo base_url()?>index.php/gig_details">
+										<a href="<?php echo base_url()?>index.php/services_details">
 											<div class="circle tiny primary">
 												<span class="icon-tag"></span>
 											</div>
 										</a>
-										<a href="<?php echo base_url()?>index.php/gig_details">
+										<a href="<?php echo base_url()?>index.php/services_details">
 											<p>Go to Item</p>
 										</a>
 									</div>
@@ -442,7 +442,7 @@
 
 							<!-- PRODUCT INFO -->
 							<div class="product-info">
-								<a href="<?php echo base_url()?>index.php/gig_details">
+								<a href="<?php echo base_url()?>index.php/services_details">
 									<p class="text-header">Vector Icons for Web Apps</p>
 								</a>
 								<p class="product-description">Lorem ipsum dolor sit urarde...</p>
@@ -522,12 +522,12 @@
 								<div class="preview-actions">
 									<!-- PREVIEW ACTION -->
 									<div class="preview-action">
-										<a href="<?php echo base_url()?>index.php/gig_details">
+										<a href="<?php echo base_url()?>index.php/services_details">
 											<div class="circle tiny primary">
 												<span class="icon-tag"></span>
 											</div>
 										</a>
-										<a href="<?php echo base_url()?>index.php/gig_details">
+										<a href="<?php echo base_url()?>index.php/services_details">
 											<p>Go to Item</p>
 										</a>
 									</div>
@@ -552,7 +552,7 @@
 
 							<!-- PRODUCT INFO -->
 							<div class="product-info">
-								<a href="<?php echo base_url()?>index.php/gig_details">
+								<a href="<?php echo base_url()?>index.php/services_details">
 									<p class="text-header">Vector Icons for Web Apps</p>
 								</a>
 								<p class="product-description">Lorem ipsum dolor sit urarde...</p>
@@ -630,12 +630,12 @@
 								<div class="preview-actions">
 									<!-- PREVIEW ACTION -->
 									<div class="preview-action">
-										<a href="<?php echo base_url()?>index.php/gig_details">
+										<a href="<?php echo base_url()?>index.php/services_details">
 											<div class="circle tiny primary">
 												<span class="icon-tag"></span>
 											</div>
 										</a>
-										<a href="<?php echo base_url()?>index.php/gig_details">
+										<a href="<?php echo base_url()?>index.php/services_details">
 											<p>Go to Item</p>
 										</a>
 									</div>
@@ -660,7 +660,7 @@
 
 							<!-- PRODUCT INFO -->
 							<div class="product-info">
-								<a href="<?php echo base_url()?>index.php/gig_details">
+								<a href="<?php echo base_url()?>index.php/services_details">
 									<p class="text-header">Vector Icons for Web Apps</p>
 								</a>
 								<p class="product-description">Lorem ipsum dolor sit urarde...</p>
