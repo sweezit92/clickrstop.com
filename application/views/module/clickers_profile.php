@@ -539,26 +539,9 @@
 				<!-- /SIDEBAR ITEM -->
 
 				<!-- DROPDOWN -->
-				<ul class="dropdown hover-effect">
-					<li class="dropdown-item active">
-						<a href="author-profile.html">Profile Page</a>
-					</li>
-					<li class="dropdown-item">
-						<a href="author-profile-messages.html">Add Service</a>
-					</li>
-					<li class="dropdown-item">
-						<a href="author-profile-messages.html">Message Board</a>
-					</li>
-					<li class="dropdown-item">
-						<a href="author-profile-followers.html">Ongoing Project</a>
-					</li>
-					<li class="dropdown-item">
-						<a href="author-profile-following.html">Account & Finnace</a>
-					</li>
-					<li class="dropdown-item">
-						<a href="author-badges.html">Feedback & Ratings</a>
-					</li>
-				</ul>
+				<?php
+					$this->load->view("common/clickers_sidebar");
+				?>
 				<!-- /DROPDOWN -->
 
 				<!-- SIDEBAR ITEM -->
@@ -584,7 +567,9 @@
 						<div class="product-preview-actions">
 							<!-- PRODUCT PREVIEW IMAGE -->
 							<figure class="product-preview-image">
-								<img src="<?php echo base_url();?>images/miniverse_m.jpg" alt="product-image">
+								<a href="<?php echo base_url()?>index.php/services_details">
+									<img src="<?php echo base_url();?>images/miniverse_m.jpg" alt="product-image">
+								</a>
 							</figure>
 							<!-- /PRODUCT PREVIEW IMAGE -->
 
@@ -596,13 +581,11 @@
 
 						<!-- PRODUCT INFO -->
 						<div class="product-info">
-							<a href="item-v1.html">
+							<a href="<?php echo base_url()?>index.php/services_details">
 								<p class="text-header">Miniverse - Hero Image Composer</p>
 							</a>
 							<p class="product-description">Lorem ipsum dolor sit urarde...</p>
-							<a href="shop-gridview-v1.html">
-								<p class="category primary">Hero Images</p>
-							</a>
+							<p class="category primary">Hero Images</p>
 							<p class="price"><span>$</span>12</p>
 						</div>
 						<!-- /PRODUCT INFO -->
@@ -610,14 +593,10 @@
 
 						<!-- USER RATING -->
 						<div class="user-rating">
-							<a href="author-profile.html">
-								<figure class="user-avatar small">
-									<img src="<?php echo base_url();?>images/avatar_09.jpg" alt="user-avatar">
-								</figure>
-							</a>
-							<a href="author-profile.html">
-								<p class="text-header tiny">Odin_Design</p>
-							</a>
+							<figure class="user-avatar small">
+								<img src="<?php echo base_url();?>images/avatar_09.jpg" alt="user-avatar">
+							</figure>
+							<p class="text-header tiny">Odin_Design</p>
 							<ul class="rating tooltip" title="Author's Reputation">
 								<li class="rating-item">
 									<!-- SVG STAR -->
@@ -670,7 +649,9 @@
 						<div class="product-preview-actions">
 							<!-- PRODUCT PREVIEW IMAGE -->
 							<figure class="product-preview-image">
-								<img src="<?php echo base_url();?>images/flat_m.jpg" alt="product-image">
+								<a href="<?php echo base_url()?>index.php/services_details">
+									<img src="<?php echo base_url();?>images/flat_m.jpg" alt="product-image">
+								</a>
 							</figure>
 							<!-- /PRODUCT PREVIEW IMAGE -->
 
@@ -682,13 +663,11 @@
 
 						<!-- PRODUCT INFO -->
 						<div class="product-info">
-							<a href="item-v1.html">
+							<a href="<?php echo base_url()?>index.php/services_details">
 								<p class="text-header">Flatland - Hero Image Composer</p>
 							</a>
 							<p class="product-description">Lorem ipsum dolor sit urarde...</p>
-							<a href="shop-gridview-v1.html">
-								<p class="category primary">Hero Images</p>
-							</a>
+							<p class="category primary">Hero Images</p>
 							<p class="price"><span>$</span>12</p>
 						</div>
 						<!-- /PRODUCT INFO -->
@@ -696,14 +675,10 @@
 
 						<!-- USER RATING -->
 						<div class="user-rating">
-							<a href="author-profile.html">
-								<figure class="user-avatar small">
-									<img src="<?php echo base_url();?>images/avatar_09.jpg" alt="user-avatar">
-								</figure>
-							</a>
-							<a href="author-profile.html">
-								<p class="text-header tiny">Odin_Design</p>
-							</a>
+							<figure class="user-avatar small">
+								<img src="<?php echo base_url();?>images/avatar_09.jpg" alt="user-avatar">
+							</figure>
+							<p class="text-header tiny">Odin_Design</p>
 							<ul class="rating tooltip" title="Author's Reputation">
 								<li class="rating-item">
 									<!-- SVG STAR -->
@@ -752,7 +727,9 @@
 						<div class="product-preview-actions">
 							<!-- PRODUCT PREVIEW IMAGE -->
 							<figure class="product-preview-image">
-								<img src="<?php echo base_url();?>images/phantom_m.jpg" alt="product-image">
+								<a href="<?php echo base_url()?>index.php/services_details">
+									<img src="<?php echo base_url();?>images/phantom_m.jpg" alt="product-image">
+								</a>
 							</figure>
 							<!-- /PRODUCT PREVIEW IMAGE -->
 
@@ -764,13 +741,11 @@
 
 						<!-- PRODUCT INFO -->
 						<div class="product-info">
-							<a href="item-v1.html">
+							<a href="<?php echo base_url()?>index.php/services_details">
 								<p class="text-header">Phantom Cloud Illustration Shop</p>
 							</a>
 							<p class="product-description">Lorem ipsum dolor sit urarde...</p>
-							<a href="shop-gridview-v1.html">
-								<p class="category primary">PSD Templates</p>
-							</a>
+							<p class="category primary">PSD Templates</p>
 							<p class="price"><span>$</span>14</p>
 						</div>
 						<!-- /PRODUCT INFO -->
@@ -778,14 +753,10 @@
 
 						<!-- USER RATING -->
 						<div class="user-rating">
-							<a href="author-profile.html">
-								<figure class="user-avatar small">
-									<img src="<?php echo base_url();?>images/avatar_09.jpg" alt="user-avatar">
-								</figure>
-							</a>
-							<a href="author-profile.html">
-								<p class="text-header tiny">Odin_Design</p>
-							</a>
+							<figure class="user-avatar small">
+								<img src="<?php echo base_url();?>images/avatar_09.jpg" alt="user-avatar">
+							</figure>
+							<p class="text-header tiny">Odin_Design</p>
 							<ul class="rating tooltip" title="Author's Reputation">
 								<li class="rating-item">
 									<!-- SVG STAR -->
@@ -844,20 +815,20 @@
 					<!-- COMMENT -->
 					<div class="comment-wrap">
 						<!-- USER AVATAR -->
-						<a href="user-profile.html">
+						<a href="<?php echo base_url()?>index.php/employers_profile">
 							<figure class="user-avatar medium">
 								<img src="<?php echo base_url();?>images/avatar_02.jpg" alt="">
 							</figure>
 						</a>
 						<!-- /USER AVATAR -->
 						<div class="comment">
-							<p class="text-header">MeganV.</p>
+							<a href="<?php echo base_url()?>index.php/employers_profile">
+								<p class="text-header">MeganV.</p>
+							</a>
 							<!-- PIN -->
 							<!--<span class="pin greyed">Purchased</span>-->
 							<!-- /PIN -->
 							<div class="user-rating">
-								<a href="author-profile.html">
-								
 								<ul class="rating tooltip" title="Author's Reputation">
 								 <li class="rating-item">
 								  <!-- SVG STAR -->
@@ -910,17 +881,17 @@
 					<!-- COMMENT -->
 					<div class="comment-wrap">
 						<!-- USER AVATAR -->
-						<a href="user-profile.html">
+						<a href="<?php echo base_url()?>index.php/employers_profile">
 							<figure class="user-avatar medium">
 								<img src="<?php echo base_url();?>images/avatar_19.jpg" alt="">
 							</figure>
 						</a>
 						<!-- /USER AVATAR -->
 						<div class="comment">
-							<p class="text-header">Cloud Templates</p>
+							<a href="<?php echo base_url()?>index.php/employers_profile">
+								<p class="text-header">Cloud Templates</p>
+							</a>
 							<div class="user-rating">
-								<a href="author-profile.html">
-								
 								<ul class="rating tooltip" title="Author's Reputation">
 								 <li class="rating-item">
 								  <!-- SVG STAR -->
