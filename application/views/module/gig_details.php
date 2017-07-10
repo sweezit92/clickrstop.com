@@ -188,43 +188,69 @@
 							<ul class="post-item-list">
 								<li>
 									<!-- SVG CHECK -->
-									<svg class="svg-check bullet-icon">
-										<use xlink:href="#svg-check"></use>
-									</svg>
+								
 									<!-- /SVG CHECK -->
-									<p>Lorem ipsum dolor sit amet</p>
+									<p>&#x2717;&nbsp;Lorem ipsum dolor sit amet</p>
 								</li>
 								<li>
 									<!-- SVG CHECK -->
-									<svg class="svg-check bullet-icon">
-										<use xlink:href="#svg-check"></use>
-									</svg>
+									
 									<!-- /SVG CHECK -->
-									<p>Nostrud Exertation</p>
+									<p>&#x2717;&nbsp;Nostrud Exertation</p>
 								</li>
 								<li>
 									<!-- SVG CHECK -->
-									<svg class="svg-check bullet-icon">
-										<use xlink:href="#svg-check"></use>
-									</svg>
+									
 									<!-- /SVG CHECK -->
-									<p>Laborum: Lorem ipsum dolor sit </p>
+									<p>&#x2717;&nbsp;Laborum: Lorem ipsum dolor sit </p>
 								</li>
 								<li>
 									<!-- SVG CHECK -->
-									<svg class="svg-check bullet-icon">
-										<use xlink:href="#svg-check"></use>
-									</svg>
+								
 									<!-- /SVG CHECK -->
-									<p>Lorem ipsum dolor sit amet</p>
+									<p>&#x2717;&nbsp;Lorem ipsum dolor sit amet</p>
 								</li>
 								<li>
 									<!-- SVG CHECK -->
-									<svg class="svg-check bullet-icon">
-										<use xlink:href="#svg-check"></use>
-									</svg>
+									
 									<!-- /SVG CHECK -->
-									<p>Nostrud Exertation</p>
+									<p>&#x2717;&nbsp;Nostrud Exertation</p>
+								</li>
+							</ul>
+							<!-- POST ITEM LIST -->
+						</div>
+							<!-- POST PARAGRAPH -->
+						<div class="post-paragraph half">
+							<h3 class="post-title small">List Items (Unordered)</h3>
+							<!-- POST ITEM LIST -->
+							<ul class="post-item-list">
+								<li>
+									<!-- SVG CHECK -->
+									
+									<!-- /SVG CHECK -->
+									<p>&#x2714;&nbsp;Lorem ipsum dolor sit amet</p>
+								</li>
+								<li>
+									<!-- SVG CHECK -->
+									
+									<!-- /SVG CHECK -->
+									<p>&#x2714;&nbsp;Nostrud Exertation</p>
+								</li>
+								<li>
+									
+									<p>&#x2714;&nbsp;Laborum: Lorem ipsum dolor sit </p>
+								</li>
+								<li>
+									<!-- SVG CHECK -->
+								
+									<!-- /SVG CHECK -->
+									<p>&#x2714;&nbsp;Lorem ipsum dolor sit amet</p>
+								</li>
+								<li>
+									<!-- SVG CHECK -->
+								
+									<!-- /SVG CHECK -->
+									<p>&#x2714;&nbsp;Nostrud Exertation</p>
 								</li>
 							</ul>
 							<!-- POST ITEM LIST -->
