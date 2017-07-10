@@ -67,38 +67,14 @@
 							<div class="product-preview-actions">
 								<!-- PRODUCT PREVIEW IMAGE -->
 								<figure class="product-preview-image">
-									<img src="<?php echo base_url();?>images/logos_m.jpg" alt="product-image">
+									<a href="<?php echo base_url()?>index.php/services_details">
+										<img src="<?php echo base_url();?>images/logos_m.jpg" alt="product-image">
+									</a>
 								</figure>
 								<!-- /PRODUCT PREVIEW IMAGE -->
 
 								<!-- PREVIEW ACTIONS -->
-								<div class="preview-actions">
-									<!-- PREVIEW ACTION -->
-									<div class="preview-action">
-										<a href="<?php echo base_url()?>index.php/services_details">
-											<div class="circle tiny primary">
-												<span class="icon-tag"></span>
-											</div>
-										</a>
-										<a href="<?php echo base_url()?>index.php/services_details">
-											<p>Go to Item</p>
-										</a>
-									</div>
-									<!-- /PREVIEW ACTION -->
-
-									<!-- PREVIEW ACTION -->
-									<div class="preview-action">
-										<a href="#">
-											<div class="circle tiny secondary">
-												<span class="icon-heart"></span>
-											</div>
-										</a>
-										<a href="#">
-											<p>Favourites +</p>
-										</a>
-									</div>
-									<!-- /PREVIEW ACTION -->
-								</div>
+								
 								<!-- /PREVIEW ACTIONS -->
 							</div>
 							<!-- /PRODUCT PREVIEW ACTIONS -->
@@ -109,9 +85,7 @@
 									<p class="text-header">Professional Corporate Logos</p>
 								</a>
 								<p class="product-description">Lorem ipsum dolor sit urarde...</p>
-								<a href="services.html">
-									<p class="category secondary">Graphic Design</p>
-								</a>
+								<p class="category secondary">Graphic Design</p>
 								<p class="price"><span>$</span>260</p>
 							</div>
 							<!-- /PRODUCT INFO -->
@@ -119,12 +93,12 @@
 
 							<!-- USER RATING -->
 							<div class="user-rating">
-								<a href="author-profile.html">
+								<a href="<?php echo base_url()?>index.php/clickers_profile">
 									<figure class="user-avatar small">
 										<img src="<?php echo base_url();?>images/avatar_14.jpg" alt="user-avatar">
 									</figure>
 								</a>
-								<a href="author-profile.html">
+								<a href="<?php echo base_url()?>index.php/clickers_profile">
 									<p class="text-header tiny">Jenny_Block</p>
 								</a>
 								<ul class="rating tooltip" title="Author's Reputation">
@@ -175,38 +149,14 @@
 							<div class="product-preview-actions">
 								<!-- PRODUCT PREVIEW IMAGE -->
 								<figure class="product-preview-image">
-									<img src="<?php echo base_url();?>images/cartoon_m.jpg" alt="product-image">
+									<a href="<?php echo base_url()?>index.php/services_details">
+										<img src="<?php echo base_url();?>images/cartoon_m.jpg" alt="product-image">
+									</a>
 								</figure>
 								<!-- /PRODUCT PREVIEW IMAGE -->
 
 								<!-- PREVIEW ACTIONS -->
-								<div class="preview-actions">
-									<!-- PREVIEW ACTION -->
-									<div class="preview-action">
-										<a href="<?php echo base_url()?>index.php/services_details">
-											<div class="circle tiny primary">
-												<span class="icon-tag"></span>
-											</div>
-										</a>
-										<a href="<?php echo base_url()?>index.php/services_details">
-											<p>Go to Item</p>
-										</a>
-									</div>
-									<!-- /PREVIEW ACTION -->
-
-									<!-- PREVIEW ACTION -->
-									<div class="preview-action">
-										<a href="#">
-											<div class="circle tiny secondary">
-												<span class="icon-heart"></span>
-											</div>
-										</a>
-										<a href="#">
-											<p>Favourites +</p>
-										</a>
-									</div>
-									<!-- /PREVIEW ACTION -->
-								</div>
+								
 								<!-- /PREVIEW ACTIONS -->
 							</div>
 							<!-- /PRODUCT PREVIEW ACTIONS -->
@@ -217,9 +167,7 @@
 									<p class="text-header">Clean Cartoon Characters</p>
 								</a>
 								<p class="product-description">Lorem ipsum dolor sit urarde...</p>
-								<a href="services.html">
-									<p class="category secondary">Illustration</p>
-								</a>
+								<p class="category secondary">Illustration</p>
 								<p class="price"><span>$</span>180</p>
 							</div>
 							<!-- /PRODUCT INFO -->
@@ -227,12 +175,12 @@
 
 							<!-- USER RATING -->
 							<div class="user-rating">
-								<a href="author-profile.html">
+								<a href="<?php echo base_url()?>index.php/clickers_profile">
 									<figure class="user-avatar small">
 										<img src="<?php echo base_url();?>images/avatar_15.jpg" alt="user-avatar">
 									</figure>
 								</a>
-								<a href="author-profile.html">
+								<a href="<?php echo base_url()?>index.php/clickers_profile">
 									<p class="text-header tiny">AmyGlush</p>
 								</a>
 								<ul class="rating tooltip" title="Author's Reputation">
@@ -283,38 +231,14 @@
 							<div class="product-preview-actions">
 								<!-- PRODUCT PREVIEW IMAGE -->
 								<figure class="product-preview-image">
-									<img src="<?php echo base_url();?>images/flyers_m.jpg" alt="product-image">
+									<a href="<?php echo base_url()?>index.php/services_details">
+										<img src="<?php echo base_url();?>images/flyers_m.jpg" alt="product-image">
+									</a>
 								</figure>
 								<!-- /PRODUCT PREVIEW IMAGE -->
 
 								<!-- PREVIEW ACTIONS -->
-								<div class="preview-actions">
-									<!-- PREVIEW ACTION -->
-									<div class="preview-action">
-										<a href="<?php echo base_url()?>index.php/services_details">
-											<div class="circle tiny primary">
-												<span class="icon-tag"></span>
-											</div>
-										</a>
-										<a href="<?php echo base_url()?>index.php/services_details">
-											<p>Go to Item</p>
-										</a>
-									</div>
-									<!-- /PREVIEW ACTION -->
-
-									<!-- PREVIEW ACTION -->
-									<div class="preview-action">
-										<a href="#">
-											<div class="circle tiny secondary">
-												<span class="icon-heart"></span>
-											</div>
-										</a>
-										<a href="#">
-											<p>Favourites +</p>
-										</a>
-									</div>
-									<!-- /PREVIEW ACTION -->
-								</div>
+								
 								<!-- /PREVIEW ACTIONS -->
 							</div>
 							<!-- /PRODUCT PREVIEW ACTIONS -->
@@ -325,9 +249,7 @@
 									<p class="text-header">Professional Party Flyers</p>
 								</a>
 								<p class="product-description">Lorem ipsum dolor sit urarde...</p>
-								<a href="services.html">
-									<p class="category secondary">Graphic Design</p>
-								</a>
+								<p class="category secondary">Graphic Design</p>
 								<p class="price"><span>$</span>95</p>
 							</div>
 							<!-- /PRODUCT INFO -->
@@ -335,12 +257,12 @@
 
 							<!-- USER RATING -->
 							<div class="user-rating">
-								<a href="author-profile.html">
+								<a href="<?php echo base_url()?>index.php/clickers_profile">
 									<figure class="user-avatar small">
 										<img src="<?php echo base_url();?>images/avatar_11.jpg" alt="user-avatar">
 									</figure>
 								</a>
-								<a href="author-profile.html">
+								<a href="<?php echo base_url()?>index.php/clickers_profile">
 									<p class="text-header tiny">Vynil Brush</p>
 								</a>
 								<ul class="rating tooltip" title="Author's Reputation">
@@ -391,38 +313,14 @@
 							<div class="product-preview-actions">
 								<!-- PRODUCT PREVIEW IMAGE -->
 								<figure class="product-preview-image">
-									<img src="<?php echo base_url();?>images/app_m.jpg" alt="product-image">
+									<a href="<?php echo base_url()?>index.php/services_details">
+										<img src="<?php echo base_url();?>images/app_m.jpg" alt="product-image">
+									</a>
 								</figure>
 								<!-- /PRODUCT PREVIEW IMAGE -->
 
 								<!-- PREVIEW ACTIONS -->
-								<div class="preview-actions">
-									<!-- PREVIEW ACTION -->
-									<div class="preview-action">
-										<a href="<?php echo base_url()?>index.php/services_details">
-											<div class="circle tiny primary">
-												<span class="icon-tag"></span>
-											</div>
-										</a>
-										<a href="<?php echo base_url()?>index.php/services_details">
-											<p>Go to Item</p>
-										</a>
-									</div>
-									<!-- /PREVIEW ACTION -->
-
-									<!-- PREVIEW ACTION -->
-									<div class="preview-action">
-										<a href="#">
-											<div class="circle tiny secondary">
-												<span class="icon-heart"></span>
-											</div>
-										</a>
-										<a href="#">
-											<p>Favourites +</p>
-										</a>
-									</div>
-									<!-- /PREVIEW ACTION -->
-								</div>
+								
 								<!-- /PREVIEW ACTIONS -->
 							</div>
 							<!-- /PRODUCT PREVIEW ACTIONS -->
@@ -433,9 +331,7 @@
 									<p class="text-header">Vector Icons for Web Apps</p>
 								</a>
 								<p class="product-description">Lorem ipsum dolor sit urarde...</p>
-								<a href="services.html">
-									<p class="category secondary">UI/UX</p>
-								</a>
+								<p class="category secondary">UI/UX</p>
 								<p class="price"><span>$</span>260</p>
 							</div>
 							<!-- /PRODUCT INFO -->
@@ -443,12 +339,12 @@
 
 							<!-- USER RATING -->
 							<div class="user-rating">
-								<a href="author-profile.html">
+								<a href="<?php echo base_url()?>index.php/clickers_profile">
 									<figure class="user-avatar small">
 										<img src="<?php echo base_url();?>images/avatar_03.jpg" alt="user-avatar">
 									</figure>
 								</a>
-								<a href="author-profile.html">
+								<a href="<?php echo base_url()?>index.php/clickers_profile">
 									<p class="text-header tiny">Thomas_Ket</p>
 								</a>
 								<ul class="rating tooltip" title="Author's Reputation">
@@ -501,38 +397,14 @@
 							<div class="product-preview-actions">
 								<!-- PRODUCT PREVIEW IMAGE -->
 								<figure class="product-preview-image">
-									<img src="<?php echo base_url();?>images/app_m.jpg" alt="product-image">
+									<a href="<?php echo base_url()?>index.php/services_details">
+										<img src="<?php echo base_url();?>images/app_m.jpg" alt="product-image">
+									</a>
 								</figure>
 								<!-- /PRODUCT PREVIEW IMAGE -->
 
 								<!-- PREVIEW ACTIONS -->
-								<div class="preview-actions">
-									<!-- PREVIEW ACTION -->
-									<div class="preview-action">
-										<a href="<?php echo base_url()?>index.php/services_details">
-											<div class="circle tiny primary">
-												<span class="icon-tag"></span>
-											</div>
-										</a>
-										<a href="<?php echo base_url()?>index.php/services_details">
-											<p>Go to Item</p>
-										</a>
-									</div>
-									<!-- /PREVIEW ACTION -->
-
-									<!-- PREVIEW ACTION -->
-									<div class="preview-action">
-										<a href="#">
-											<div class="circle tiny secondary">
-												<span class="icon-heart"></span>
-											</div>
-										</a>
-										<a href="#">
-											<p>Favourites +</p>
-										</a>
-									</div>
-									<!-- /PREVIEW ACTION -->
-								</div>
+								
 								<!-- /PREVIEW ACTIONS -->
 							</div>
 							<!-- /PRODUCT PREVIEW ACTIONS -->
@@ -543,9 +415,7 @@
 									<p class="text-header">Vector Icons for Web Apps</p>
 								</a>
 								<p class="product-description">Lorem ipsum dolor sit urarde...</p>
-								<a href="services.html">
-									<p class="category secondary">UI/UX</p>
-								</a>
+								<p class="category secondary">UI/UX</p>
 								<p class="price"><span>$</span>260</p>
 							</div>
 							<!-- /PRODUCT INFO -->
@@ -553,12 +423,12 @@
 
 							<!-- USER RATING -->
 							<div class="user-rating">
-								<a href="author-profile.html">
+								<a href="<?php echo base_url()?>index.php/clickers_profile">
 									<figure class="user-avatar small">
 										<img src="<?php echo base_url();?>images/avatar_03.jpg" alt="user-avatar">
 									</figure>
 								</a>
-								<a href="author-profile.html">
+								<a href="<?php echo base_url()?>index.php/clickers_profile">
 									<p class="text-header tiny">Thomas_Ket</p>
 								</a>
 								<ul class="rating tooltip" title="Author's Reputation">
@@ -609,38 +479,14 @@
 							<div class="product-preview-actions">
 								<!-- PRODUCT PREVIEW IMAGE -->
 								<figure class="product-preview-image">
-									<img src="<?php echo base_url();?>images/app_m.jpg" alt="product-image">
+									<a href="<?php echo base_url()?>index.php/services_details">
+										<img src="<?php echo base_url();?>images/app_m.jpg" alt="product-image">
+									</a>
 								</figure>
 								<!-- /PRODUCT PREVIEW IMAGE -->
 
 								<!-- PREVIEW ACTIONS -->
-								<div class="preview-actions">
-									<!-- PREVIEW ACTION -->
-									<div class="preview-action">
-										<a href="<?php echo base_url()?>index.php/services_details">
-											<div class="circle tiny primary">
-												<span class="icon-tag"></span>
-											</div>
-										</a>
-										<a href="<?php echo base_url()?>index.php/services_details">
-											<p>Go to Item</p>
-										</a>
-									</div>
-									<!-- /PREVIEW ACTION -->
-
-									<!-- PREVIEW ACTION -->
-									<div class="preview-action">
-										<a href="#">
-											<div class="circle tiny secondary">
-												<span class="icon-heart"></span>
-											</div>
-										</a>
-										<a href="#">
-											<p>Favourites +</p>
-										</a>
-									</div>
-									<!-- /PREVIEW ACTION -->
-								</div>
+								
 								<!-- /PREVIEW ACTIONS -->
 							</div>
 							<!-- /PRODUCT PREVIEW ACTIONS -->
@@ -651,9 +497,7 @@
 									<p class="text-header">Vector Icons for Web Apps</p>
 								</a>
 								<p class="product-description">Lorem ipsum dolor sit urarde...</p>
-								<a href="services.html">
-									<p class="category secondary">UI/UX</p>
-								</a>
+								<p class="category secondary">UI/UX</p>
 								<p class="price"><span>$</span>260</p>
 							</div>
 							<!-- /PRODUCT INFO -->
@@ -661,12 +505,12 @@
 
 							<!-- USER RATING -->
 							<div class="user-rating">
-								<a href="author-profile.html">
+								<a href="<?php echo base_url()?>index.php/clickers_profile">
 									<figure class="user-avatar small">
 										<img src="<?php echo base_url();?>images/avatar_03.jpg" alt="user-avatar">
 									</figure>
 								</a>
-								<a href="author-profile.html">
+								<a href="<?php echo base_url()?>index.php/clickers_profile">
 									<p class="text-header tiny">Thomas_Ket</p>
 								</a>
 								<ul class="rating tooltip" title="Author's Reputation">
@@ -739,14 +583,14 @@
 
 				<!-- SIDEBAR ITEM -->
 				<div class="sidebar-item">
-					<h4>Filter Products</h4>
+					<h4>Filter Services</h4>
 					<hr class="line-separator">
 					<form id="shop_search_form" name="shop_search_form">
 						<!-- CHECKBOX -->
 						<input type="checkbox" id="filter1" name="filter1" checked>
 						<label for="filter1">
 							<span class="checkbox secondary"><span></span></span>
-							Cartoon Characters
+							Wedding  & Rice Ceremony
 							<span class="quantity">350</span>
 						</label>
 						<!-- /CHECKBOX -->
@@ -755,7 +599,7 @@
 						<input type="checkbox" id="filter2" name="filter2" checked>
 						<label for="filter2">
 							<span class="checkbox secondary"><span></span></span>
-							Flat Vector
+							Special Occasion
 							<span class="quantity">68</span>
 						</label>
 						<!-- /CHECKBOX -->
@@ -764,7 +608,7 @@
 						<input type="checkbox" id="filter3" name="filter3" checked>
 						<label for="filter3">
 							<span class="checkbox secondary"><span></span></span>
-							People
+							Candid
 							<span class="quantity">350</span>
 						</label>
 						<!-- /CHECKBOX -->
@@ -773,7 +617,7 @@
 						<input type="checkbox" id="filter4" name="filter4">
 						<label for="filter4">
 							<span class="checkbox secondary"><span></span></span>
-							Animals
+							Product
 							<span class="quantity">68</span>
 						</label>
 						<!-- /CHECKBOX -->
@@ -782,18 +626,19 @@
 						<input type="checkbox" id="filter5" name="filter5">
 						<label for="filter5">
 							<span class="checkbox secondary"><span></span></span>
-							Objects
+							Corporate Events
 							<span class="quantity">350</span>
 						</label>
 						<!-- /CHECKBOX -->
 
 						<!-- CHECKBOX -->
-						<input type="checkbox" id="filter6" name="filter6" checked>
-						<label for="filter6">
+						<label for="filter5">
 							<span class="checkbox secondary"><span></span></span>
-							Backgrounds
-							<span class="quantity">68</span>
+							Travel
+							<span class="quantity">350</span>
 						</label>
+						<input type="checkbox" id="filter6" name="filter6" checked>
+						
 						<!-- /CHECKBOX -->
 					</form>
 				</div>
