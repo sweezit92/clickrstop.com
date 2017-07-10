@@ -53,10 +53,6 @@
 						</li>
 						<li class="link-item">
 							<div class="bullet"></div>
-							<a href="forum.html">Why choose us</a>
-						</li>
-						<li class="link-item">
-							<div class="bullet"></div>
 							<a href="<?php echo base_url();?>index.php/privacy">Privacy Policy</a>
 						</li>
 						<li class="link-item">

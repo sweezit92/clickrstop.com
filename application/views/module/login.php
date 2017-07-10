@@ -22,14 +22,6 @@
 	<div class="section-wrap">
 		<div class="section" >
 			<!-- FORM POPUP -->
-	
-			<!-- /FORM POPUP -->
-
-
-
-
-			<!-- FORM POPUP -->
-			
 
 			<!-- FORM POPUP -->
 			<div class="form-popup align-center">

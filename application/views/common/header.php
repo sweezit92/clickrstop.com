@@ -81,9 +81,6 @@
 				?>
 				<!-- ACCOUNT ACTIONS -->
 				<div class="account-actions">
-					<a href="<?php echo base_url();?>blogs/" class="interesting-link">Our blogs</a>
-					<a href="<?php echo base_url();?>blogs/" class="interesting-link">Why choose us</a>
-					<a href="<?php echo base_url();?>blogs/" class="interesting-link">How it works</a>
 					<a href="<?php echo base_url()?>index.php/register" class="button primary">Register</a>
 					<a href="<?php echo base_url();?>index.php/login" class="button secondary">Login</a>
 				</div>
@@ -279,12 +276,6 @@
 					<!-- MENU ITEM -->
 					<li class="menu-item active">
 						<a href="<?php echo base_url()?>" class="active">Home</a>
-					</li>
-					<!-- /MENU ITEM -->
-
-					<!-- MENU ITEM -->
-					<li class="menu-item">
-						<a href="<?php echo base_url()?>index.php/product">Photographers List</a>
 					</li>
 					<!-- /MENU ITEM -->
 
