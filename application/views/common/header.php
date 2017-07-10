@@ -275,13 +275,13 @@
 				<ul class="main-menu">
 					<!-- MENU ITEM -->
 					<li class="menu-item active">
-						<a href="<?php echo base_url()?>" class="active">Home</a>
+						<a href="<?php echo base_url();?>" class="active">Home</a>
 					</li>
 					<!-- /MENU ITEM -->
 
 					<!-- MENU ITEM -->
 					<li class="menu-item">
-						<a href="<?php echo base_url()?>index.php/services">Services</a>
+						<a href="<?php echo base_url();?>index.php/services">Services</a>
 					</li>
 					<!-- /MENU ITEM -->
 
