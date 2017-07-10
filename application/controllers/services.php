@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Gig_listing extends CI_Controller {
+class Services extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,8 +20,8 @@ class Gig_listing extends CI_Controller {
 	public function index()
 	{
 		//$this->load->view('module/home');
-		$data["content"] = 'gig_listing';
-		$this->load->view("module/gig_listing", $data);
+		$data["content"] = 'services';
+		$this->load->view("module/services", $data);
 		//$this->load->view('welcome_message');
 	}
 }
