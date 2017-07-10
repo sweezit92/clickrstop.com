@@ -5,7 +5,7 @@
 <?php
 	$this->load->view("common/meta_links");
 ?>
-	<title>Emerald Dragon | Gig List</title>
+	<title>Emerald Dragon | Services</title>
 </head>
 <body>
 
@@ -22,8 +22,8 @@
 	<!-- SECTION HEADLINE -->
 	<div class="section-headline-wrap v3">
 		<div class="section-headline">
-			<h2>Gig List</h2>
-			<p>Home<span class="separator">/</span><span class="current-section">Gig List</span></p>
+			<h2>Services</h2>
+			<p>Home<span class="separator">/</span><span class="current-section">Services</span></p>
 		</div>
 	</div>
 	<!-- /SECTION HEADLINE -->
@@ -35,12 +35,9 @@
 			<div class="content">
 				<!-- HEADLINE -->
 				<div class="headline secondary">
-					<h4>12.580 Gigs Found</h4>
+					<h4>12.580 Services Found</h4>
 					<!-- VIEW SELECTORS -->
-					<div class="view-selectors">
-						<a href="services.html" class="view-selector grid active"></a>
-						<a href="services-listview.html" class="view-selector list"></a>
-					</div>
+					
 					<!-- /VIEW SELECTORS -->
 					<form id="shop_filter_form" name="shop_filter_form">
 						<label for="price_filter" class="select-block">
@@ -54,17 +51,7 @@
 							</svg>
 							<!-- /SVG ARROW -->
 						</label>
-						<label for="itemspp_filter" class="select-block">
-							<select name="itemspp_filter" id="itemspp_filter">
-								<option value="0">12 Items Per Page</option>
-								<option value="1">6 Items Per Page</option>
-							</select>
-							<!-- SVG ARROW -->
-							<svg class="svg-arrow">
-								<use xlink:href="#svg-arrow"></use>
-							</svg>
-							<!-- /SVG ARROW -->
-						</label>
+						
 					</form>
 					<div class="clearfix"></div>
 				</div>
@@ -747,23 +734,7 @@
 			<!-- SIDEBAR -->
 			<div class="sidebar">
 				<!-- DROPDOWN -->
-				<ul class="dropdown hover-effect secondary">
-					<li class="dropdown-item">
-						<a href="#">Digital Graphics</a>
-					</li>
-					<li class="dropdown-item active">
-						<a href="#">Illustration</a>
-					</li>
-					<li class="dropdown-item">
-						<a href="#">Web Design</a>
-					</li>
-					<li class="dropdown-item">
-						<a href="#">Stock Photography</a>
-					</li>
-					<li class="dropdown-item">
-						<a href="#">Code and Plugins</a>
-					</li>
-				</ul>
+				
 				<!-- /DROPDOWN -->
 
 				<!-- SIDEBAR ITEM -->
@@ -829,54 +800,7 @@
 				<!-- /SIDEBAR ITEM -->
 
 				<!-- SIDEBAR ITEM -->
-				<div class="sidebar-item">
-					<h4>File Types</h4>
-					<hr class="line-separator">
-					<!-- CHECKBOX -->
-					<input type="checkbox" id="ft1" name="ft1" form="shop_search_form">
-					<label for="ft1">
-						<span class="checkbox secondary"><span></span></span>
-						Photoshop PSD
-						<span class="quantity">72</span>
-					</label>
-					<!-- /CHECKBOX -->
-
-					<!-- CHECKBOX -->
-					<input type="checkbox" id="ft2" name="ft2" form="shop_search_form" checked>
-					<label for="ft2">
-						<span class="checkbox secondary"><span></span></span>
-						Illustrator AI
-						<span class="quantity">254</span>
-					</label>
-					<!-- /CHECKBOX -->
-
-					<!-- CHECKBOX -->
-					<input type="checkbox" id="ft3" name="ft3" form="shop_search_form" checked>
-					<label for="ft3">
-						<span class="checkbox secondary"><span></span></span>
-						EPS
-						<span class="quantity">138</span>
-					</label>
-					<!-- /CHECKBOX -->
-
-					<!-- CHECKBOX -->
-					<input type="checkbox" id="ft4" name="ft4" form="shop_search_form" checked>
-					<label for="ft4">
-						<span class="checkbox secondary"><span></span></span>
-						SVG
-						<span class="quantity">96</span>
-					</label>
-					<!-- /CHECKBOX -->
-
-					<!-- CHECKBOX -->
-					<input type="checkbox" id="ft5" name="ft5" form="shop_search_form">
-					<label for="ft5">
-						<span class="checkbox secondary"><span></span></span>
-						InDesign INDD
-						<span class="quantity">102</span>
-					</label>
-					<!-- /CHECKBOX -->
-				</div>
+				
 				<!-- /SIDEBAR ITEM -->
 
 				<!-- SIDEBAR ITEM -->
