@@ -281,12 +281,6 @@
 
 					<!-- MENU ITEM -->
 					<li class="menu-item">
-						<a href="<?php echo base_url()?>index.php/gig_listing">GIGS / Services</a>
-					</li>
-					<!-- /MENU ITEM -->
-
-					<!-- MENU ITEM -->
-					<li class="menu-item">
 						<a href="<?php echo base_url()?>index.php/services">Services</a>
 					</li>
 					<!-- /MENU ITEM -->
