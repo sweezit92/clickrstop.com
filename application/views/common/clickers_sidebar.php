@@ -6,7 +6,7 @@
 		<a href="<?php echo base_url();?>index.php/add_service">Add Service</a>
 	</li>
 	<li class="dropdown-item">
-		<a href="author-profile-messages.html">Message Board</a>
+		<a href="<?php echo base_url();?>index.php/clickers_message">Message Board</a>
 	</li>
 	<li class="dropdown-item">
 		<a href="author-profile-followers.html">Ongoing Project</a>
