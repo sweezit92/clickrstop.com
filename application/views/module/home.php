@@ -61,10 +61,10 @@
 
 					<!-- BADGES SHOWCASE ITEM -->
 					<div class="badges-showcase-item column">
-						<figure class="badge big pinned liquid">
-							<img src="<?php echo base_url();?>images/member_b.png" alt="">
-						</figure>
-						<p class="text-header">Member for 3 Years</p>
+						<div class="badge big" style="text-align:center;">
+							<img src="<?php echo base_url();?>images/search.png" alt="" style="height:128px !important;">
+						</div>
+						<p class="text-header" style="margin-top:-40px;">Search Services</p>
 						<p class="badge-description">Has been a member of the<br>market for 3 years.</p>
 						<!-- BADGE PROGRESS -->
 						<div class="badge-progress badge-progress7 xmlinefill" style="width: 150px; height: 18px; position: relative;"><canvas class="lineOutline" width="150" height="18" style="position: absolute; z-index: 0; top: 0px; left: 0px;"></canvas><canvas class="lineBar" width="150" height="18" style="position: absolute; z-index: 1; top: 0px; left: 0px;"></canvas></div>
@@ -75,10 +75,10 @@
 					<!-- BADGES SHOWCASE ITEM -->
 					<div class="badges-showcase-item column">
 						<figure class="badge big liquid">
-							<img src="<?php echo base_url();?>images/support_b.png" alt="">
+							<img src="<?php echo base_url();?>images/choose_the_best.png" alt="" style="height:120px !important;">
 						</figure>
-						<p class="text-header">Author Support</p>
-						<p class="badge-description">The author offers support for<br>their items.</p>
+						<p class="text-header">Choose the best</p>
+						<p class="badge-description">Compare and choose from the entire <br>marketplace of photographers</p>
 						<!-- BADGE PROGRESS -->
 						<div class="badge-progress badge-progress8 xmlinefill" style="width: 150px; height: 18px; position: relative;"><canvas class="lineOutline" width="150" height="18" style="position: absolute; z-index: 0; top: 0px; left: 0px;"></canvas><canvas class="lineBar" width="150" height="18" style="position: absolute; z-index: 1; top: 0px; left: 0px;"></canvas></div>
 						<!-- /BADGE PROGRESS -->
@@ -88,9 +88,9 @@
 					<!-- BADGES SHOWCASE ITEM -->
 					<div class="badges-showcase-item column">
 						<figure class="badge big pinned liquid">
-							<img src="<?php echo base_url();?>images/friendly_b.png" alt="">
+							<img src="<?php echo base_url();?>images/query.png" alt="" style="height:120px !important;">
 						</figure>
-						<p class="text-header">Friendly Author</p>
+						<p class="text-header">Chat and Hire</p>
 						<p class="badge-description">Has followed more than 800<br>authors in the market.</p>
 						<!-- BADGE PROGRESS -->
 						<div class="badge-progress badge-progress9 xmlinefill" style="width: 150px; height: 18px; position: relative;"><canvas class="lineOutline" width="150" height="18" style="position: absolute; z-index: 0; top: 0px; left: 0px;"></canvas><canvas class="lineBar" width="150" height="18" style="position: absolute; z-index: 1; top: 0px; left: 0px;"></canvas></div>
@@ -101,9 +101,9 @@
 					<!-- BADGES SHOWCASE ITEM -->
 					<div class="badges-showcase-item column">
 						<figure class="badge big pinned liquid">
-							<img src="<?php echo base_url();?>images/messenger_b.png" alt="">
+							<img src="<?php echo base_url();?>images/cart.png" alt="" style="height:120px !important;">
 						</figure>
-						<p class="text-header">The Messenger</p>
+						<p class="text-header">Deposit the amount</p>
 						<p class="badge-description">Refered more than 60 users to<br>the market.</p>
 						<!-- BADGE PROGRESS -->
 						<div class="badge-progress badge-progress10 xmlinefill" style="width: 150px; height: 18px; position: relative;"><canvas class="lineOutline" width="150" height="18" style="position: absolute; z-index: 0; top: 0px; left: 0px;"></canvas><canvas class="lineBar" width="150" height="18" style="position: absolute; z-index: 1; top: 0px; left: 0px;"></canvas></div>
@@ -114,9 +114,9 @@
 					<!-- BADGES SHOWCASE ITEM -->
 					<div class="badges-showcase-item column">
 						<figure class="badge big liquid">
-							<img src="<?php echo base_url();?>images/coffee_b.png" alt="">
+							<img src="<?php echo base_url();?>images/complete.png" alt="">
 						</figure>
-						<p class="text-header">Coffee Fueled</p>
+						<p class="text-header">Feedback and rating</p>
 						<p class="badge-description">Has more than 50 items<br>across the market.</p>
 						<!-- BADGE PROGRESS -->
 						<div class="badge-progress badge-progress11 xmlinefill" style="width: 150px; height: 18px; position: relative;"><canvas class="lineOutline" width="150" height="18" style="position: absolute; z-index: 0; top: 0px; left: 0px;"></canvas><canvas class="lineBar" width="150" height="18" style="position: absolute; z-index: 1; top: 0px; left: 0px;"></canvas></div>
@@ -175,7 +175,7 @@
 						<img src="images/how_to_shop_03.png" alt="">
 					</figure>-->
 				</div>
-				<!-- /HT BANNER -->
+				<!-- /HT BANNER --> &nbsp;
 
 				<!-- HT BANNER -->
 				<div class="ht-banner">
