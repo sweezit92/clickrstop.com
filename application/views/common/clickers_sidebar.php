@@ -3,7 +3,7 @@
 		<a href="author-profile.html">Profile Page</a>
 	</li>
 	<li class="dropdown-item">
-		<a href="author-profile-messages.html">Add Service</a>
+		<a href="<?php echo base_url();?>index.php/add_service">Add Service</a>
 	</li>
 	<li class="dropdown-item">
 		<a href="author-profile-messages.html">Message Board</a>
