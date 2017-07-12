@@ -52,7 +52,7 @@
 				<!-- HEAD TITLE -->
 				<div class="head-title">
 					<p class="text-header big">How it works</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+					<p>Search and hire on demand photography services all over india , Compare prices of photographers from your locality and use our secure payment system to ensure you pay for the q</p>
 				</div>
 				<!-- /HEAD TITLE -->
 
@@ -64,8 +64,9 @@
 						<div class="badge big" style="text-align:center;">
 							<img src="<?php echo base_url();?>images/search.png" alt="" style="height:128px !important;">
 						</div>
+
 						<p class="text-header" style="margin-top:-40px;">Search Services</p>
-						<p class="badge-description">Has been a member of the<br>market for 3 years.</p>
+						<p class="badge-description">Opportunity to choose by comparing 1000's of photographers/agencies from your locality.</p>
 						<!-- BADGE PROGRESS -->
 						<div class="badge-progress badge-progress7 xmlinefill" style="width: 150px; height: 18px; position: relative;"><canvas class="lineOutline" width="150" height="18" style="position: absolute; z-index: 0; top: 0px; left: 0px;"></canvas><canvas class="lineBar" width="150" height="18" style="position: absolute; z-index: 1; top: 0px; left: 0px;"></canvas></div>
 						<!-- /BADGE PROGRESS -->
@@ -74,11 +75,11 @@
 
 					<!-- BADGES SHOWCASE ITEM -->
 					<div class="badges-showcase-item column">
-						<figure class="badge big liquid">
-							<img src="<?php echo base_url();?>images/choose_the_best.png" alt="" style="height:120px !important;">
-						</figure>
-						<p class="text-header">Choose the best</p>
-						<p class="badge-description">Compare and choose from the entire <br>marketplace of photographers</p>
+						<div class="badge big" style="text-align:center;">
+							<img src="<?php echo base_url();?>images/choose_the_best.png" alt="" style="height:128px !important;">
+						</div>
+						<p class="text-header"  style="margin-top:-40px;">Choose the best</p>
+						<p class="badge-description">Choose the best from entire marketplace depending on your requirement and budget.</p>
 						<!-- BADGE PROGRESS -->
 						<div class="badge-progress badge-progress8 xmlinefill" style="width: 150px; height: 18px; position: relative;"><canvas class="lineOutline" width="150" height="18" style="position: absolute; z-index: 0; top: 0px; left: 0px;"></canvas><canvas class="lineBar" width="150" height="18" style="position: absolute; z-index: 1; top: 0px; left: 0px;"></canvas></div>
 						<!-- /BADGE PROGRESS -->
@@ -87,11 +88,11 @@
 
 					<!-- BADGES SHOWCASE ITEM -->
 					<div class="badges-showcase-item column">
-						<figure class="badge big pinned liquid">
-							<img src="<?php echo base_url();?>images/query.png" alt="" style="height:120px !important;">
-						</figure>
-						<p class="text-header">Chat and Hire</p>
-						<p class="badge-description">Has followed more than 800<br>authors in the market.</p>
+						<div class="badge big" style="text-align:center;">
+							<img src="<?php echo base_url();?>images/query.png" alt="" style="height:128px !important;">
+						</div>
+						<p class="text-header" style="margin-top:-40px;">Chat and Hire</p>
+						<p class="badge-description">One to One chat with vendors , clear your doubts and get started.</p>
 						<!-- BADGE PROGRESS -->
 						<div class="badge-progress badge-progress9 xmlinefill" style="width: 150px; height: 18px; position: relative;"><canvas class="lineOutline" width="150" height="18" style="position: absolute; z-index: 0; top: 0px; left: 0px;"></canvas><canvas class="lineBar" width="150" height="18" style="position: absolute; z-index: 1; top: 0px; left: 0px;"></canvas></div>
 						<!-- /BADGE PROGRESS -->
@@ -100,11 +101,11 @@
 
 					<!-- BADGES SHOWCASE ITEM -->
 					<div class="badges-showcase-item column">
-						<figure class="badge big pinned liquid">
-							<img src="<?php echo base_url();?>images/cart.png" alt="" style="height:120px !important;">
-						</figure>
-						<p class="text-header">Deposit the amount</p>
-						<p class="badge-description">Refered more than 60 users to<br>the market.</p>
+						<div class="badge big" style="text-align:center;">
+							<img src="<?php echo base_url();?>images/cart.png" alt="" style="height:128px !important;">
+						</div>
+						<p class="text-header" style="margin-top:-40px;">Deposit the amount</p>
+						<p class="badge-description">Your money will be on hold in our platform. Pay only when you get your things done.</p>
 						<!-- BADGE PROGRESS -->
 						<div class="badge-progress badge-progress10 xmlinefill" style="width: 150px; height: 18px; position: relative;"><canvas class="lineOutline" width="150" height="18" style="position: absolute; z-index: 0; top: 0px; left: 0px;"></canvas><canvas class="lineBar" width="150" height="18" style="position: absolute; z-index: 1; top: 0px; left: 0px;"></canvas></div>
 						<!-- /BADGE PROGRESS -->
@@ -113,11 +114,11 @@
 
 					<!-- BADGES SHOWCASE ITEM -->
 					<div class="badges-showcase-item column">
-						<figure class="badge big liquid">
-							<img src="<?php echo base_url();?>images/complete.png" alt="">
-						</figure>
-						<p class="text-header">Feedback and rating</p>
-						<p class="badge-description">Has more than 50 items<br>across the market.</p>
+						<div class="badge big" style="text-align:center;">
+							<img src="<?php echo base_url();?>images/complete.png" alt="" style="height:128px !important;">
+						</div>
+						<p class="text-header" style="margin-top:-40px;">Feedback and rating</p>
+						<p class="badge-description">Release your onhold money to vendors. Give feedback and rating to vendors.</p>
 						<!-- BADGE PROGRESS -->
 						<div class="badge-progress badge-progress11 xmlinefill" style="width: 150px; height: 18px; position: relative;"><canvas class="lineOutline" width="150" height="18" style="position: absolute; z-index: 0; top: 0px; left: 0px;"></canvas><canvas class="lineBar" width="150" height="18" style="position: absolute; z-index: 1; top: 0px; left: 0px;"></canvas></div>
 						<!-- /BADGE PROGRESS -->
@@ -142,8 +143,8 @@
 					<!-- HT BANNER CONTENT -->
 					<div class="ht-banner-content">
 						<p class="text-header">Event Photography</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor unt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in der henderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-						<a href="#" class="button mid dark">Create your <span class="primary">New Account</span></a>
+						<p>Having a event in your family like : Wedding , birthday , party , corporate events , candid , pre-wedding . Just post your requirement and our staff would personally guide you to hire the best photographer/agency based on your requirement from your nearest location.</p>
+						<a href="#" class="button mid dark">Post your <span class="primary">Requirement</span></a>
 					</div>
 					<!-- /HT BANNER CONTENT -->
 				</div>
