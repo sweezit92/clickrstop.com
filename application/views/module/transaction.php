@@ -74,26 +74,7 @@
 			<!-- SIDEBAR -->
 			<div class="sidebar left author-profile">
 				<!-- SIDEBAR ITEM -->
-				<div class="sidebar-item author-bio">
-					<!-- USER AVATAR -->
-					<a href="user-profile.html" class="user-avatar-wrap medium">
-						<figure class="user-avatar medium">
-							<img src="<?php echo base_url();?>images/avatar_09.jpg" alt="">
-						</figure>
-					</a>
-					<!-- /USER AVATAR -->
-					<p class="text-header">Odin_Design</p>
-					<p class="text-oneline">Super Samurai Developers<br>Los Angeles, Usa</p>
-					<!-- SHARE LINKS -->
-					<ul class="share-links">
-						<li><a href="#" class="fb"></a></li>
-						<li><a href="#" class="twt"></a></li>
-						<li><a href="#" class="db"></a></li>
-					</ul>
-					<!-- /SHARE LINKS -->
-					<a href="#" class="button mid dark spaced">Add to <span class="primary">Followers</span></a>
-					<a href="#" class="button mid dark-light">Send a Private Message</a>
-				</div>
+				
 				<!-- /SIDEBAR ITEM -->
 
 				<!-- DROPDOWN -->
@@ -103,56 +84,7 @@
 				<!-- /DROPDOWN -->
 
 				<!-- SIDEBAR ITEM -->
-				<div class="sidebar-item author-reputation full">
-					<h4>Author's Reputation</h4>
-					<hr class="line-separator">
-					<!-- PIE CHART -->
-					<div class="pie-chart pie-chart1">
-						<p class="text-header percent">86<span>%</span></p>
-						<p class="text-header percent-info">Recommended</p>
-						<!-- RATING -->
-						<ul class="rating">
-							<li class="rating-item">
-								<!-- SVG STAR -->
-								<svg class="svg-star">
-									<use xlink:href="#svg-star"></use>
-								</svg>
-								<!-- /SVG STAR -->
-							</li>
-							<li class="rating-item">
-								<!-- SVG STAR -->
-								<svg class="svg-star">
-									<use xlink:href="#svg-star"></use>
-								</svg>
-								<!-- /SVG STAR -->
-							</li>
-							<li class="rating-item">
-								<!-- SVG STAR -->
-								<svg class="svg-star">
-									<use xlink:href="#svg-star"></use>
-								</svg>
-								<!-- /SVG STAR -->
-							</li>
-							<li class="rating-item">
-								<!-- SVG STAR -->
-								<svg class="svg-star">
-									<use xlink:href="#svg-star"></use>
-								</svg>
-								<!-- /SVG STAR -->
-							</li>
-							<li class="rating-item empty">
-								<!-- SVG STAR -->
-								<svg class="svg-star">
-									<use xlink:href="#svg-star"></use>
-								</svg>
-								<!-- /SVG STAR -->
-							</li>
-						</ul>
-						<!-- /RATING -->
-					</div>
-					<!-- /PIE CHART -->
-					<a href="#" class="button mid dark-light">Read all the Customer Reviews</a>
-				</div>
+				
 				<!-- /SIDEBAR ITEM -->
 			</div>
 			<!-- /SIDEBAR -->

@@ -8,6 +8,8 @@
 	<title>Emerald Dragon | Author Profile</title>
 </head>
 <body>
+	
+
 
 	<!-- HEADER -->
 	<?php
@@ -517,25 +519,7 @@
 			<!-- SIDEBAR -->
 			<div class="sidebar left author-profile">
 				<!-- SIDEBAR ITEM -->
-				<div class="sidebar-item author-bio">
-					<!-- USER AVATAR -->
-					<a href="user-profile.html" class="user-avatar-wrap medium">
-						<figure class="user-avatar medium">
-							<img src="<?php echo base_url();?>images/avatar_09.jpg" alt="">
-						</figure>
-					</a>
-					<!-- /USER AVATAR -->
-					<p class="text-header">Odin_Design</p>
-					<p class="text-oneline">Super Samurai Developers<br>Los Angeles, Usa</p>
-					<!-- SHARE LINKS -->
-					<ul class="share-links">
-						<li><a href="#" class="fb"></a></li>
-						<li><a href="#" class="twt"></a></li>
-						<li><a href="#" class="db"></a></li>
-					</ul>
-					<!-- /SHARE LINKS -->
-					<a href="#" class="button mid dark-light">Send a Private Message</a>
-				</div>
+				
 				<!-- /SIDEBAR ITEM -->
 
 				<!-- DROPDOWN -->
@@ -648,11 +632,12 @@
 						<!-- PRODUCT PREVIEW ACTIONS -->
 						<div class="product-preview-actions">
 							<!-- PRODUCT PREVIEW IMAGE -->
-							<figure class="product-preview-image">
+							<figure class="image-slide product-preview-image">
 								<a href="<?php echo base_url()?>index.php/services_details">
 									<img src="<?php echo base_url();?>images/flat_m.jpg" alt="product-image">
 								</a>
 							</figure>
+							
 							<!-- /PRODUCT PREVIEW IMAGE -->
 
 							<!-- PREVIEW ACTIONS -->
