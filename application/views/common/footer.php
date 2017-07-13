@@ -9,39 +9,25 @@
 						<img src="<?php echo base_url();?>images/log2.png" alt="logo-small">
 					</figure>
 					<p>&nbsp;</p>
-					<!--<ul class="company-info-list">
+					<ul class="company-info-list">
 						<li class="company-info-item">
 							<span class="icon-present"></span>
-							<p><span>850.296</span> Products</p>
+							<p><span>850+</span> Services listed</p>
 						</li>
 						<li class="company-info-item">
 							<span class="icon-energy"></span>
-							<p><span>1.207.300</span> Members</p>
+							<p><span>650+</span> Members</p>
 						</li>
 						<li class="company-info-item">
 							<span class="icon-user"></span>
-							<p><span>74.059</span> Sellers</p>
+							<p><span>200+</span> Vendors</p>
 						</li>
-					</ul>-->
-					<!-- SOCIAL LINKS -->
-					<ul class="social-links">
-						<li class="social-link fb">
-							<a href="#"></a>
-						</li>
-						<li class="social-link twt">
-							<a href="#"></a>
-						</li>
-						<li class="social-link db">
-							<a href="#"></a>
-						</li>
-
 					</ul>
-					<!-- /SOCIAL LINKS -->
 				</div>
 				<!-- /COMPANY INFO -->
 
 				<!-- LINK INFO -->
-				<div class="link-info">
+				<div class="link-info overflowable">
 					<ul class="link-list">
 						<li class="link-item">
 							<div class="bullet"></div>
@@ -59,11 +45,16 @@
 							<div class="bullet"></div>
 							<a href="<?php echo base_url();?>index.php/terms">Terms and conditions</a>
 						</li>
+						<li class="link-item">
+							<div class="bullet"></div>
+							<a href="<?php echo base_url();?>index.php/privacy">Post project</a>
+						</li>
+						
 					</ul>
 				</div>
 				<!-- /LINK INFO -->
 
-				<div class="link-info">
+				<div class="link-info overflowable">
 					<ul class="link-list">
 						<li class="link-item">
 							<div class="bullet"></div>
@@ -90,7 +81,7 @@
 				</div>
 
 				<!-- LINK INFO -->
-				<div class="link-info">
+				<div class="link-info overflowable">
 					<ul class="link-list">
 						<li class="link-item">
 							<div class="bullet"></div>
@@ -191,6 +182,7 @@
 <script src="<?php echo base_url();?>js/jquery.tooltipster.min.js"></script>
 <!-- Owl Carousel -->
 <script src="<?php echo base_url();?>js/owl.carousel.min.js"></script>
+
 
 <!-- xmAlerts -->
 <script src="<?php echo base_url();?>js/jquery.xmalert.min.js"></script>

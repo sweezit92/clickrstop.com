@@ -278,34 +278,30 @@
 						<a href="<?php echo base_url();?>" class="active">Home</a>
 					</li>
 					<!-- /MENU ITEM -->
-
+				
 					<!-- MENU ITEM -->
 					<li class="menu-item">
-						<a href="<?php echo base_url();?>index.php/services">Wedding Photography</a>
+						<a href="<?php echo base_url();?>index.php/services">Explore Services</a>
 					</li>
 					<!-- /MENU ITEM -->
 
 					<!-- MENU ITEM -->
 					<li class="menu-item">
-						<a href="<?php echo base_url();?>index.php/services">Events Photography</a>
+						<a href="<?php echo base_url();?>index.php/services">Range of Categories</a>
 					</li>
 					<!-- /MENU ITEM -->
 
 					<!-- MENU ITEM -->
 					<li class="menu-item">
-						<a href="<?php echo base_url();?>index.php/services">Product Photography</a>
+						<a href="<?php echo base_url();?>index.php/services">How it works</a>
 					</li>
 					<!-- /MENU ITEM -->
 
-					<!-- MENU ITEM -->
-					<li class="menu-item">
-						<a href="<?php echo base_url();?>index.php/services">Portrait Photography</a>
-					</li>
-					<!-- /MENU ITEM -->
+
 
 					<!-- MENU ITEM -->
-					<li class="menu-item">
-						<a href="shop-gridview-v1.html">POST PROJECT</a>
+					<li class="menu-item" style="float:right;background:#ff932a;color:#fff;">
+						<a href="shop-gridview-v1.html" style="color:#fff;">POST PROJECT</a>
 					</li>
 
 				</ul>
