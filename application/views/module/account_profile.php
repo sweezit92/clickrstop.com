@@ -98,29 +98,9 @@
 				<!-- /SIDEBAR ITEM -->
 
 				<!-- DROPDOWN -->
-				<ul class="dropdown hover-effect">
-					<li class="dropdown-item active">
-						<a href="author-profile.html">Profile Page</a>
-					</li>
-					<li class="dropdown-item">
-						<a href="author-profile-items.html">Author's Items (103)</a>
-					</li>
-					<li class="dropdown-item">
-						<a href="author-profile-messages.html">Message Board</a>
-					</li>
-					<li class="dropdown-item">
-						<a href="author-profile-reviews.html">Customer Reviews (42)</a>
-					</li>
-					<li class="dropdown-item">
-						<a href="author-profile-followers.html">Followers (5)</a>
-					</li>
-					<li class="dropdown-item">
-						<a href="author-profile-following.html">Following (2)</a>
-					</li>
-					<li class="dropdown-item">
-						<a href="author-badges.html">Author Badges (16)</a>
-					</li>
-				</ul>
+				<?php
+					$this->load->view("common/clickers_sidebar");
+				?>
 				<!-- /DROPDOWN -->
 
 				<!-- SIDEBAR ITEM -->
