@@ -281,7 +281,19 @@
 
 					<!-- MENU ITEM -->
 					<li class="menu-item">
-						<a href="<?php echo base_url();?>index.php/services">Services</a>
+						<a href="<?php echo base_url();?>index.php/services">Wedding Photography</a>
+					</li>
+					<!-- /MENU ITEM -->
+
+					<!-- MENU ITEM -->
+					<li class="menu-item">
+						<a href="<?php echo base_url();?>index.php/services">Events Photography</a>
+					</li>
+					<!-- /MENU ITEM -->
+
+					<!-- MENU ITEM -->
+					<li class="menu-item">
+						<a href="<?php echo base_url();?>index.php/services">Product Photography</a>
 					</li>
 					<!-- /MENU ITEM -->
 
@@ -292,8 +304,8 @@
 
 				</ul>
 			</nav>
-			<form class="search-form">
-				<input type="text" class="rounded" name="search" id="search_products" placeholder="Search products here...">
+			<form class="search-form" style="width:15%;">
+				<input type="text" class="rounded" name="search" id="search_products" placeholder="Search here.">
 				<input type="image" src="<?php echo base_url();?>images/search-icon.png" alt="search-icon">
 			</form>
 		</div>
