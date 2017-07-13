@@ -5,5 +5,6 @@
 	<link rel="stylesheet" href="<?php echo base_url();?>css/owl.carousel.css">
 	<link rel="stylesheet" href="<?php echo base_url();?>css/style.css">
 	<link rel="stylesheet" href="<?php echo base_url();?>css/jquery.range.css">
+	<link rel="stylesheet" href="<?php echo base_url();?>css/font-awesome.min.css">
 	<!-- favicon -->
 	<link rel="icon" href="<?php echo base_url();?>images/favicon.png">

@@ -218,4 +218,9 @@
 <script src="<?php echo base_url();?>js/tooltip.js"></script>
 <!-- User Quickview Dropdown -->
 <script src="<?php echo base_url();?>js/user-board.js"></script>
+<script src="<?php echo base_url();?>js/chart.min.js"></script>
+<script src="<?php echo base_url();?>js/dashboard-statistics.js"></script>
+<script src="<?php echo base_url();?>js/jquery.xmlinefill.min.js"></script>
+
+
 <!-- Home Alerts -->
