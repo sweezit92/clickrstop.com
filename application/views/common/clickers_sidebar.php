@@ -34,7 +34,7 @@
 		<a href="<?php echo base_url();?>index.php/transaction">Account & Finnace</a>
 	</li>
 	<li class="dropdown-item">
-		<a href="author-badges.html">Feedback & Ratings</a>
+		<a href="<?php echo base_url();?>index.php/feedback">Feedback & Ratings</a>
 	</li>
 </ul>
 
