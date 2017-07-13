@@ -902,8 +902,8 @@ input[type="checkbox"] {
   position: absolute;
   left: 50%;
   margin-left: -485px;
-  background: url("../images/searchbar_texture.png") no-repeat center, linear-gradient(to right, #05e6aa, #1cbdf9);
-  background-size: cover; }
+  /*background: url("../images/searchbar_texture.png") no-repeat center, linear-gradient(to right, #05e6aa, #1cbdf9);
+  background-size: cover;*/ }
 
 .search-widget-form {
   overflow: hidden; }
@@ -2232,7 +2232,7 @@ header {
     margin: 0 auto;
     position: relative; } }
 .banner-wrap {
-  background: url("../images/newbg.png") no-repeat center;
+  background: url("../images/header_bg.jpg") no-repeat center;
   background-size: cover; }
 
 .banner {
@@ -2263,7 +2263,8 @@ header {
     left: 50%;
     margin-left: -257px; }
   .banner .search-widget {
-    bottom: -54px; }
+		margin-top:20px;
+	}
 
 #subscribe-banner-wrap {
   background: url("../images/subscribe_banner_bg.png") no-repeat center, linear-gradient(to right, #05e6aa, #1cbdf9);

@@ -299,14 +299,16 @@
 
 					<!-- MENU ITEM -->
 					<li class="menu-item">
-						<a href="shop-gridview-v1.html">Custom Requirement ?</a>
+						<a href="<?php echo base_url();?>index.php/services">Portrait Photography</a>
+					</li>
+					<!-- /MENU ITEM -->
+
+					<!-- MENU ITEM -->
+					<li class="menu-item">
+						<a href="shop-gridview-v1.html">POST PROJECT</a>
 					</li>
 
 				</ul>
 			</nav>
-			<form class="search-form" style="width:15%;">
-				<input type="text" class="rounded" name="search" id="search_products" placeholder="Search here.">
-				<input type="image" src="<?php echo base_url();?>images/search-icon.png" alt="search-icon">
-			</form>
 		</div>
 	</div>

@@ -6,7 +6,7 @@
 ?>
 	<title>Hire professional photographers |  Click R stop</title>
 	<style>
-		body{background:white;}
+		body{background:white !important;font-family: Roboto,Helvetica}
 	</style>
 </head>
 <body>
@@ -17,17 +17,16 @@
 	<!-- /MAIN MENU -->
 
 	<!-- BANNER -->
-	<div class="banner-wrap" style="background:url('<?php echo base_url();?>images/collage_slider.png');">
+	<div class="banner-wrap" >
 		<section class="banner">
-			<h5>Welcome to</h5>
+			<h5 style="margin-top:50px;">Welcome to</h5>
 			<h1>Photographers <span> Marketplace</span></h1>
 			<h5>Capture your moments dont just let it get fade away.</h5>
-			<img src="<?php echo base_url();?>images/top_items.png" alt="banner-img">
 
 			<!-- SEARCH WIDGET -->
 			<div class="search-widget">
 				<form class="search-widget-form">
-					<input type="text" name="category_name" placeholder="Search goods or services here...">
+					<input type="text" name="category_name" placeholder="Search goods or services here.">
 					<label for="categories" class="select-block">
 						<select name="categories" id="categories">
 							<option value="0">All Categories</option>
@@ -38,23 +37,25 @@
 						</svg>
 						<!-- /SVG ARROW -->
 					</label>
-					<button class="button medium dark">Search Now!</button>
+					<button class="button medium primary">Search Now!</button>
 				</form>
 			</div>
 			<!-- /SEARCH WIDGET -->
 		</section>
 	</div>
 	<!-- /BANNER -->
-		
-
+		<div class="ht-banner-wrap" style="background:#f5f5f5 !important;">
+			<div class="head-title">
+				<p class="text-header big">How it works</p>
+			</div>
+		</div>
 		<!-- how it works -->
 		<div class="section overflowable">
-				<!-- HEAD TITLE -->
-				<div class="head-title">
-					<p class="text-header big">How it works</p>
-					<p>Search and hire on demand photography services all over india , Compare prices of photographers from your locality and use our secure payment system to ensure you pay for the q</p>
+				<div class="section overflowable" style="margin-top:-100px;">
+					<div class="headline primary">
+						<h4>How it works</h4>
+					</div>
 				</div>
-				<!-- /HEAD TITLE -->
 
 				<!-- BADGES SHOWCASE -->
 				<div class="badges-showcase column5-wrap">
@@ -130,20 +131,38 @@
 				<div class="clearfix"></div>
 	      </div>
 			
-		 <!-- 100% width area -->
-			<div class="ht-banner-wrap" style="border-top:1px solid #CCC;border-bottom:1px solid #CCC;margin-top:-50px;">
-				<!-- HT BANNER -->
-				<div class="ht-banner void violet" style="background:url('<?php echo base_url();?>images/mccainpictures085.jpg') center">
-					<!--<img src="<?php echo base_url();?>images/mccainpictures085.jpg" alt="" style="height:100%;width:100%;">-->
+		<!-- HEADLINE -->
+			<div class="section overflowable" style="margin-top:-100px;">
+				<div class="headline primary">
+					<h4>POST PROJECT - Let our experts choose the best photographer for you.</h4>
 				</div>
+			</div>
+				<!-- /HEADLINE -->
+		 <!-- 100% width area -->
+			
+		 <div class="section overflowable">
+			<div class="ht-banner-wrap" style="margin-top:-50px;background:white !important;">
+				<!-- HT BANNER -->
+				<video controls loop autoplay class="ht-banner void" style="background:#fff;margin-top:-60px;">
+				  <source src="<?php echo base_url();?>images/homepage-de21e73d.mp4" type="video/mp4">
+				  <!--<source src="<?php echo base_url();?>movie.ogg" type="video/ogg">-->
+				  Your browser does not support the video tag.
+				</video>
 				<!-- /HT BANNER -->
 
 				<!-- HT BANNER -->
-				<div class="ht-banner">
+				<div class="ht-banner" style="background:white !important;">
 					<!-- HT BANNER CONTENT -->
-					<div class="ht-banner-content">
-						<p class="text-header">Event Photography</p>
-						<p>Having a event in your family like : Wedding , birthday , party , corporate events , candid , pre-wedding . Just post your requirement and our staff would personally guide you to hire the best photographer/agency based on your requirement from your nearest location.</p>
+					<div class="ht-banner-content" style="padding:0px !important;">
+
+						
+						<p class="text-header">How do you benefit?</p>
+						<p style="padding:5px;"><i class="fa fa-check-circle" aria-hidden="true" style="color:#5dc26a;font-size:18px;"></i> You'll receive bids for free from our talented freelancers within seconds.</p>
+						<p style="padding:5px;"><i class="fa fa-check-circle" aria-hidden="true" style="color:#5dc26a;font-size:18px;"></i> Keeping up-to-date with our 24/7 support, time tracker, and mobile app.</p>
+						<p style="padding:5px;"><i class="fa fa-check-circle" aria-hidden="true" style="color:#5dc26a;font-size:18px;"></i> Chat for free.</p>
+						<p style="padding:5px;"><i class="fa fa-check-circle" aria-hidden="true" style="color:#5dc26a;font-size:18px;"></i> Browse samples of previous work.</p>
+						<p style="padding:5px;"><i class="fa fa-check-circle" aria-hidden="true" style="color:#5dc26a;font-size:18px;"></i> Only pay for the work when it is completed in a safe and secure manner. Release your payment when you are 100% satisfied with the work provided.</p>
+
 						<a href="#" class="button mid dark">Post your <span class="primary">Requirement</span></a>
 					</div>
 					<!-- /HT BANNER CONTENT -->
@@ -151,9 +170,128 @@
 				<!-- /HT BANNER -->
 
 			</div>
+		 </div>
 		 <!-- 100% width area ends -->	
-
+			<p>&nbsp;</p>
 		
+		<!-- categories -->
+		<!-- how it works -->
+		<div class="section overflowable">
+			<div class="product-showcase">
+				<!-- HEADLINE -->
+				<div class="headline primary">
+					<h4>Find The Perfect Look</h4>
+				</div>
+				<!-- /HEADLINE -->
+
+				<!-- PRODUCT LIST -->
+				<div class="product-list grid v4 column3-wrap">
+					<!-- PRODUCT ITEM -->
+					<div class="product-item column">
+						<div class="product-info">
+							<a href="item-v1.html">
+								<p class="text-header">Westeros HTML Custom Cloth...</p>
+							</a>
+							<a href="shop-gridview-v1.html">
+								<p class="category tiny primary">PSD Templates</p>
+							</a>
+						</div>
+					</div>
+					<!-- /PRODUCT ITEM -->
+
+					<!-- PRODUCT ITEM -->
+					<div class="product-item column">
+
+						<!-- PRODUCT INFO -->
+						<div class="product-info">
+							<a href="item-v1.html">
+								<p class="text-header">Pixel Diamond Gaming Shop</p>
+							</a>
+							<a href="shop-gridview-v1.html">
+								<p class="category tiny primary">Shopify</p>
+							</a>
+						</div>
+					</div>
+					<!-- /PRODUCT ITEM -->
+
+					<!-- PRODUCT ITEM -->
+					<div class="product-item column">
+						<!-- PIN -->
+						<span class="pin featured">Featured</span>
+						<!-- /PIN -->
+
+						<!-- PRODUCT INFO -->
+						<div class="product-info">
+							<a href="item-v1.html">
+								<p class="text-header">Phantom Cloud Illustration Shop</p>
+							</a>
+							<a href="shop-gridview-v1.html">
+								<p class="category tiny primary">PSD Templates</p>
+							</a>
+							<p class="price big"><span>$</span>14</p>
+						</div>
+						<!-- /PRODUCT INFO -->
+						<hr class="line-separator">
+
+						<!-- USER RATING -->
+						<div class="user-rating">
+							<a href="author-profile.html">
+								<figure class="user-avatar small">
+									<img src="images/avatars/avatar_09.jpg" alt="user-avatar">
+								</figure>
+							</a>
+							<a href="author-profile.html">
+								<p class="text-header tiny">Odin_Design</p>
+							</a>
+							<ul class="rating tooltip tooltipstered">
+								<li class="rating-item">
+									<!-- SVG STAR -->
+									<svg class="svg-star">
+										<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-star"></use>
+									</svg>
+									<!-- /SVG STAR -->
+								</li>
+								<li class="rating-item">
+									<!-- SVG STAR -->
+									<svg class="svg-star">
+										<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-star"></use>
+									</svg>
+									<!-- /SVG STAR -->
+								</li>
+								<li class="rating-item">
+									<!-- SVG STAR -->
+									<svg class="svg-star">
+										<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-star"></use>
+									</svg>
+									<!-- /SVG STAR -->
+								</li>
+								<li class="rating-item">
+									<!-- SVG STAR -->
+									<svg class="svg-star">
+										<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-star"></use>
+									</svg>
+									<!-- /SVG STAR -->
+								</li>
+								<li class="rating-item">
+									<!-- SVG STAR -->
+									<svg class="svg-star">
+										<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-star"></use>
+									</svg>
+									<!-- /SVG STAR -->
+								</li>
+							</ul>
+						</div>
+						<!-- /USER RATING -->
+					</div>
+					<!-- /PRODUCT ITEM -->
+				</div>
+				<!-- /PRODUCT LIST -->
+
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<!-- categories ends -->
+
 		<div id="subscribe-banner-wrap">
 			<div id="subscribe-banner">
 				<!-- SUBSCRIBE CONTENT -->
