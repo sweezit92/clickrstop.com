@@ -27,14 +27,18 @@
 		}
 		.product-item{
 			-webkit-box-shadow: 0px 0px 5px 0.5px rgba(82,79,82,1);
--moz-box-shadow: 0px 0px 5px 0.5px rgba(82,79,82,1);
-box-shadow: 0px 0px 5px 0.5px rgba(82,79,82,1);
+			-moz-box-shadow: 0px 0px 5px 0.5px rgba(82,79,82,1);
+			box-shadow: 0px 0px 5px 0.5px rgba(82,79,82,1);
 		}
 		.product-item:hover{
 			cursor:pointer;
 			-webkit-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
 			-moz-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
 			box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
+		}
+		.badge:hover{
+			height:200px;
+			width:200px;
 		}
 	</style>
 </head>
@@ -89,7 +93,7 @@ box-shadow: 0px 0px 5px 0.5px rgba(82,79,82,1);
 		
 		
 		<!-- categories -->
-		<div class="section ">
+		<div class="section " style="margin-top:-50px;">
 			<div class="product-showcase">
 				<div class="head-title">
 					<p class="text-header big">Range of Categories</p>
