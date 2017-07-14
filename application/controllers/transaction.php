@@ -21,6 +21,7 @@ class Transaction extends CI_Controller {
 	{
 		//$this->load->view('module/home');
 		$data["content"] = 'transaction';
+		$data["title"] = "Hire professional photographers";
 		$this->load->view("module/transaction", $data);
 		//$this->load->view('welcome_message');
 	}

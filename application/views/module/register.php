@@ -1,12 +1,10 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html itemscope itemtype="http://schema.org/Article">
 <head>
-	<?php
-	$this->load->view("common/meta_links");
+<?php
+	 $this->load->view("common/meta_links");
 ?>
 
-	<title>Register a account | Click R stop</title>
 </head>
 <body>
 
@@ -21,17 +19,7 @@
 	<!-- SECTION -->
 	<div class="section-wrap">
 		<div class="section" >
-			<!-- FORM POPUP -->
-	
-			<!-- /FORM POPUP -->
 
-
-
-
-			<!-- FORM POPUP -->
-			
-
-			<!-- FORM POPUP -->
 			<div class="form-popup align-center">
 
 				<!-- FORM POPUP CONTENT -->
@@ -60,10 +48,10 @@
 						<button class="button mid dark" style="margin-top:0px;">Submit <span class="primary">Now!</span></button>
 					</form>
 					<!-- LINE SEPARATOR -->
-					<hr class="line-separator double">
+					<!--<hr class="line-separator double">
 
 					<a href="#" class="button mid fb half">Signup with Facebook</a>
-					<a href="#" class="button mid tertiary half">Signup with Google</a>
+					<a href="#" class="button mid tertiary half">Signup with Google</a>-->
 					<!-- /LINE SEPARATOR -->
 				</div>
 				<!-- /FORM POPUP CONTENT -->

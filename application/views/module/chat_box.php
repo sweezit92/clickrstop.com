@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html itemscope itemtype="http://schema.org/Article">
 <head>
-	<?php
-		$this->load->view("common/meta_links");
-	?>
-	<title>Emerald Dragon | Chat Box</title>
+<?php
+	 $this->load->view("common/meta_links");
+?>
+
 </head>
 <body>
 	
@@ -16,10 +15,6 @@
 		$this->load->view("common/header");
 	?>
 	<!-- /HEADER -->
-
-	<!-- SIDE MENU -->
-	
-	<!-- /SIDE MENU -->
 
 	<!-- SIDE MENU -->
 	<div id="account-options-menu" class="side-menu right closed">
@@ -53,18 +48,12 @@
 		</div>
 		<!-- /SIDE MENU HEADER -->
 
-		<!-- SIDE MENU TITLE -->
-		
-		<!-- /SIDE MENU TITLE -->
 
 		<!-- DROPDOWN -->
 		
 	</div>
 	<!-- /SIDE MENU -->
 
-	<!-- MAIN MENU -->
-	
-	<!-- /MAIN MENU -->
 
 	<!-- SECTION HEADLINE -->
 	<div class="section-headline-wrap">
@@ -75,9 +64,6 @@
 	</div>
 	<!-- /SECTION HEADLINE -->
 
-	<!-- AUTHOR PROFILE BANNER -->
-	<div class="author-profile-banner"></div>
-	<!-- /AUTHOR PROFILE BANNER -->
 
 	<!-- AUTHOR PROFILE META -->
 	<div class="author-profile-meta-wrap">

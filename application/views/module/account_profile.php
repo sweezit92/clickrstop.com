@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html itemscope itemtype="http://schema.org/Article">
 <head>
-
 <?php
-	$this->load->view("common/meta_links");
+	 $this->load->view("common/meta_links");
 ?>
+
 <style>
 post-tab .tab-header.tertiary .tab-item.selected > p{
 border-top-color: #00d7b3 !important;
@@ -32,10 +31,6 @@ border-top-color: #00d7b3 !important;
 		</div>
 	</div>
 	<!-- /SECTION HEADLINE -->
-
-	<!-- AUTHOR PROFILE BANNER -->
-	<div class="author-profile-banner"></div>
-	<!-- /AUTHOR PROFILE BANNER -->
 
 	<!-- AUTHOR PROFILE META -->
 	<div class="author-profile-meta-wrap">

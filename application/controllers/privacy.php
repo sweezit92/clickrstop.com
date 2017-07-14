@@ -21,6 +21,7 @@ class Privacy extends CI_Controller {
 	{
 		//$this->load->view('module/home');
 		$data["content"] = 'privacy';
+		$data["title"] = "Privacy Policy";
 		$this->load->view("static_pages/privacy", $data);
 		//$this->load->view('welcome_message');
 	}

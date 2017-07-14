@@ -21,6 +21,7 @@ class Categories extends CI_Controller {
 	{
 		//$this->load->view('module/home');
 		$data["content"] = 'categories';
+		$data["title"] = "Categories";
 		$this->load->view("static_pages/categories", $data);
 		//$this->load->view('welcome_message');
 	}

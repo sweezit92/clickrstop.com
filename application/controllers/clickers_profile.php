@@ -21,6 +21,8 @@ class Clickers_profile extends CI_Controller {
 	{
 		//$this->load->view('module/home');
 		$data["content"] = 'clickers_profile';
+		$data["title"] = "Profile";
+		$data["title"] = "Hire professional photographers";
 		$this->load->view("module/clickers_profile", $data);
 		//$this->load->view('welcome_message');
 	}

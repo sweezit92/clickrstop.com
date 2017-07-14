@@ -11,3 +11,5 @@
 	<style>
 		body{background:white !important;font-family: Roboto,Helvetica}
 	</style>
+
+	<title><?php echo $title;?> | Clickrstop - Empowering photography passion </title>

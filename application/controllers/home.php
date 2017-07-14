@@ -21,6 +21,7 @@ class Home extends CI_Controller {
 	{
 		//$this->load->view('module/home');
 		$data["content"] = 'home';
+		$data["title"] = "Hire professional photographers";
 		$this->load->view("module/home", $data);
 		//$this->load->view('welcome_message');
 	}

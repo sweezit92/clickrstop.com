@@ -21,6 +21,7 @@ class Register extends CI_Controller {
 	{
 		//$this->load->view('module/home');
 		$data["content"] = 'register';
+		$data["title"] = "Register";
 		$this->load->view("module/register", $data);
 		//$this->load->view('welcome_message');
 	}

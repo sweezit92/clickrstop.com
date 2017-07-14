@@ -21,6 +21,7 @@ class Services extends CI_Controller {
 	{
 		//$this->load->view('module/home');
 		$data["content"] = 'services';
+		$data["title"] = "Services ";
 		$this->load->view("module/services", $data);
 		//$this->load->view('welcome_message');
 	}

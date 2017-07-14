@@ -21,6 +21,7 @@ class Terms extends CI_Controller {
 	{
 		//$this->load->view('module/home');
 		$data["content"] = 'terms';
+		$data["title"] = "Terms and conditions";
 		$this->load->view("static_pages/terms", $data);
 		//$this->load->view('welcome_message');
 	}

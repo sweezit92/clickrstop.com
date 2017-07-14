@@ -21,6 +21,7 @@ class How_it_works extends CI_Controller {
 	{
 		//$this->load->view('module/home');
 		$data["content"] = 'how_it_works';
+		$data["title"] = "How it works";
 		$this->load->view("static_pages/how_it_works", $data);
 		//$this->load->view('welcome_message');
 	}

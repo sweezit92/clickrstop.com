@@ -2058,7 +2058,7 @@ header {
       pointer-events: auto; }
     .main-menu .menu-item > .content-dropdown, .main-menu .menu-item > .dropdown {
       top: 0;
-      left: 0; }
+      right: 0; }
 
 .content-dropdown {
   padding: 25px 40px 40px;

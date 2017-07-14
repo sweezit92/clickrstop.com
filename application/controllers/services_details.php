@@ -21,6 +21,7 @@ class Services_details extends CI_Controller {
 	{
 		//$this->load->view('module/home');
 		$data["content"] = 'services_details';
+		$data["title"] = "Hire professional photographers";
 		$this->load->view("module/services_details", $data);
 		//$this->load->view('welcome_message');
 	}

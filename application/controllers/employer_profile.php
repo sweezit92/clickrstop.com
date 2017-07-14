@@ -21,6 +21,7 @@ class Employer_profile extends CI_Controller {
 	{
 		//$this->load->view('module/home');
 		$data["content"] = 'employer_profile';
+		$data["title"] = "Hire professional photographers";
 		$this->load->view("module/employer_profile", $data);
 		//$this->load->view('welcome_message');
 	}

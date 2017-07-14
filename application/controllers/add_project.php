@@ -21,6 +21,7 @@ class Add_project extends CI_Controller {
 	{
 		//$this->load->view('module/home');
 		$data["content"] = 'add_project';
+		$data["title"] = "Hire professional photographers";
 		$this->load->view("module/add_project", $data);
 		//$this->load->view('welcome_message');
 	}

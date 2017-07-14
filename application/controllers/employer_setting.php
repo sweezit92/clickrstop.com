@@ -21,6 +21,7 @@ class Employer_setting extends CI_Controller {
 	{
 		//$this->load->view('module/home');
 		$data["content"] = 'employer_setting';
+		$data["title"] = "Hire professional photographers";
 		$this->load->view("module/employer_setting", $data);
 		//$this->load->view('welcome_message');
 	}

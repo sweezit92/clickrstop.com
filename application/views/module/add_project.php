@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html itemscope itemtype="http://schema.org/Article">
 <head>
-	<?php
-		$this->load->view("common/meta_links");
-	?>
-	<title>Emerald Dragon | Add Service</title>
+<?php
+	 $this->load->view("common/meta_links");
+?>
+	
 </head>
 <body>
 
@@ -29,10 +28,6 @@
 		</div>
 	</div>
 	<!-- /SECTION HEADLINE -->
-
-	<!-- AUTHOR PROFILE BANNER -->
-	<div class="author-profile-banner"></div>
-	<!-- /AUTHOR PROFILE BANNER -->
 
 	<!-- AUTHOR PROFILE META -->
 	<div class="author-profile-meta-wrap">

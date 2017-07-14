@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html itemscope itemtype="http://schema.org/Article">
 <head>
 <?php
 	 $this->load->view("common/meta_links");
 ?>
-	<title>Hire professional photographers |  Click R stop</title>
 	<style>
 		body{background:white;}
 	</style>

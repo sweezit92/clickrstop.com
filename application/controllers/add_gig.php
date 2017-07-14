@@ -21,6 +21,7 @@ class Add_gig extends CI_Controller {
 	{
 		//$this->load->view('module/home');
 		$data["content"] = 'add_gig';
+		$data["title"] = "Hire professional photographers";
 		$this->load->view("module/add_gig", $data);
 		//$this->load->view('welcome_message');
 	}

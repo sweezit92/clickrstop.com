@@ -1,12 +1,10 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html itemscope itemtype="http://schema.org/Article">
 <head>
-	<?php
-	$this->load->view("common/meta_links");
+<?php
+	 $this->load->view("common/meta_links");
 ?>
 
-	<title>Login to your account | Click R stop</title>
 </head>
 <body>
 

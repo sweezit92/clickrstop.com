@@ -1,20 +1,17 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html itemscope itemtype="http://schema.org/Article">
 <head>
-	<?php
-	$this->load->view("common/meta_links");
+<?php
+	 $this->load->view("common/meta_links");
 ?>
-
-	<title>Terms & Conditions | Click R stop</title>
+	
 </head>
 <body>
 
-	<!-- HEADER -->
 <?php
 	$this->load->view("common/header");
 ?>
-	<!-- /MAIN MENU -->
+
 
 
 

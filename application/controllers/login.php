@@ -21,6 +21,7 @@ class Login extends CI_Controller {
 	{
 		//$this->load->view('module/home');
 		$data["content"] = 'login';
+		$data["title"] = "Hire professional photographers";
 		$this->load->view("module/login", $data);
 		//$this->load->view('welcome_message');
 	}
