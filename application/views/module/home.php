@@ -25,11 +25,7 @@
 			-moz-animation: blink 0.7s infinite;
 			animation: blink 0.7s infinite;
 		}
-		.product-item{
-			-webkit-box-shadow: 0px 0px 5px 0.5px rgba(82,79,82,1);
-			-moz-box-shadow: 0px 0px 5px 0.5px rgba(82,79,82,1);
-			box-shadow: 0px 0px 5px 0.5px rgba(82,79,82,1);
-		}
+		
 		.product-item:hover{
 			cursor:pointer;
 			-webkit-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
