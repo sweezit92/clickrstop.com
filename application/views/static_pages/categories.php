@@ -4,7 +4,7 @@
 <?php
 	 $this->load->view("common/meta_links");
 ?>
-	<title>Hire professional photographers |  Click R stop</title>
+	<title>Wide range of Categories |  Click R stop</title>
 	<style>
 		.website_homepage_1st_screen .website_homepage_1st_screen_no_more {
 			text-align: center;
@@ -53,8 +53,8 @@
 			<!-- SECTION -->
 		<div class="section-headline-wrap v3">
 			<div class="section-headline">
-				<h2>Terms and Conditions</h2>
-				<p>Home<span class="separator">/</span><span class="current-section">Terms and Conditions</span></p>
+				<h2>Categories</h2>
+				<p>Home<span class="separator">/</span><span class="current-section">Categories</span></p>
 			</div>
 		</div>
 		
@@ -97,7 +97,7 @@
 					<div class="product-item column">
 						<div class="product-preview-actions">
 							<figure class="product-preview-image big">
-								<img src="<?php base_url();?>images/0.14268300 1429678497.jpg" alt="product-image" style="height:210px;">
+								<img src="<?php echo base_url();?>images/0.14268300 1429678497.jpg" alt="product-image" style="height:210px;">
 							</figure>
 						</div>
 
@@ -114,7 +114,7 @@
 					<div class="product-item column">
 						<div class="product-preview-actions">
 							<figure class="product-preview-image big">
-								<img src="<?php base_url();?>images/1490790278_2493.jpg" alt="product-image" style="height:210px;">
+								<img src="<?php echo base_url();?>images/1490790278_2493.jpg" alt="product-image" style="height:210px;">
 							</figure>
 						</div>
 
@@ -128,7 +128,7 @@
 					<div class="product-item column">
 						<div class="product-preview-actions">
 							<figure class="product-preview-image big">
-								<img src="<?php base_url();?>images/product-photography-tutorials_.png" alt="product-image" style="height:210px;">
+								<img src="<?php echo base_url();?>images/product-photography-tutorials_.png" alt="product-image" style="height:210px;">
 							</figure>
 						</div>
 
@@ -142,7 +142,7 @@
 					<div class="product-item column">
 						<div class="product-preview-actions">
 							<figure class="product-preview-image big">
-								<img src="<?php base_url();?>images/1490867879_7352.jpg" alt="product-image" style="height:210px;">
+								<img src="<?php echo base_url();?>images/1490867879_7352.jpg" alt="product-image" style="height:210px;">
 							</figure>
 						</div>
 
@@ -162,7 +162,7 @@
 					<div class="product-item column">
 						<div class="product-preview-actions">
 							<figure class="product-preview-image big">
-								<img src="<?php base_url();?>images/1486551600_1577.jpg" alt="product-image" style="height:210px;">
+								<img src="<?php echo base_url();?>images/1486551600_1577.jpg" alt="product-image" style="height:210px;">
 							</figure>
 						</div>
 
@@ -176,7 +176,7 @@
 					<div class="product-item column">
 						<div class="product-preview-actions">
 							<figure class="product-preview-image big">
-								<img src="<?php base_url();?>images/Tourism_Photos_02_Mark_Hemmings.jpg" alt="product-image" style="height:210px;">
+								<img src="<?php echo base_url();?>images/Tourism_Photos_02_Mark_Hemmings.jpg" alt="product-image" style="height:210px;">
 							</figure>
 						</div>
 
@@ -190,7 +190,7 @@
 					<div class="product-item column">
 						<div class="product-preview-actions">
 							<figure class="product-preview-image big">
-								<img src="<?php base_url();?>images/6O4A9434.jpg" alt="product-image" style="height:210px;">
+								<img src="<?php echo base_url();?>images/6O4A9434.jpg" alt="product-image" style="height:210px;">
 							</figure>
 						</div>
 

@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class How-it-works extends CI_Controller {
+class How_it_works extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.

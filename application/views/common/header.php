@@ -287,13 +287,13 @@
 
 					<!-- MENU ITEM -->
 					<li class="menu-item">
-						<a href="<?php echo base_url();?>index.php/services">Range of Categories</a>
+						<a href="<?php echo base_url();?>index.php/categories">Range of Categories</a>
 					</li>
 					<!-- /MENU ITEM -->
 
 					<!-- MENU ITEM -->
 					<li class="menu-item">
-						<a href="<?php echo base_url();?>index.php/services">How it works</a>
+						<a href="<?php echo base_url();?>index.php/how_it_works">How it works</a>
 					</li>
 					<!-- /MENU ITEM -->
 
@@ -301,7 +301,7 @@
 
 					<!-- MENU ITEM -->
 					<li class="menu-item" style="float:right;background:#ff932a;color:#fff;">
-						<a href="shop-gridview-v1.html" style="color:#fff;">POST PROJECT</a>
+						<a href="<?php echo base_url();?>index.php/add_project" style="color:#fff;">POST PROJECT</a>
 					</li>
 
 				</ul>
