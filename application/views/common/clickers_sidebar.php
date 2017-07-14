@@ -22,9 +22,6 @@
 		<a href="<?php echo base_url();?>index.php/clickers_profile">Profile Page</a>
 	</li>
 	<li class="dropdown-item">
-		<a href="<?php echo base_url();?>index.php/account_profile">Manage Your Account</a>
-	</li>
-	<li class="dropdown-item">
 		<a href="<?php echo base_url();?>index.php/add_service">Add Service</a>
 	</li>
 	<li class="dropdown-item">
@@ -38,6 +35,9 @@
 	</li>
 	<li class="dropdown-item">
 		<a href="<?php echo base_url();?>index.php/feedback">Feedback & Ratings</a>
+	</li>
+	<li class="dropdown-item">
+		<a href="<?php echo base_url();?>index.php/account_profile">Manage Your Account</a>
 	</li>
 </ul>
 
