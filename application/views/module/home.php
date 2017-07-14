@@ -36,6 +36,12 @@
 			height:200px;
 			width:200px;
 		}
+		.asda{
+			background:#ff932a;color:#fff;font-style:normal !important;font-size:22px;
+		}
+		.asda:hover{
+			background:#00d7b3;
+		}
 	</style>
 </head>
 <body>
@@ -307,13 +313,15 @@
 				</video>
 				<div class="ht-banner" style="background:white !important;">
 					<div class="ht-banner-content" style="padding:0px !important;">
-						<p class="text-header">How do you benefit?</p>
-						<p style="padding:5px;"><i class="fa fa-check-circle" aria-hidden="true" style="color:#5dc26a;font-size:18px;"></i> Keeping up-to-date with our 24/7 support, time tracker, and mobile app.</p>
-						<p style="padding:5px;"><i class="fa fa-check-circle" aria-hidden="true" style="color:#5dc26a;font-size:18px;"></i> Chat for free.</p>
-						<p style="padding:5px;"><i class="fa fa-check-circle" aria-hidden="true" style="color:#5dc26a;font-size:18px;"></i> Browse samples of previous work.</p>
-						<p style="padding:5px;"><i class="fa fa-check-circle" aria-hidden="true" style="color:#5dc26a;font-size:18px;"></i> Only pay for the work when it is completed in a safe and secure manner. Release your payment when you are 100% satisfied with the work provided.</p>
-
-						<a href="#" class="button mid dark">Post your <span class="primary">Requirement</span></a>
+						<p class="text-header">Why Post Project?</p>
+						<p style="padding:5px;"><i class="fa fa-check-circle" aria-hidden="true" style="color:#5dc26a;font-size:18px;"></i> &nbsp;Our executive get back to you and guide you for free.</p>
+						<p style="padding:5px;"><i class="fa fa-check-circle" aria-hidden="true" style="color:#5dc26a;font-size:18px;"></i> &nbsp;We help you choose and suggest the best match for your requirement.</p>
+						
+						<p style="padding:5px;"><i class="fa fa-check-circle" aria-hidden="true" style="color:#5dc26a;font-size:18px;"></i> &nbsp;Browse samples of previous work.</p>
+						<p style="padding:5px;"><i class="fa fa-check-circle" aria-hidden="true" style="color:#5dc26a;font-size:18px;"></i> &nbsp;Chat with photographer clear all queries.</p>
+						<p style="padding:5px;"><i class="fa fa-check-circle" aria-hidden="true" style="color:#5dc26a;font-size:18px;"></i> &nbsp;Get started by clicking hire button.</p>
+						<p style="padding:5px;"><i class="fa fa-check-circle" aria-hidden="true" style="color:#5dc26a;font-size:18px;"></i> &nbsp;Release money when you're fully satisfied.</p>
+						<a href="#" class="button mid asda">POST PROJECT</a>
 					</div>
 				</div>
 			</div>
