@@ -25,7 +25,7 @@
 		<a href="<?php echo base_url();?>index.php/add_service">Add Service</a>
 	</li>
 	<li class="dropdown-item">
-		<a href="<?php echo base_url();?>index.php/clickers_message">Message Board</a>
+		<a href="<?php echo base_url();?>index.php/message_list">Message Board</a>
 	</li>
 	<li class="dropdown-item">
 		<a href="<?php echo base_url();?>index.php/clickers_project">Ongoing Project</a>
