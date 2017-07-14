@@ -105,7 +105,7 @@
 					<div class="product-item column">
 						<div class="product-preview-actions">
 							<figure class="product-preview-image big">
-								<img src="<?php base_url();?>images/mccainpictures085.jpg" alt="product-image" style="height:210px;">
+								<img src="<?php echo base_url();?>images/mccainpictures085.jpg" alt="product-image" style="height:210px;">
 							</figure>
 						</div>
 
@@ -119,7 +119,7 @@
 					<div class="product-item column">
 						<div class="product-preview-actions">
 							<figure class="product-preview-image big">
-								<img src="<?php base_url();?>images/image-3.jpg" alt="product-image" style="height:210px;">
+								<img src="<?php echo base_url();?>images/image-3.jpg" alt="product-image" style="height:210px;">
 							</figure>
 						</div>
 
@@ -133,7 +133,7 @@
 					<div class="product-item column">
 						<div class="product-preview-actions">
 							<figure class="product-preview-image big">
-								<img src="<?php base_url();?>images/0.14268300 1429678497.jpg" alt="product-image" style="height:210px;">
+								<img src="<?php echo base_url();?>images/0.14268300 1429678497.jpg" alt="product-image" style="height:210px;">
 							</figure>
 						</div>
 
@@ -150,7 +150,7 @@
 					<div class="product-item column">
 						<div class="product-preview-actions">
 							<figure class="product-preview-image big">
-								<img src="<?php base_url();?>images/1490790278_2493.jpg" alt="product-image" style="height:210px;">
+								<img src="<?php echo base_url();?>images/1490790278_2493.jpg" alt="product-image" style="height:210px;">
 							</figure>
 						</div>
 
@@ -164,7 +164,7 @@
 					<div class="product-item column">
 						<div class="product-preview-actions">
 							<figure class="product-preview-image big">
-								<img src="<?php base_url();?>images/product-photography-tutorials_.png" alt="product-image" style="height:210px;">
+								<img src="<?php echo base_url();?>images/product-photography-tutorials_.png" alt="product-image" style="height:210px;">
 							</figure>
 						</div>
 
@@ -178,7 +178,7 @@
 					<div class="product-item column">
 						<div class="product-preview-actions">
 							<figure class="product-preview-image big">
-								<img src="<?php base_url();?>images/1490867879_7352.jpg" alt="product-image" style="height:210px;">
+								<img src="<?php echo base_url();?>images/1490867879_7352.jpg" alt="product-image" style="height:210px;">
 							</figure>
 						</div>
 
@@ -198,7 +198,7 @@
 					<div class="product-item column">
 						<div class="product-preview-actions">
 							<figure class="product-preview-image big">
-								<img src="<?php base_url();?>images/1486551600_1577.jpg" alt="product-image" style="height:210px;">
+								<img src="<?php echo base_url();?>images/1486551600_1577.jpg" alt="product-image" style="height:210px;">
 							</figure>
 						</div>
 
@@ -212,7 +212,7 @@
 					<div class="product-item column">
 						<div class="product-preview-actions">
 							<figure class="product-preview-image big">
-								<img src="<?php base_url();?>images/Tourism_Photos_02_Mark_Hemmings.jpg" alt="product-image" style="height:210px;">
+								<img src="<?php echo base_url();?>images/Tourism_Photos_02_Mark_Hemmings.jpg" alt="product-image" style="height:210px;">
 							</figure>
 						</div>
 
@@ -226,7 +226,7 @@
 					<div class="product-item column">
 						<div class="product-preview-actions">
 							<figure class="product-preview-image big">
-								<img src="<?php base_url();?>images/6O4A9434.jpg" alt="product-image" style="height:210px;">
+								<img src="<?php echo base_url();?>images/6O4A9434.jpg" alt="product-image" style="height:210px;">
 							</figure>
 						</div>
 
