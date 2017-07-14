@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Privacy extends CI_Controller {
+class How-it-works extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,8 +20,8 @@ class Privacy extends CI_Controller {
 	public function index()
 	{
 		//$this->load->view('module/home');
-		$data["content"] = 'privacy';
-		$this->load->view("static_pages/privacy", $data);
+		$data["content"] = 'how_it_works';
+		$this->load->view("static_pages/how_it_works", $data);
 		//$this->load->view('welcome_message');
 	}
 }
