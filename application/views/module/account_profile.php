@@ -2,9 +2,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <?php
 	$this->load->view("common/meta_links");
 ?>
+<style>
+post-tab .tab-header.tertiary .tab-item.selected > p{
+border-top-color: #00d7b3 !important;
+}
+</style>
 	<title>Emerald Dragon | Author Profile</title>
 </head>
 <body>
@@ -99,129 +105,186 @@
 
 				<div class="clearfix"></div>
 					<!-- FORM BOX ITEMS -->
-			<div class="form-box-items" >
-				<!-- FORM BOX ITEM -->
-				<div class="form-box-item " style="width:100%;">
-					<h4>Profile Information</h4>
-					<hr class="line-separator">
-					<!-- PROFILE IMAGE UPLOAD -->
-					<div class="profile-image">
-						<div class="profile-image-data">
-							<figure class="user-avatar medium">
-								<img src="<?php echo base_url();?>images/profile-default-image.png" alt="profile-default-image">
-							</figure>
-							<p class="text-header">Profile Photo</p>
-							<p class="upload-details">Minimum size 70x70px</p>
+			<div class="content left">
+			<!-- POST TAB -->
+				<div class="post-tab">
+					<!-- TAB HEADER -->
+					<div class="tab-header primary">
+						<!-- TAB ITEM -->
+						<div class="tab-item selected" style="width:50%;"> 
+							<p class="text-header">General Seting</p>
 						</div>
-						<a href="#" class="button mid-short dark-light">Upload Image...</a>
+						<!-- /TAB ITEM -->
+
+						<!-- TAB ITEM -->
+						<div class="tab-item" style="width:50%;">
+							<p class="text-header">Password Setting</p>
+						</div>
+						<!-- /TAB ITEM -->
 					</div>
-					<!-- PROFILE IMAGE UPLOAD -->
+					<!-- /TAB HEADER -->
 
-					<form id="profile-info-form">
+					<!-- TAB CONTENT -->
+					<div class="tab-content void">
+						<!-- COMMENTS -->
 						
+							<!-- FORM BOX ITEM -->
+							<div class="form-box-item " style="width:100%;">
+								<h4>Profile Information</h4>
+								<hr class="line-separator">
+								<!-- PROFILE IMAGE UPLOAD -->
+								<div class="profile-image">
+									<div class="profile-image-data">
+										<figure class="user-avatar medium">
+											<img src="<?php echo base_url();?>images/profile-default-image.png" alt="profile-default-image">
+										</figure>
+										<p class="text-header">Profile Photo</p>
+										<p class="upload-details">Minimum size 70x70px</p>
+									</div>
+									<a href="#" class="button mid-short dark-light">Upload Image...</a>
+								</div>
+								<!-- PROFILE IMAGE UPLOAD -->
 
-						<!-- INPUT CONTAINER -->
-						<div class="input-container half">
-							<label for="new_pwd" class="rl-label">First Name</label>
-							<input type="text" id="new_pwd" name="first_name" placeholder="Enter your Firstname here...">
-						</div>
-						<!-- /INPUT CONTAINER -->
+								<form id="profile-info-form">
+									
 
-						<!-- INPUT CONTAINER -->
-						<div class="input-container half">
-							<label for="new_pwd2" class="rl-label">Last Name</label>
-							<input type="text" id="new_pwd2" name="last_name" placeholder="Enter Your Lastname here...">
-						</div>
-						<!-- /INPUT CONTAINER -->
+									<!-- INPUT CONTAINER -->
+									<div class="input-container half">
+										<label for="new_pwd" class="rl-label">First Name</label>
+										<input type="text" id="new_pwd" name="first_name" placeholder="Enter your Firstname here...">
+									</div>
+									<!-- /INPUT CONTAINER -->
 
-						<!-- INPUT CONTAINER -->
-						<div class="input-container">
-							<label for="new_email" class="rl-label">Email</label>
-							<input type="email" id="new_email" name="new_email" placeholder="Enter your email address here...">
-						</div>
-						<!-- /INPUT CONTAINER -->
+									<!-- INPUT CONTAINER -->
+									<div class="input-container half">
+										<label for="new_pwd2" class="rl-label">Last Name</label>
+										<input type="text" id="new_pwd2" name="last_name" placeholder="Enter Your Lastname here...">
+									</div>
+									<!-- /INPUT CONTAINER -->
 
-						<!-- INPUT CONTAINER -->
-							<div class="input-container half">
-							<label for="country1" class="rl-label required">Country</label>
-							<label for="country1" class="select-block">
-								<select name="country1" id="country1">
-									<option value="0">Select your Country...</option>
-									<option value="1">United States</option>
-									<option value="2">Argentina</option>
-									<option value="3">Brasil</option>
-									<option value="4">Japan</option>
-								</select>
-								<!-- SVG ARROW -->
-								<svg class="svg-arrow">
-									<use xlink:href="#svg-arrow"></use>
-								</svg>
-								<!-- /SVG ARROW -->
-							</label>
-						</div>
-						<!-- /INPUT CONTAINER -->
+									<!-- INPUT CONTAINER -->
+									<div class="input-container">
+										<label for="new_email" class="rl-label">Email</label>
+										<input type="email" id="new_email" name="new_email" placeholder="Enter your email address here...">
+									</div>
+									<!-- /INPUT CONTAINER -->
 
-						<!-- INPUT CONTAINER -->
-						<div class="input-container half">
-							<label for="country1" class="rl-label required">State</label>
-							<label for="country1" class="select-block">
-								<select name="country1" id="country1">
-									<option value="0">Select your State...</option>
-									<option value="1">United States</option>
-									<option value="2">Argentina</option>
-									<option value="3">Brasil</option>
-									<option value="4">Japan</option>
-								</select>
-								<!-- SVG ARROW -->
-								<svg class="svg-arrow">
-									<use xlink:href="#svg-arrow"></use>
-								</svg>
-								<!-- /SVG ARROW -->
-							</label>
-						</div>
-						<!-- /INPUT CONTAINER -->
+									<!-- INPUT CONTAINER -->
+										<div class="input-container half">
+										<label for="country1" class="rl-label required">Country</label>
+										<label for="country1" class="select-block">
+											<select name="country1" id="country1">
+												<option value="0">Select your Country...</option>
+												<option value="1">United States</option>
+												<option value="2">Argentina</option>
+												<option value="3">Brasil</option>
+												<option value="4">Japan</option>
+											</select>
+											<!-- SVG ARROW -->
+											<svg class="svg-arrow">
+												<use xlink:href="#svg-arrow"></use>
+											</svg>
+											<!-- /SVG ARROW -->
+										</label>
+									</div>
+									<!-- /INPUT CONTAINER -->
 
-						
-						<!-- INPUT CONTAINER -->
-					<div class="input-container">
-						<label for="notes2" class="rl-label">About You</label>
-						<textarea form="profile-info-form" id="notes2" name="notes2" placeholder="Tell Your Stories..."></textarea>
+									<!-- INPUT CONTAINER -->
+									<div class="input-container half">
+										<label for="country1" class="rl-label required">State</label>
+										<label for="country1" class="select-block">
+											<select name="country1" id="country1">
+												<option value="0">Select your State...</option>
+												<option value="1">United States</option>
+												<option value="2">Argentina</option>
+												<option value="3">Brasil</option>
+												<option value="4">Japan</option>
+											</select>
+											<!-- SVG ARROW -->
+											<svg class="svg-arrow">
+												<use xlink:href="#svg-arrow"></use>
+											</svg>
+											<!-- /SVG ARROW -->
+										</label>
+									</div>
+									<!-- /INPUT CONTAINER -->
+
+									
+									<!-- INPUT CONTAINER -->
+								<div class="input-container">
+									<label for="notes2" class="rl-label">About You</label>
+									<textarea form="profile-info-form" id="notes2" name="notes2" placeholder="Tell Your Stories..."></textarea>
+								</div>
+								<!-- /INPUT CONTAINER -->
+									
+
+									<!-- INPUT CONTAINER -->
+									<div class="input-container">
+										<label class="rl-label">Preferences</label>
+										<!-- CHECKBOX -->
+										<input type="checkbox" id="show_balance" name="show_balance" checked>
+										<label for="show_balance" class="label-check">
+											<span class="checkbox primary"><span></span></span>
+											Show account balance in the status bar
+										</label>
+										<!-- /CHECKBOX -->
+
+										<!-- CHECKBOX -->
+										<input type="checkbox" id="email_notif" name="email_notif">
+										<label for="email_notif" class="label-check">
+											<span class="checkbox primary"><span></span></span>
+											Send me email notifications
+										</label>
+										<!-- /CHECKBOX -->
+									</div>
+									<hr class="line-separator">
+									<button class="button big dark">Update Profile</button>
+								</form>
+							</div>
 					</div>
-					<!-- /INPUT CONTAINER -->
-						
+					<!-- /TAB CONTENT -->
 
-						<!-- INPUT CONTAINER -->
-						<div class="input-container">
-							<label class="rl-label">Preferences</label>
-							<!-- CHECKBOX -->
-							<input type="checkbox" id="show_balance" name="show_balance" checked>
-							<label for="show_balance" class="label-check">
-								<span class="checkbox primary"><span></span></span>
-								Show account balance in the status bar
-							</label>
-							<!-- /CHECKBOX -->
+					<!-- TAB CONTENT -->
+					<div class="tab-content void">
+						<!-- COMMENTS -->
+						<div class="form-box-item " style="width:100%;">
+								<h4>Profile Information</h4>
+								<hr class="line-separator">
+								<form id="profile-info-form">
 
-							<!-- CHECKBOX -->
-							<input type="checkbox" id="email_notif" name="email_notif">
-							<label for="email_notif" class="label-check">
-								<span class="checkbox primary"><span></span></span>
-								Send me email notifications
-							</label>
-							<!-- /CHECKBOX -->
-						</div>
-						<hr class="line-separator">
-						<button class="button big dark">Submit Service <span class="primary">for Review</span></button>
-					</form>
+									<!-- INPUT CONTAINER -->
+									<div class="input-container">
+										<label for="new_email" class="rl-label">Current Password</label>
+										<input type="email" id="new_email" name="new_email" placeholder="Enter your current password...">
+									</div>
+									<!-- /INPUT CONTAINER -->
+
+									<!-- INPUT CONTAINER -->
+									<div class="input-container">
+										<label for="new_email" class="rl-label">New Password</label>
+										<input type="email" id="new_email" name="new_email" placeholder="Enter your new password...">
+									</div>
+									<!-- /INPUT CONTAINER -->
+
+									<!-- INPUT CONTAINER -->
+									<div class="input-container">
+										<label for="new_email" class="rl-label">Confirm New Password</label>
+										<input type="email" id="new_email" name="new_email" placeholder="Confirm your new password...">
+									</div>
+									<!-- /INPUT CONTAINER -->
+
+									<hr class="line-separator">
+									<button class="button big dark">Update Password</button>
+								</form>
+							</div>
+						<!-- /COMMENTS -->
+					</div>
+					<!-- /TAB CONTENT -->
+
 				</div>
-				<!-- /FORM BOX ITEM -->
-
-		
-
-			
-				<!-- /FORM BOX ITEM -->
-
-		
+			<!-- /POST TAB -->
 			</div>
+
 			<!-- /FORM BOX -->
 
 				<!-- HEADLINE -->
