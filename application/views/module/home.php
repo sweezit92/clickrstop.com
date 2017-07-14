@@ -25,6 +25,17 @@
 			-moz-animation: blink 0.7s infinite;
 			animation: blink 0.7s infinite;
 		}
+		.product-item{
+			-webkit-box-shadow: 0px 0px 5px 0.5px rgba(82,79,82,1);
+-moz-box-shadow: 0px 0px 5px 0.5px rgba(82,79,82,1);
+box-shadow: 0px 0px 5px 0.5px rgba(82,79,82,1);
+		}
+		.product-item:hover{
+			cursor:pointer;
+			-webkit-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
+			-moz-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
+			box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
+		}
 	</style>
 </head>
 <body>
@@ -88,13 +99,13 @@
 					<div class="product-item column">
 						<div class="product-preview-actions">
 							<figure class="product-preview-image big">
-								<img src="<?php base_url();?>images/mccainpictures085.jpg" alt="product-image">
+								<img src="<?php base_url();?>images/mccainpictures085.jpg" alt="product-image" style="height:210px;">
 							</figure>
 						</div>
 
-						<div class="product-info">
+						<div class="product-info" style="padding:0px;">
 							<a href="item-v1.html">
-								<p class="text-header">Wedding</p>
+								<p class="text-header">Wedding Photography</p>
 							</a>
 						</div>
 					</div>
@@ -102,13 +113,13 @@
 					<div class="product-item column">
 						<div class="product-preview-actions">
 							<figure class="product-preview-image big">
-								<img src="<?php base_url();?>images/mccainpictures085.jpg" alt="product-image">
+								<img src="<?php base_url();?>images/image-3.jpg" alt="product-image" style="height:210px;">
 							</figure>
 						</div>
 
 						<div class="product-info">
 							<a href="item-v1.html">
-								<p class="text-header">Events</p>
+								<p class="text-header">Events Photography</p>
 							</a>
 						</div>
 					</div>
@@ -116,13 +127,13 @@
 					<div class="product-item column">
 						<div class="product-preview-actions">
 							<figure class="product-preview-image big">
-								<img src="<?php base_url();?>images/mccainpictures085.jpg" alt="product-image">
+								<img src="<?php base_url();?>images/0.14268300 1429678497.jpg" alt="product-image" style="height:210px;">
 							</figure>
 						</div>
 
 						<div class="product-info">
 							<a href="item-v1.html">
-								<p class="text-header">Family</p>
+								<p class="text-header">Family Photography</p>
 							</a>
 						</div>
 					</div>
@@ -133,13 +144,13 @@
 					<div class="product-item column">
 						<div class="product-preview-actions">
 							<figure class="product-preview-image big">
-								<img src="<?php base_url();?>images/1490790278_2493.jpg" alt="product-image">
+								<img src="<?php base_url();?>images/1490790278_2493.jpg" alt="product-image" style="height:210px;">
 							</figure>
 						</div>
 
 						<div class="product-info">
 							<a href="item-v1.html">
-								<p class="text-header">Food</p>
+								<p class="text-header">Food Photography</p>
 							</a>
 						</div>
 					</div>
@@ -147,13 +158,13 @@
 					<div class="product-item column">
 						<div class="product-preview-actions">
 							<figure class="product-preview-image big">
-								<img src="<?php base_url();?>images/mccainpictures085.jpg" alt="product-image">
+								<img src="<?php base_url();?>images/product-photography-tutorials_.png" alt="product-image" style="height:210px;">
 							</figure>
 						</div>
 
 						<div class="product-info">
 							<a href="item-v1.html">
-								<p class="text-header">Product</p>
+								<p class="text-header">Product Photography</p>
 							</a>
 						</div>
 					</div>
@@ -161,17 +172,18 @@
 					<div class="product-item column">
 						<div class="product-preview-actions">
 							<figure class="product-preview-image big">
-								<img src="<?php base_url();?>images/1490867879_7352.jpg" alt="product-image">
+								<img src="<?php base_url();?>images/1490867879_7352.jpg" alt="product-image" style="height:210px;">
 							</figure>
 						</div>
 
 						<div class="product-info">
 							<a href="item-v1.html">
-								<p class="text-header">Fashion</p>
+								<p class="text-header">Fashion Photography</p>
 							</a>
 						</div>
 					</div>
 				</div>
+				
 
 				<!-- 2nd row ends -->
 
@@ -180,13 +192,13 @@
 					<div class="product-item column">
 						<div class="product-preview-actions">
 							<figure class="product-preview-image big">
-								<img src="<?php base_url();?>images/1486551600_1577.jpg" alt="product-image">
+								<img src="<?php base_url();?>images/1486551600_1577.jpg" alt="product-image" style="height:210px;">
 							</figure>
 						</div>
 
 						<div class="product-info">
 							<a href="item-v1.html">
-								<p class="text-header">Corporate</p>
+								<p class="text-header">Corporate Photography</p>
 							</a>
 						</div>
 					</div>
@@ -194,13 +206,13 @@
 					<div class="product-item column">
 						<div class="product-preview-actions">
 							<figure class="product-preview-image big">
-								<img src="<?php base_url();?>images/mccainpictures085.jpg" alt="product-image">
+								<img src="<?php base_url();?>images/Tourism_Photos_02_Mark_Hemmings.jpg" alt="product-image" style="height:210px;">
 							</figure>
 						</div>
 
 						<div class="product-info">
 							<a href="item-v1.html">
-								<p class="text-header">Tourism</p>
+								<p class="text-header">Tourism Photography</p>
 							</a>
 						</div>
 					</div>
@@ -208,13 +220,13 @@
 					<div class="product-item column">
 						<div class="product-preview-actions">
 							<figure class="product-preview-image big">
-								<img src="<?php base_url();?>images/mccainpictures085.jpg" alt="product-image">
+								<img src="<?php base_url();?>images/6O4A9434.jpg" alt="product-image" style="height:210px;">
 							</figure>
 						</div>
 
 						<div class="product-info">
 							<a href="item-v1.html">
-								<p class="text-header">Portfolio</p>
+								<p class="text-header">Portfolio Photography</p>
 							</a>
 						</div>
 					</div>
