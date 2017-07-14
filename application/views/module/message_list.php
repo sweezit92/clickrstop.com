@@ -115,6 +115,7 @@
 				<!-- DROPDOWN -->
 				<?php
 					$this->load->view("common/clickers_sidebar");
+					$this->load->view("common/employer_sidebar");
 				?>
 				<!-- /DROPDOWN -->
 

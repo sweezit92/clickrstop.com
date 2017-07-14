@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Clickers_message extends CI_Controller {
+class Employer_profile extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,8 +20,8 @@ class Clickers_message extends CI_Controller {
 	public function index()
 	{
 		//$this->load->view('module/home');
-		$data["content"] = 'clickers_message';
-		$this->load->view("module/clickers_message", $data);
+		$data["content"] = 'employer_profile';
+		$this->load->view("module/employer_profile", $data);
 		//$this->load->view('welcome_message');
 	}
 }
