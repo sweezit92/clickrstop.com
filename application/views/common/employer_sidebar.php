@@ -28,7 +28,7 @@
 		<a href="<?php echo base_url();?>index.php/message_list">Message Board</a>
 	</li>
 	<li class="dropdown-item">
-		<a href="<?php echo base_url();?>index.php/clickers_project">Ongoing Project</a>
+		<a href="<?php echo base_url();?>index.php/ongoing_project">Ongoing Project</a>
 	</li>
 	<li class="dropdown-item">
 		<a href="<?php echo base_url();?>index.php/transaction">Account & Finnace</a>

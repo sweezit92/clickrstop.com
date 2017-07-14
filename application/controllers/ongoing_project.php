@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Clickers_project extends CI_Controller {
+class Ongoing_project extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,8 +20,8 @@ class Clickers_project extends CI_Controller {
 	public function index()
 	{
 		//$this->load->view('module/home');
-		$data["content"] = 'clickers_project';
-		$this->load->view("module/clickers_project", $data);
+		$data["content"] = 'ongoing_project';
+		$this->load->view("module/ongoing_project", $data);
 		//$this->load->view('welcome_message');
 	}
 }
