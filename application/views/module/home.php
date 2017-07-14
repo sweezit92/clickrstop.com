@@ -94,10 +94,7 @@
 
 						<div class="product-info">
 							<a href="item-v1.html">
-								<p class="text-header">Westeros HTML Custom Cloth...</p>
-							</a>
-							<a href="shop-gridview-v1.html">
-								<p class="category tiny primary">PSD Templates</p>
+								<p class="text-header">Wedding</p>
 							</a>
 						</div>
 					</div>
@@ -111,10 +108,7 @@
 
 						<div class="product-info">
 							<a href="item-v1.html">
-								<p class="text-header">Westeros HTML Custom Cloth...</p>
-							</a>
-							<a href="shop-gridview-v1.html">
-								<p class="category tiny primary">PSD Templates</p>
+								<p class="text-header">Events</p>
 							</a>
 						</div>
 					</div>
@@ -128,10 +122,7 @@
 
 						<div class="product-info">
 							<a href="item-v1.html">
-								<p class="text-header">Westeros HTML Custom Cloth...</p>
-							</a>
-							<a href="shop-gridview-v1.html">
-								<p class="category tiny primary">PSD Templates</p>
+								<p class="text-header">Family</p>
 							</a>
 						</div>
 					</div>
@@ -142,16 +133,13 @@
 					<div class="product-item column">
 						<div class="product-preview-actions">
 							<figure class="product-preview-image big">
-								<img src="<?php base_url();?>images/mccainpictures085.jpg" alt="product-image">
+								<img src="<?php base_url();?>images/1490790278_2493.jpg" alt="product-image">
 							</figure>
 						</div>
 
 						<div class="product-info">
 							<a href="item-v1.html">
-								<p class="text-header">Westeros HTML Custom Cloth...</p>
-							</a>
-							<a href="shop-gridview-v1.html">
-								<p class="category tiny primary">PSD Templates</p>
+								<p class="text-header">Food</p>
 							</a>
 						</div>
 					</div>
@@ -165,10 +153,7 @@
 
 						<div class="product-info">
 							<a href="item-v1.html">
-								<p class="text-header">Westeros HTML Custom Cloth...</p>
-							</a>
-							<a href="shop-gridview-v1.html">
-								<p class="category tiny primary">PSD Templates</p>
+								<p class="text-header">Product</p>
 							</a>
 						</div>
 					</div>
@@ -176,22 +161,66 @@
 					<div class="product-item column">
 						<div class="product-preview-actions">
 							<figure class="product-preview-image big">
-								<img src="<?php base_url();?>images/mccainpictures085.jpg" alt="product-image">
+								<img src="<?php base_url();?>images/1490867879_7352.jpg" alt="product-image">
 							</figure>
 						</div>
 
 						<div class="product-info">
 							<a href="item-v1.html">
-								<p class="text-header">Westeros HTML Custom Cloth...</p>
-							</a>
-							<a href="shop-gridview-v1.html">
-								<p class="category tiny primary">PSD Templates</p>
+								<p class="text-header">Fashion</p>
 							</a>
 						</div>
 					</div>
 				</div>
 
 				<!-- 2nd row ends -->
+
+				<!-- 3nd row -->
+				<div class="product-list grid v4 column3-wrap">
+					<div class="product-item column">
+						<div class="product-preview-actions">
+							<figure class="product-preview-image big">
+								<img src="<?php base_url();?>images/1486551600_1577.jpg" alt="product-image">
+							</figure>
+						</div>
+
+						<div class="product-info">
+							<a href="item-v1.html">
+								<p class="text-header">Corporate</p>
+							</a>
+						</div>
+					</div>
+
+					<div class="product-item column">
+						<div class="product-preview-actions">
+							<figure class="product-preview-image big">
+								<img src="<?php base_url();?>images/mccainpictures085.jpg" alt="product-image">
+							</figure>
+						</div>
+
+						<div class="product-info">
+							<a href="item-v1.html">
+								<p class="text-header">Tourism</p>
+							</a>
+						</div>
+					</div>
+
+					<div class="product-item column">
+						<div class="product-preview-actions">
+							<figure class="product-preview-image big">
+								<img src="<?php base_url();?>images/mccainpictures085.jpg" alt="product-image">
+							</figure>
+						</div>
+
+						<div class="product-info">
+							<a href="item-v1.html">
+								<p class="text-header">Portfolio</p>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- 3nd row ends -->
 
 				<div class="clearfix"></div>
 			</div>
