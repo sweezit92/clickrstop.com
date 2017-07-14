@@ -123,14 +123,14 @@
 						<!-- INPUT CONTAINER -->
 						<div class="input-container half">
 							<label for="new_pwd" class="rl-label">First Name</label>
-							<input type="text" id="new_pwd" name="first_name" placeholder="Enter your password here...">
+							<input type="text" id="new_pwd" name="first_name" placeholder="Enter your Firstname here...">
 						</div>
 						<!-- /INPUT CONTAINER -->
 
 						<!-- INPUT CONTAINER -->
 						<div class="input-container half">
 							<label for="new_pwd2" class="rl-label">Last Name</label>
-							<input type="text" id="new_pwd2" name="last_name" placeholder="Repeat your password here...">
+							<input type="text" id="new_pwd2" name="last_name" placeholder="Enter Your Lastname here...">
 						</div>
 						<!-- /INPUT CONTAINER -->
 
