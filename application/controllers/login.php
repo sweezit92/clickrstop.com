@@ -21,9 +21,51 @@ class Login extends CI_Controller {
 	{
 		//$this->load->view('module/home');
 		$data["content"] = 'login';
-		$data["title"] = "Hire professional photographers";
-		$this->load->view("module/login", $data);
+		$data["title"] = "Login";
+		$this->load->view("before_login/login", $data);
 		//$this->load->view('welcome_message');
+	}
+
+	public function login_check(){
+		$this->load->model('Login_user');
+
+		$email = $this->input->post('email');
+		$password = $this->input->post('password');
+
+		$records=array('email'=>$email,'password'=>$password);
+		$result = $this->Login_user->check_login($records);
+		
+		/*if ($result == true) {
+			$session_data = array(
+			'user_id' => $result[0]->user_id,
+			);
+			$this->session->set_userdata('logged_in', $session_data);
+			$this->session->set_flashdata("success", "Success , Login successfully");
+			redirect('index.php/login','refresh');
+		}
+
+		if ($result == false) {
+			$this->session->set_flashdata("failed", "Invalid username or password");
+			redirect('index.php/login','refresh');
+		}*/
+
+		if($result){
+			 $sess_array = array();
+			 foreach($result as $row)
+			 {
+			   $sess_array = array(
+				 'user_id' => $row->user_id,
+				 'email' => $row->email
+			   );
+			   $this->session->set_userdata('logged_in', $sess_array);
+			 }
+			 $this->session->set_flashdata("success", "Success , Login successfully");
+			 redirect('index.php/login','refresh');
+		}else{
+			 $this->session->set_flashdata("failed", "Invalid username or password");
+			 redirect('index.php/login','refresh');
+		}
+
 	}
 }
 

@@ -22,7 +22,7 @@ class User_dashboard extends CI_Controller {
 		//$this->load->view('module/home');
 		$data["content"] = 'user_dashboard';
 		$data["title"] = "Hire professional photographers";
-		$this->load->view("module/user_dashboard", $data);
+		$this->load->view("after_login/user_dashboard", $data);
 		//$this->load->view('welcome_message');
 	}
 }

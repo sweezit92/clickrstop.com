@@ -4,7 +4,7 @@
 <?php
 	 $this->load->view("common/meta_links");
 ?>
-
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVEqoCsKgUMmAcDVX9OAwVMDewLI6yOAQ&sensor=false&libraries=places&language=en"></script>
 <style>
 post-tab .tab-header.tertiary .tab-item.selected > p{
 border-top-color: #00d7b3 !important;
@@ -40,7 +40,12 @@ border-top-color: #00d7b3 !important;
 				<!-- AUTHOR PROFILE INFO ITEM -->
 				<div class="author-profile-info-item">
 					<p class="text-header">Member Since:</p>
-					<p>December 26th, 2013</p>
+					<p>December 26th, 2013 - <?php
+						$lul = $this->session->userdata['logged_in'];
+						print_r($lul);
+						echo "<br />";
+						echo $sudhu_user_id = $lul['user_id'];
+					?></p>
 				</div>
 				<!-- /AUTHOR PROFILE INFO ITEM -->
 
@@ -107,13 +112,13 @@ border-top-color: #00d7b3 !important;
 					<div class="tab-header primary">
 						<!-- TAB ITEM -->
 						<div class="tab-item selected" style="width:50%;"> 
-							<p class="text-header">General Seting</p>
+							<p class="text-header">General Settings</p>
 						</div>
 						<!-- /TAB ITEM -->
 
 						<!-- TAB ITEM -->
 						<div class="tab-item" style="width:50%;">
-							<p class="text-header">Password Setting</p>
+							<p class="text-header">Security Settings</p>
 						</div>
 						<!-- /TAB ITEM -->
 					</div>
@@ -163,76 +168,37 @@ border-top-color: #00d7b3 !important;
 										<input type="email" id="new_email" name="new_email" placeholder="Enter your email address here...">
 									</div>
 									<!-- /INPUT CONTAINER -->
-
-									<!-- INPUT CONTAINER -->
-										<div class="input-container half">
-										<label for="country1" class="rl-label required">Country</label>
-										<label for="country1" class="select-block">
-											<select name="country1" id="country1">
-												<option value="0">Select your Country...</option>
-												<option value="1">United States</option>
-												<option value="2">Argentina</option>
-												<option value="3">Brasil</option>
-												<option value="4">Japan</option>
-											</select>
-											<!-- SVG ARROW -->
-											<svg class="svg-arrow">
-												<use xlink:href="#svg-arrow"></use>
-											</svg>
-											<!-- /SVG ARROW -->
-										</label>
-									</div>
-									<!-- /INPUT CONTAINER -->
-
-									<!-- INPUT CONTAINER -->
-									<div class="input-container half">
-										<label for="country1" class="rl-label required">State</label>
-										<label for="country1" class="select-block">
-											<select name="country1" id="country1">
-												<option value="0">Select your State...</option>
-												<option value="1">United States</option>
-												<option value="2">Argentina</option>
-												<option value="3">Brasil</option>
-												<option value="4">Japan</option>
-											</select>
-											<!-- SVG ARROW -->
-											<svg class="svg-arrow">
-												<use xlink:href="#svg-arrow"></use>
-											</svg>
-											<!-- /SVG ARROW -->
-										</label>
-									</div>
-									<!-- /INPUT CONTAINER -->
-
 									
+									<!-- INPUT CONTAINER -->
+									<div class="input-container">
+										<label for="new_email" class="rl-label">City</label>
+										<input type="text" id="cityz" name="addr" placeholder="Choose from dropdown">
+									</div>
+									<!-- /INPUT CONTAINER -->
+
 									<!-- INPUT CONTAINER -->
 								<div class="input-container">
 									<label for="notes2" class="rl-label">About You</label>
 									<textarea form="profile-info-form" id="notes2" name="notes2" placeholder="Tell Your Stories..."></textarea>
 								</div>
-								<!-- /INPUT CONTAINER -->
 									
 
-									<!-- INPUT CONTAINER -->
-									<div class="input-container">
+									<!--<div class="input-container">
 										<label class="rl-label">Preferences</label>
-										<!-- CHECKBOX -->
+
 										<input type="checkbox" id="show_balance" name="show_balance" checked>
 										<label for="show_balance" class="label-check">
 											<span class="checkbox primary"><span></span></span>
 											Show account balance in the status bar
 										</label>
-										<!-- /CHECKBOX -->
 
-										<!-- CHECKBOX -->
 										<input type="checkbox" id="email_notif" name="email_notif">
 										<label for="email_notif" class="label-check">
 											<span class="checkbox primary"><span></span></span>
 											Send me email notifications
 										</label>
-										<!-- /CHECKBOX -->
 									</div>
-									<hr class="line-separator">
+									<hr class="line-separator">-->
 									<button class="button big dark">Update Profile</button>
 								</form>
 							</div>
@@ -299,5 +265,9 @@ border-top-color: #00d7b3 !important;
 <?php
 	$this->load->view("common/footer");
 ?>
+  <script>
+      var input = document.getElementById('cityz');
+      var autocomplete = new google.maps.places.Autocomplete(input);
+    </script>
 </body>
 </html>

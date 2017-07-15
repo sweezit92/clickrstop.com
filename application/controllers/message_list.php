@@ -22,7 +22,7 @@ class Message_list extends CI_Controller {
 		//$this->load->view('module/home');
 		$data["content"] = 'message_list';
 		$data["title"] = "Hire professional photographers";
-		$this->load->view("module/message_list", $data);
+		$this->load->view("after_login/message_list", $data);
 		//$this->load->view('welcome_message');
 	}
 }

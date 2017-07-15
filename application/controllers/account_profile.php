@@ -22,7 +22,7 @@ class Account_profile extends CI_Controller {
 		//$this->load->view('module/home');
 		$data["content"] = 'account_profile';
 		$data["title"] = "Hire professional photographers";
-		$this->load->view("module/account_profile", $data);
+		$this->load->view("after_login/account_profile", $data);
 		//$this->load->view('welcome_message');
 	}
 }

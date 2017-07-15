@@ -52,7 +52,7 @@
 	<!-- /MAIN MENU -->
 
 	<!-- BANNER -->
-	<div class="banner-wrap" >
+	<div class="banner-wrap" style="height:680px;">
 		<section class="banner">
 			<h5 style="margin-top:50px;margin-bottom:20px;">THE FASTER AND EASIER</h5>
 			<h1>WAY TO BOOK A PRO <span> PHOTOGRAPHER </span></h1>

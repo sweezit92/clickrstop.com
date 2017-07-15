@@ -22,7 +22,7 @@ class Ongoing_project extends CI_Controller {
 		//$this->load->view('module/home');
 		$data["content"] = 'ongoing_project';
 		$data["title"] = "Hire professional photographers";
-		$this->load->view("module/ongoing_project", $data);
+		$this->load->view("after_login/ongoing_project", $data);
 		//$this->load->view('welcome_message');
 	}
 }

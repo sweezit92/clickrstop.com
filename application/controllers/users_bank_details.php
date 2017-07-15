@@ -22,7 +22,7 @@ class Users_bank_details extends CI_Controller {
 		//$this->load->view('module/home');
 		$data["content"] = 'users_bank_details';
 		$data["title"] = "Hire professional photographers";
-		$this->load->view("module/users_bank_details", $data);
+		$this->load->view("after_login/users_bank_details", $data);
 		//$this->load->view('welcome_message');
 	}
 }

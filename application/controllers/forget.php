@@ -22,7 +22,7 @@ class Forget extends CI_Controller {
 		//$this->load->view('module/home');
 		$data["content"] = 'forget';
 		$data["title"] = "Forget password";
-		$this->load->view("module/forget", $data);
+		$this->load->view("before_login/forget", $data);
 		//$this->load->view('welcome_message');
 	}
 }

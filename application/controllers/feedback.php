@@ -22,7 +22,7 @@ class Feedback extends CI_Controller {
 		//$this->load->view('module/home');
 		$data["content"] = 'feedback';
 		$data["title"] = "Hire professional photographers";
-		$this->load->view("module/feedback", $data);
+		$this->load->view("after_login/feedback", $data);
 		//$this->load->view('welcome_message');
 	}
 }

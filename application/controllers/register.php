@@ -22,9 +22,37 @@ class Register extends CI_Controller {
 		//$this->load->view('module/home');
 		$data["content"] = 'register';
 		$data["title"] = "Register";
-		$this->load->view("module/register", $data);
+		$this->load->view("before_login/register", $data);
 		//$this->load->view('welcome_message');
 	}
+
+	public function save_register(){
+		$this->load->model('register_user');
+
+		$type = $this->input->post('type');
+		$fname = $this->input->post('fname');
+		$lname = $this->input->post('lname');
+		$email = $this->input->post('email');
+		$password = "12345";
+		$city = "";
+		$about = "";
+		$date = time();
+		$status = "active";
+		$image = "";
+		;
+		$records=array('user_type'=>$type,'fname'=>$fname,'lname'=>$lname,'email'=>$email,'password'=>$password,'city'=>$city,'about'=>$about,'date'=>$date,'status'=>$status,'profile_picture'=>$image);
+		$this->register_user->save_register($records);
+		if($this->db->affected_rows() > 0)
+		{
+			$this->session->set_flashdata("success", "Success , Check email for login credentials.");
+		}else{
+			$this->session->set_flashdata("failed", "Something went wrong!");
+		}
+			
+		redirect('index.php/register','refresh');
+	}
+
+	
 }
 
 /* End of file welcome.php */

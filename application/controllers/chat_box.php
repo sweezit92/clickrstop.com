@@ -22,7 +22,7 @@ class Chat_box extends CI_Controller {
 		//$this->load->view('module/home');
 		$data["content"] = 'chat_box';
 		$data["title"] = "Hire professional photographers";
-		$this->load->view("module/chat_box", $data);
+		$this->load->view("after_login/chat_box", $data);
 		//$this->load->view('welcome_message');
 	}
 }
