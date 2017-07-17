@@ -5,7 +5,7 @@
 				<ul class="main-menu">
 					<!-- MENU ITEM -->
 					<li class="menu-item active">
-						<a href="<?php echo base_url();?>" class="active">Home</a>
+						<a href="<?php echo base_url();?>" class="active"><img src="images/new_test.png" style="height:70px;"></a>
 					</li>
 					<!-- /MENU ITEM -->
 				
@@ -31,17 +31,14 @@
 						<a href="<?php echo base_url();?>index.php/add_project" style="color:#fff;">POST PROJECT</a>
 					</li>
 
-					<!-- MENU ITEM -->
+					<!-- MENU ITEM 
 					<li class="menu-item">
 						<a href="<?php echo base_url();?>index.php/login">Login</a>
 					</li>
-					<!-- /MENU ITEM -->
-
-					<!-- MENU ITEM -->
 					<li class="menu-item">
 						<a href="<?php echo base_url();?>index.php/register">Register</a>
 					</li>
-					<!-- /MENU ITEM -->
+					 /MENU ITEM -->
 
 					<li class="menu-item sub" style="float:right;">
 						<a href="#">
