@@ -42,7 +42,6 @@ class Account_profile extends CI_Controller {
 		$email = $this->input->post('new_email');
 		$city = $this->input->post('addr');
 		$about = $this->input->post('about_z');
-		
 		$pro_picimg = $this->input->post('picture');
 
 		if(!empty($_FILES['picture']['name'])){
@@ -64,14 +63,13 @@ class Account_profile extends CI_Controller {
 			$picture = '';
 		}
 		
-		print_r($uploadData);
+		//print_r($uploadData);
 
 		if(isset($this->session->userdata['logged_in'])){
 			
-			exit;
 			$lul = $this->session->userdata['logged_in'];
 			$user_id = $lul['user_id'];
-			$records=array('fname'=>$fname,'lname'=>$lname,'email'=>$email,'city'=>$city,'about'=>$about,'profile_picture'=>$picture);
+			$records=array('fname'=>$fname,'lname'=>$lname,'email'=>$email,'city'=>$city,'about'=>$about,'profile_picture'=> 'profile_pic/'.$picture.'');
 			$update_user_data = $this->account_profile_u->edit_user($user_id,$records);
 			if($update_user_data)
 			{
@@ -82,7 +80,7 @@ class Account_profile extends CI_Controller {
 		}else{
 			redirect('index.php/login','refresh');	
 		}
-		//redirect('index.php/account_profile','refresh');	
+		redirect('index.php/account_profile','refresh');	
 
 	}
 
