@@ -22,7 +22,7 @@ class Add_service extends CI_Controller {
 		//$this->load->view('module/home');
 		$data["content"] = 'add_service';
 		$data["title"] = "Hire professional photographers";
-		$this->load->view("after_login/add_service", $data);
+		$this->load->view("module/add_service", $data);
 		//$this->load->view('welcome_message');
 	}
 }

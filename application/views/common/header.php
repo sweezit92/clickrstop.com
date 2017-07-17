@@ -5,7 +5,7 @@
 				<ul class="main-menu">
 					<!-- MENU ITEM -->
 					<li class="menu-item active">
-						<a href="<?php echo base_url();?>" class="active"><img src="<?php echo base_url();?>images/Screenshot_6.png" style="height:70px;"></a>
+						<a href="<?php echo base_url();?>" class="active"><img src="<?php echo base_url();?>images/Screenshot_6.png" style="height:60px;width:200px"></a>
 					</li>
 					<!-- /MENU ITEM -->
 				
@@ -32,9 +32,7 @@
 					</li>
 					
 					<?php
-						$lul = $this->session->userdata['logged_in'];
-						//echo $sudhu_user_id = $lul['user_id'];
-						if(isset($lul) && $lul == true && $lul != ""){
+						if(isset($this->session->userdata['logged_in'])){
 
 					?>
 					<li class="menu-item sub" style="float:right;">
@@ -46,16 +44,28 @@
 						</a>
 						<ul class="dropdown closed" >
 							<li class="dropdown-item">
-								<a href="#">Dashboard</a>
+								<a href="<?php echo base_url();?>index.php/user_dashboard">Dashboard</a>
 							</li>
 							<li class="dropdown-item">
-								<a href="#">Message</a>
+								<a href="<?php echo base_url();?>index.php/">My Profile</a>
 							</li>
 							<li class="dropdown-item">
-								<a href="#">Stock Photography</a>
+								<a href="<?php echo base_url();?>index.php/">Add Services</a>
 							</li>
 							<li class="dropdown-item">
-								<a href="#">Code and Plugins</a>
+								<a href="<?php echo base_url();?>index.php/message_list">Messages</a>
+							</li>
+							<li class="dropdown-item">
+								<a href="<?php echo base_url();?>index.php/ongoing_project">Ongoing Projects</a>
+							</li>
+							<li class="dropdown-item">
+								<a href="<?php echo base_url();?>index.php/transaction">Accounts &amp; Finance</a>
+							</li>
+							<li class="dropdown-item">
+								<a href="<?php echo base_url();?>index.php/feedback">Feedback &amp; Ratings</a>
+							</li>
+							<li class="dropdown-item">
+								<a href="<?php echo base_url();?>index.php/account_profile">Settings</a>
 							</li>
 						</ul>
 					</li>
