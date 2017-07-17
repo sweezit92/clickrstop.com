@@ -33,6 +33,29 @@ class Account_profile extends CI_Controller {
 		//$this->load->view('welcome_message');
 	}
 
+	public function edit_details()
+	{
+		$this->load->model('edit_user');
+
+		$fname = $this->input->post('fname');
+		$lname = $this->input->post('lname');
+		$email = $this->input->post('email');
+		$city =$this->input->post('addr');
+		$about = $this->input->post('about');
+		$lul = $this->session->userdata['logged_in'];
+		$user_id = $lul['user_id'];
+		$records=array('user_id'=>$user_id,'fname'=>$fname,'lname'=>$lname,'email'=>$email,'city'=>$city,'about'=>$about);
+		$this->edit_user->edit_details($records);
+		if($this->db->affected_rows() > 0)
+		{
+			$this->session->set_flashdata("success", "Success , Check email for login credentials.");
+		}else{
+			$this->session->set_flashdata("failed", "Something went wrong!");
+		}
+			
+
+	}
+
 	
 }
 

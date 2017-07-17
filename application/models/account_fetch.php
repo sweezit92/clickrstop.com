@@ -8,13 +8,12 @@
 
 class Account_fetch extends CI_Model 
 {
-	public function fetch_details($get_result)
+	public function fetch_details($records)
 	{
-		$condition = "user_id =" . "'" .$get_result. "'";
-		$this->db->select('*');
-		$this->db->from('users');
-		$this->db->where($condition);
-		$this->db->limit(1);
+		
+		$this->db->where('user_id', $records['user_id']);
+		$this->db->update('users', $data);
+
 		$query = $this->db->get();
 		return $query->result();
 

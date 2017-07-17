@@ -134,7 +134,12 @@ border-top-color: #00d7b3 !important;
 								<h4>Profile Information</h4>
 								<hr class="line-separator">
 								<!-- PROFILE IMAGE UPLOAD -->
-								<div class="profile-image">
+							
+								<!-- PROFILE IMAGE UPLOAD -->
+
+								<form name="myform" method="POST" action="<?php echo base_url();?>index.php/account_profile/edit_details" enctype="multipart/form-data">
+									
+										<div class="profile-image">
 									<div class="profile-image-data">
 										<figure class="user-avatar medium">
 											<img src="<?php echo base_url();?>images/profile-default-image.png" alt="profile-default-image">
@@ -144,11 +149,6 @@ border-top-color: #00d7b3 !important;
 									</div>
 									<a href="#" class="button mid-short dark-light">Upload Image...</a>
 								</div>
-								<!-- PROFILE IMAGE UPLOAD -->
-
-								<form id="profile-info-form">
-									
-
 									<!-- INPUT CONTAINER -->
 									<div class="input-container half">
 										<label for="new_pwd" class="rl-label">First Name</label>
@@ -180,7 +180,7 @@ border-top-color: #00d7b3 !important;
 									<!-- INPUT CONTAINER -->
 								<div class="input-container">
 									<label for="notes2" class="rl-label">About You</label>
-									<textarea form="profile-info-form" id="notes2" name="notes2" placeholder="Tell Your Stories..."><?php echo $user_data['about'];?></textarea>
+									<textarea form="profile-info-form" id="notes2" name="about" placeholder="Tell Your Stories..."><?php echo $user_data['about'];?></textarea>
 								</div>
 									
 
