@@ -38,7 +38,7 @@ class Register extends CI_Controller {
 		$about = "";
 		$date = time();
 		$status = "active";
-		$image = "";
+		$image = "profile_pic/user-icon-png-pnglogocom.png";
 		;
 		$records=array('user_type'=>$type,'fname'=>$fname,'lname'=>$lname,'email'=>$email,'password'=>$password,'city'=>$city,'about'=>$about,'date'=>$date,'status'=>$status,'profile_picture'=>$image);
 		$this->register_u->save_register($records);
