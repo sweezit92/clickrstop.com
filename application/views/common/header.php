@@ -33,8 +33,8 @@
 					
 					<?php
 						$lul = $this->session->userdata['logged_in'];
-						echo $sudhu_user_id = $lul['user_id'];
-						if(!$this->session->userdata['logged_in']){
+						//echo $sudhu_user_id = $lul['user_id'];
+						if(isset($lul) && $lul != "" && $lul != false){
 
 					?>
 

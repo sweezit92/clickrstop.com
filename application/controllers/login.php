@@ -65,7 +65,11 @@ class Login extends CI_Controller {
 			 $this->session->set_flashdata("failed", "Invalid username or password");
 			 redirect('index.php/login','refresh');
 		}
+	}
 
+	public function logout(){
+		$this->session->sess_destroy();
+		redirect('index.php/login','refresh'); 
 	}
 }
 

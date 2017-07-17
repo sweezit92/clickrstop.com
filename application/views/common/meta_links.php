@@ -13,3 +13,4 @@
 	</style>
 
 	<title><?php echo $title;?> | Clickrstop - Empowering photography passion </title>
+
