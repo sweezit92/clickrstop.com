@@ -44,13 +44,8 @@
 
 				<!-- FORM POPUP CONTENT -->
 				<div class="form-popup-content">
-					<h4 class="popup-title">Login to your Account |
-					<?php
-						$lul = $this->session->userdata['logged_in'];
-						print_r($lul);
-						echo "<br />";
-						echo $sudhu_user_id = $lul['user_id'];
-					?>
+					<h4 class="popup-title">Login to your Account 
+				
 					</h4>
 					<hr class="line-separator double">
 

@@ -60,7 +60,7 @@ class Login extends CI_Controller {
 			   $this->session->set_userdata('logged_in', $sess_array);
 			 }
 			 $this->session->set_flashdata("success", "Success , Login successfully");
-			 redirect('index.php/login','refresh');
+			 redirect('index.php/account_profile','refresh');
 		}else{
 			 $this->session->set_flashdata("failed", "Invalid username or password");
 			 redirect('index.php/login','refresh');
