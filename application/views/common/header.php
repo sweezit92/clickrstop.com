@@ -5,7 +5,7 @@
 				<ul class="main-menu">
 					<!-- MENU ITEM -->
 					<li class="menu-item active">
-						<a href="<?php echo base_url();?>" class="active"><img src="images/new_test.png" style="height:70px;"></a>
+						<a href="<?php echo base_url();?>" class="active"><img src="<?php echo base_url();?>images/Screenshot_6.png" style="height:70px;"></a>
 					</li>
 					<!-- /MENU ITEM -->
 				
@@ -30,16 +30,23 @@
 					<li class="menu-item" style="background:#ff932a;color:#fff;">
 						<a href="<?php echo base_url();?>index.php/add_project" style="color:#fff;">POST PROJECT</a>
 					</li>
+					
+					<?php
+						$lul = $this->session->userdata['logged_in'];
+						echo $sudhu_user_id = $lul['user_id'];
+						if(!$this->session->userdata['logged_in']){
 
-					<!-- MENU ITEM 
+					?>
+
 					<li class="menu-item">
 						<a href="<?php echo base_url();?>index.php/login">Login</a>
 					</li>
 					<li class="menu-item">
 						<a href="<?php echo base_url();?>index.php/register">Register</a>
 					</li>
-					 /MENU ITEM -->
-
+					<?php
+						}else{
+					?>
 					<li class="menu-item sub" style="float:right;">
 						<a href="#">
 							Dashboard
@@ -62,7 +69,9 @@
 							</li>
 						</ul>
 					</li>
-
+					<?php
+					}
+					?>
 					
 
 				</ul>
