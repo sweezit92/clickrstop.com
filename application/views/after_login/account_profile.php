@@ -40,7 +40,13 @@ border-top-color: #00d7b3 !important;
 				<!-- AUTHOR PROFILE INFO ITEM -->
 				<div class="author-profile-info-item">
 					<p class="text-header">Member Since:</p>
-					<p>December 26th, 2013 - <?php print_r($usr_data)?></p>
+					<p>December 26th, 2013 - 
+					<?php 
+					$row = $usr_data;
+					$array = json_decode(json_encode($row),True);
+					print_r($array);
+					?>
+					</p>
 				</div>
 				<!-- /AUTHOR PROFILE INFO ITEM -->
 
@@ -102,6 +108,7 @@ border-top-color: #00d7b3 !important;
 					<!-- FORM BOX ITEMS -->
 			<div class="content left">
 			<!-- POST TAB -->
+			
 				<div class="post-tab">
 					<!-- TAB HEADER -->
 					<div class="tab-header primary">
@@ -124,6 +131,7 @@ border-top-color: #00d7b3 !important;
 						<!-- COMMENTS -->
 						
 							<!-- FORM BOX ITEM -->
+							
 							<div class="form-box-item " style="width:100%;">
 								<h4>Profile Information</h4>
 								<hr class="line-separator">
@@ -146,7 +154,7 @@ border-top-color: #00d7b3 !important;
 									<!-- INPUT CONTAINER -->
 									<div class="input-container half">
 										<label for="new_pwd" class="rl-label">First Name</label>
-										<input type="text" id="new_pwd" name="first_name" placeholder="Enter your Firstname here...">
+										<input type="text" id="new_pwd" value="<?php echo $row['fname'];?>" name="first_name" placeholder="Enter your Firstname here...">
 									</div>
 									<!-- /INPUT CONTAINER -->
 
@@ -197,6 +205,7 @@ border-top-color: #00d7b3 !important;
 									<button class="button big dark">Update Profile</button>
 								</form>
 							</div>
+						
 					</div>
 					<!-- /TAB CONTENT -->
 
@@ -238,6 +247,7 @@ border-top-color: #00d7b3 !important;
 					<!-- /TAB CONTENT -->
 
 				</div>
+			
 			<!-- /POST TAB -->
 			</div>
 
