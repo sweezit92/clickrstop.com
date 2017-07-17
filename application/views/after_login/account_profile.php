@@ -107,6 +107,25 @@ border-top-color: #00d7b3 !important;
 			<?php 
 				$user_data = json_decode(json_encode($usr_data[0]), True);
 			?>
+				<?php
+				if($this->session->flashdata('success')){
+			?>
+				<div class="form-popup headline primary align-center" style="margin-bottom:10px;width:100%;">
+					<h4><img src="<?php echo base_url();?>images/if_sign-check_299110.png" style="height:34px;margin-top:15px;float:left;"> &nbsp; <p style="margin-top:25px;float:left;margin-left:10px;"><?php echo $this->session->flashdata('success');?></p></h4>
+				</div>
+			<?php
+				}
+			?>
+
+			<?php
+				if($this->session->flashdata('failed')){
+			?>
+				<div class="form-popup headline primary align-center" style="margin-bottom:10px;width:100%;">
+					<h4><img src="<?php echo base_url();?>images/if_ic_cancel_48px_352263.png" style="height:34px;margin-top:15px;float:left;"> &nbsp; <p style="margin-top:25px;float:left;margin-left:10px;"><?php echo $this->session->flashdata('failed');?></p></h4>
+				</div>
+			<?php
+				}
+			?>
 				<div class="post-tab">
 					<!-- TAB HEADER -->
 					<div class="tab-header primary">
@@ -136,10 +155,11 @@ border-top-color: #00d7b3 !important;
 								<!-- PROFILE IMAGE UPLOAD -->
 							
 								<!-- PROFILE IMAGE UPLOAD -->
+								
 
 								<form name="myform" method="POST" action="<?php echo base_url();?>index.php/account_profile/edit_details" enctype="multipart/form-data">
 									
-										<div class="profile-image">
+								<div class="profile-image">
 									<div class="profile-image-data">
 										<figure class="user-avatar medium">
 											<img src="<?php echo base_url().$user_data['profile_picture']; ?>" alt="profile-default-image">
@@ -147,7 +167,8 @@ border-top-color: #00d7b3 !important;
 										<p class="text-header">Profile Photo</p>
 										<p class="upload-details">Minimum size 70x70px</p>
 									</div>
-									<a href="#" class="button mid-short dark-light">Upload Image...</a>
+									<label class="button mid-short dark-light" for="pro_pic">Upload Image</label>
+									<input type="file" id="pro_pic" name="pro_picimg" style="display:none;" />
 								</div>
 									<!-- INPUT CONTAINER -->
 									<div class="input-container half">
@@ -180,7 +201,7 @@ border-top-color: #00d7b3 !important;
 									<!-- INPUT CONTAINER -->
 								<div class="input-container">
 									<label for="notes2" class="rl-label">About You</label>
-									<textarea form="profile-info-form" id="notes2" name="about" placeholder="Tell Your Stories..."><?php echo $user_data['about'];?></textarea>
+									<textarea id="notes2" name="about_z" placeholder="Tell Your Stories."><?php echo $user_data['about'];?></textarea>
 								</div>
 									
 
