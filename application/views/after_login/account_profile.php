@@ -42,9 +42,12 @@ border-top-color: #00d7b3 !important;
 					<p class="text-header">Member Since:</p>
 					<p>December 26th, 2013 - 
 					<?php 
-					$row = $usr_data;
-					$array = json_decode(json_encode($row),True);
-					print_r($array);
+					//$row = $usr_data->result();
+					
+					$user_data = json_decode(json_encode($usr_data[0]), True);
+
+					//print_r($user_data);
+					echo $user_data['fname'];
 					?>
 					</p>
 				</div>

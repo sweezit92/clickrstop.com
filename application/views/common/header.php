@@ -34,18 +34,8 @@
 					<?php
 						$lul = $this->session->userdata['logged_in'];
 						//echo $sudhu_user_id = $lul['user_id'];
-						if(isset($lul) && $lul != "" && $lul != false){
+						if(isset($lul) && $lul == true && $lul != ""){
 
-					?>
-
-					<li class="menu-item">
-						<a href="<?php echo base_url();?>index.php/login">Login</a>
-					</li>
-					<li class="menu-item">
-						<a href="<?php echo base_url();?>index.php/register">Register</a>
-					</li>
-					<?php
-						}else{
 					?>
 					<li class="menu-item sub" style="float:right;">
 						<a href="#">
@@ -68,6 +58,16 @@
 								<a href="#">Code and Plugins</a>
 							</li>
 						</ul>
+					</li>
+					
+					<?php
+						}else{
+					?>
+					<li class="menu-item">
+						<a href="<?php echo base_url();?>index.php/login">Login</a>
+					</li>
+					<li class="menu-item">
+						<a href="<?php echo base_url();?>index.php/register">Register</a>
 					</li>
 					<?php
 					}
