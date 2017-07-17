@@ -22,9 +22,18 @@ class Account_profile extends CI_Controller {
 		//$this->load->view('module/home');
 		$data["content"] = 'account_profile';
 		$data["title"] = "Hire professional photographers";
+
+		$this->load->model('account_fetch');
+		$lul = $this->session->userdata['logged_in'];
+		$sudhu_user_id = $lul['user_id'];
+		$data["usr_data"] = $this->account_fetch->fetch_details($sudhu_user_id);
+
+
 		$this->load->view("after_login/account_profile", $data);
 		//$this->load->view('welcome_message');
 	}
+
+	
 }
 
 /* End of file welcome.php */
