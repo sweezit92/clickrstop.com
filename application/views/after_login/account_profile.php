@@ -27,7 +27,7 @@ border-top-color: #00d7b3 !important;
 	<div class="section-headline-wrap">
 		<div class="section-headline">
 			<h2>Author's Profile</h2>
-			<p>Home<span class="separator">/</span><span class="current-section">Author's Profile</span></p>
+			<p>Home<span class="separator">/</span><span class="current-section">Author's Profile-</span></p>
 		</div>
 	</div>
 	<!-- /SECTION HEADLINE -->
@@ -40,12 +40,7 @@ border-top-color: #00d7b3 !important;
 				<!-- AUTHOR PROFILE INFO ITEM -->
 				<div class="author-profile-info-item">
 					<p class="text-header">Member Since:</p>
-					<p>December 26th, 2013 - <?php
-						$lul = $this->session->userdata['logged_in'];
-						print_r($lul);
-						echo "<br />";
-						echo $sudhu_user_id = $lul['user_id'];
-					?></p>
+					<p>December 26th, 2013 - <?php print_r($usr_data)?></p>
 				</div>
 				<!-- /AUTHOR PROFILE INFO ITEM -->
 
