@@ -39,18 +39,27 @@ class Register extends CI_Controller {
 		$date = time();
 		$status = "active";
 		$image = "profile_pic/user-icon-png-pnglogocom.png";
-		;
-		$records=array('user_type'=>$type,'fname'=>$fname,'lname'=>$lname,'email'=>$email,'password'=>$password,'city'=>$city,'about'=>$about,'date'=>$date,'status'=>$status,'profile_picture'=>$image);
-		$this->register_u->save_register($records);
-		if($this->db->affected_rows() > 0)
-		{
-			$this->session->set_flashdata("success", "Success , Check email for login credentials.");
+
+        $this->load->library('form_validation');
+		$this->form_validation->set_rules('email','Email','is_unique[users.email]');
+
+		if($this->form_validation->run() == False){
+			$this->session->set_flashdata("failed", "Email already exists");
 		}else{
-			$this->session->set_flashdata("failed", "Something went wrong!");
+			$records=array('user_type'=>$type,'fname'=>$fname,'lname'=>$lname,'email'=>$email,'password'=>$password,'city'=>$city,'about'=>$about,'date'=>$date,'status'=>$status,'profile_picture'=>$image);
+			$this->register_u->save_register($records);
+			if($this->db->affected_rows() > 0)
+			{
+				$this->session->set_flashdata("success", "Success , Check email for login credentials.");
+			}else{
+				$this->session->set_flashdata("failed", "Something went wrong!");
+			}
 		}
 			
 		redirect('index.php/register','refresh');
 	}
+
+	
 
 	
 }

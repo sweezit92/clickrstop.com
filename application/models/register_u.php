@@ -13,5 +13,7 @@ class Register_u extends CI_Model
 		$flag=$this->db->insert('users', $records);
 		return $flag;
 	}
+
+	
 }
 ?>
