@@ -27,7 +27,7 @@ class Register extends CI_Controller {
 	}
 
 	public function save_register(){
-		$this->load->model('register_user');
+		$this->load->model('register_u');
 
 		$type = $this->input->post('type');
 		$fname = $this->input->post('fname');
@@ -41,7 +41,7 @@ class Register extends CI_Controller {
 		$image = "";
 		;
 		$records=array('user_type'=>$type,'fname'=>$fname,'lname'=>$lname,'email'=>$email,'password'=>$password,'city'=>$city,'about'=>$about,'date'=>$date,'status'=>$status,'profile_picture'=>$image);
-		$this->register_user->save_register($records);
+		$this->register_u->save_register($records);
 		if($this->db->affected_rows() > 0)
 		{
 			$this->session->set_flashdata("success", "Success , Check email for login credentials.");

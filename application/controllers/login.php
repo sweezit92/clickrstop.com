@@ -27,13 +27,13 @@ class Login extends CI_Controller {
 	}
 
 	public function login_check(){
-		$this->load->model('Login_user');
+		$this->load->model('Login_u');
 
 		$email = $this->input->post('email');
 		$password = $this->input->post('password');
 
 		$records=array('email'=>$email,'password'=>$password);
-		$result = $this->Login_user->check_login($records);
+		$result = $this->Login_u->check_login($records);
 		
 		/*if ($result == true) {
 			$session_data = array(

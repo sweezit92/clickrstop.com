@@ -23,17 +23,17 @@ class Account_profile extends CI_Controller {
 		$data["content"] = 'account_profile';
 		$data["title"] = "Hire professional photographers";
 
-		$this->load->model('account_fetch');
+		$this->load->model('account_profile_u');
 		$lul = $this->session->userdata['logged_in'];
 		$sudhu_user_id = $lul['user_id'];
-		$data["usr_data"] = $this->account_fetch->fetch_details($sudhu_user_id);
+		$data["usr_data"] = $this->account_profile_u->fetch_details($sudhu_user_id);
 
 
 		$this->load->view("after_login/account_profile", $data);
 		//$this->load->view('welcome_message');
 	}
 
-	public function edit_details()
+	/*public function edit_details()
 	{
 		$this->load->model('edit_user');
 
@@ -54,7 +54,7 @@ class Account_profile extends CI_Controller {
 		}
 			
 
-	}
+	}*/
 
 	
 }

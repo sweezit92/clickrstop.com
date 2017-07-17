@@ -6,7 +6,7 @@
 
 */
 
-class Register_user extends CI_Model 
+class Register_u extends CI_Model 
 {
 	public function save_register($records)
 	{

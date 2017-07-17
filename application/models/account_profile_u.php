@@ -6,22 +6,24 @@
 
 */
 
-class Account_fetch extends CI_Model 
+class Account_profile_u extends CI_Model 
 {
 	public function fetch_details($sudhu_user_id)
 	{
-		$condition = "userid =" . "'" .$sudhu_user_id. "'";
+		
+		$condition = "user_id =" . "'" .$sudhu_user_id. "'";
 		$this->db->select('*');
 		$this->db->from('users');
 		$this->db->where($condition);
 		$this->db->limit(1);
 		$query = $this->db->get();
+		return $query->result();
 
-		if($query->num_rows() == 1){
-			return $query->result();
-		}else{
-			return false;
-		}
 	}
+
+	
+
 }
+
+
 ?>

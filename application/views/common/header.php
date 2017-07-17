@@ -67,6 +67,9 @@
 							<li class="dropdown-item">
 								<a href="<?php echo base_url();?>index.php/account_profile">Settings</a>
 							</li>
+							<li class="dropdown-item">
+								<a href="<?php echo base_url();?>index.php/login/logout">Logout</a>
+							</li>
 						</ul>
 					</li>
 					

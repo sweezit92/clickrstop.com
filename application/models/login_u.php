@@ -6,7 +6,7 @@
 
 */
 
-class Login_user extends CI_Model 
+class Login_u extends CI_Model 
 {
 	public function check_login($records)
 	{
