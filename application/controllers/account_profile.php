@@ -22,12 +22,15 @@ class Account_profile extends CI_Controller {
 		//$this->load->view('module/home');
 		$data["content"] = 'account_profile';
 		$data["title"] = "Hire professional photographers";
-
 		$this->load->model('account_profile_u');
-		$lul = $this->session->userdata['logged_in'];
-		$sudhu_user_id = $lul['user_id'];
-		$data["usr_data"] = $this->account_profile_u->fetch_details($sudhu_user_id);
-		$this->load->view("after_login/account_profile", $data);
+		if(isset($this->session->userdata['logged_in'])){
+			$lul = $this->session->userdata['logged_in'];
+			$sudhu_user_id = $lul['user_id'];
+			$data["usr_data"] = $this->account_profile_u->fetch_details($sudhu_user_id);
+			$this->load->view("after_login/account_profile", $data);
+		}else{
+			redirect('index.php/login','refresh');
+		}
 	}
 
 	public function edit_details()
@@ -40,17 +43,18 @@ class Account_profile extends CI_Controller {
 		$city = $this->input->post('addr');
 		$about = $this->input->post('about_z');
 		
-		$pro_picimg = $this->input->post('pro_picimg');
+		$pro_picimg = $this->input->post('picture');
 
-		if(!empty($_FILES['pro_picimg']['name'])){
-                $config['upload_path'] = ''.base_url().'profile_pic/';
+		if(!empty($_FILES['picture']['name'])){
+				echo "sss";
+                $config['upload_path'] = 'profile_pic/';
                 $config['allowed_types'] = 'jpg|jpeg|png|gif';
-                $config['file_name'] = $_FILES['pro_picimg']['name'];
+                $config['file_name'] = $_FILES['picture']['name'];
                 
                 $this->load->library('upload',$config);
                 $this->upload->initialize($config);
                 
-                if($this->upload->do_upload('pro_picimg')){
+                if($this->upload->do_upload('picture')){
                     $uploadData = $this->upload->data();
                     $picture = $uploadData['file_name'];
                 }else{
@@ -60,19 +64,25 @@ class Account_profile extends CI_Controller {
 			$picture = '';
 		}
 		
+		print_r($uploadData);
 
-		$lul = $this->session->userdata['logged_in'];
-		$user_id = $lul['user_id'];
-		$records=array('fname'=>$fname,'lname'=>$lname,'email'=>$email,'city'=>$city,'about'=>$about,'profile_picture'=>$picture);
-
-		$update_user_data = $this->account_profile_u->edit_user($user_id,$records);
-		if($update_user_data)
-		{
-			$this->session->set_flashdata("success", "Success , Your data updated successfully.");
+		if(isset($this->session->userdata['logged_in'])){
+			
+			exit;
+			$lul = $this->session->userdata['logged_in'];
+			$user_id = $lul['user_id'];
+			$records=array('fname'=>$fname,'lname'=>$lname,'email'=>$email,'city'=>$city,'about'=>$about,'profile_picture'=>$picture);
+			$update_user_data = $this->account_profile_u->edit_user($user_id,$records);
+			if($update_user_data)
+			{
+				$this->session->set_flashdata("success", "Success , Your data updated successfully.");
+			}else{
+				$this->session->set_flashdata("failed", "Something went wrong!");
+			}
 		}else{
-			$this->session->set_flashdata("failed", "Something went wrong!");
+			redirect('index.php/login','refresh');	
 		}
-		redirect('index.php/account_profile','refresh');	
+		//redirect('index.php/account_profile','refresh');	
 
 	}
 

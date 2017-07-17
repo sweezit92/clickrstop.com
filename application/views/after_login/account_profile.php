@@ -167,8 +167,8 @@ border-top-color: #00d7b3 !important;
 										<p class="text-header">Profile Photo</p>
 										<p class="upload-details">Minimum size 70x70px</p>
 									</div>
-									<label class="button mid-short dark-light" for="pro_pic">Upload Image</label>
-									<input type="file" id="pro_pic" name="pro_picimg" style="display:none;" />
+									<!--<label class="button mid-short dark-light" for="pro_pic">Upload Image</label>-->
+									<input type="file" id="pro_pic" name="picture" />
 								</div>
 									<!-- INPUT CONTAINER -->
 									<div class="input-container half">
