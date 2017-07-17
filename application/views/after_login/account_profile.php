@@ -41,14 +41,7 @@ border-top-color: #00d7b3 !important;
 				<div class="author-profile-info-item">
 					<p class="text-header">Member Since:</p>
 					<p>December 26th, 2013 - 
-					<?php 
-					//$row = $usr_data->result();
 					
-					$user_data = json_decode(json_encode($usr_data[0]), True);
-
-					//print_r($user_data);
-					echo $user_data['fname'];
-					?>
 					</p>
 				</div>
 				<!-- /AUTHOR PROFILE INFO ITEM -->
@@ -111,7 +104,9 @@ border-top-color: #00d7b3 !important;
 					<!-- FORM BOX ITEMS -->
 			<div class="content left">
 			<!-- POST TAB -->
-			
+			<?php 
+				$user_data = json_decode(json_encode($usr_data[0]), True);
+			?>
 				<div class="post-tab">
 					<!-- TAB HEADER -->
 					<div class="tab-header primary">
@@ -157,35 +152,35 @@ border-top-color: #00d7b3 !important;
 									<!-- INPUT CONTAINER -->
 									<div class="input-container half">
 										<label for="new_pwd" class="rl-label">First Name</label>
-										<input type="text" id="new_pwd" value="<?php echo $row['fname'];?>" name="first_name" placeholder="Enter your Firstname here...">
+										<input type="text" id="new_pwd" value="<?php echo $user_data['fname'];?>" name="first_name" placeholder="Enter your Firstname here...">
 									</div>
 									<!-- /INPUT CONTAINER -->
 
 									<!-- INPUT CONTAINER -->
 									<div class="input-container half">
 										<label for="new_pwd2" class="rl-label">Last Name</label>
-										<input type="text" id="new_pwd2" name="last_name" placeholder="Enter Your Lastname here...">
+										<input type="text" id="new_pwd2" value="<?php echo $user_data['lname'];?>" name="last_name" placeholder="Enter Your Lastname here...">
 									</div>
 									<!-- /INPUT CONTAINER -->
 
 									<!-- INPUT CONTAINER -->
 									<div class="input-container">
 										<label for="new_email" class="rl-label">Email</label>
-										<input type="email" id="new_email" name="new_email" placeholder="Enter your email address here...">
+										<input type="email" id="new_email" name="new_email" value="<?php echo $user_data['email'];?>" placeholder="Enter your email address here...">
 									</div>
 									<!-- /INPUT CONTAINER -->
 									
 									<!-- INPUT CONTAINER -->
 									<div class="input-container">
 										<label for="new_email" class="rl-label">City</label>
-										<input type="text" id="cityz" name="addr" placeholder="Choose from dropdown">
+										<input type="text" id="cityz" name="addr" value="<?php echo $user_data['city'];?>" placeholder="Choose from dropdown">
 									</div>
 									<!-- /INPUT CONTAINER -->
 
 									<!-- INPUT CONTAINER -->
 								<div class="input-container">
 									<label for="notes2" class="rl-label">About You</label>
-									<textarea form="profile-info-form" id="notes2" name="notes2" placeholder="Tell Your Stories..."></textarea>
+									<textarea form="profile-info-form" id="notes2" name="notes2" placeholder="Tell Your Stories..."><?php echo $user_data['about'];?></textarea>
 								</div>
 									
 
