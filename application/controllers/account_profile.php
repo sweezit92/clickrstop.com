@@ -33,9 +33,9 @@ class Account_profile extends CI_Controller {
 		//$this->load->view('welcome_message');
 	}
 
-	/*public function edit_details()
+	public function edit_details()
 	{
-		$this->load->model('edit_user');
+		$this->load->model('account_profile_u');
 
 		$fname = $this->input->post('fname');
 		$lname = $this->input->post('lname');
@@ -45,8 +45,8 @@ class Account_profile extends CI_Controller {
 		$lul = $this->session->userdata['logged_in'];
 		$user_id = $lul['user_id'];
 		$records=array('user_id'=>$user_id,'fname'=>$fname,'lname'=>$lname,'email'=>$email,'city'=>$city,'about'=>$about);
-		$this->edit_user->edit_details($records);
-		if($this->db->affected_rows() > 0)
+		$this->account_profile_u->edit_user($records);
+		if($this->db->get() > 0)
 		{
 			$this->session->set_flashdata("success", "Success , Check email for login credentials.");
 		}else{
@@ -54,7 +54,7 @@ class Account_profile extends CI_Controller {
 		}
 			
 
-	}*/
+	}
 
 	
 }

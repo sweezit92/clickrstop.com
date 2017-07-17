@@ -142,7 +142,7 @@ border-top-color: #00d7b3 !important;
 										<div class="profile-image">
 									<div class="profile-image-data">
 										<figure class="user-avatar medium">
-											<img src="<?php echo base_url();?>images/profile-default-image.png" alt="profile-default-image">
+											<img src="<?php echo base_url().$user_data['profile_picture']; ?>" alt="profile-default-image">
 										</figure>
 										<p class="text-header">Profile Photo</p>
 										<p class="upload-details">Minimum size 70x70px</p>

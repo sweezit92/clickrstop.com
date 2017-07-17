@@ -20,9 +20,14 @@ class Account_profile_u extends CI_Model
 		return $query->result();
 
 	}
+	public function edit_user($records)
+	{
+		$where  = array('user_id' => $records['user_id']);
+		$this->db->where($where)->update('users',$records);
+		$query = $this->db->get();
+		return $query->result();
 
-	
-
+	}
 }
 
 
