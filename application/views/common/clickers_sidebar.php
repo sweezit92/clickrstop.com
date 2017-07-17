@@ -9,13 +9,8 @@
 	<p class="text-header">Odin_Design</p>
 	<p class="text-oneline">Super Samurai Developers<br>Los Angeles, Usa</p>
 	<!-- SHARE LINKS -->
-	<ul class="share-links">
-		<li><a href="#" class="fb"></a></li>
-		<li><a href="#" class="twt"></a></li>
-		<li><a href="#" class="db"></a></li>
-	</ul>
-	<!-- /SHARE LINKS -->
-	<a href="#" class="button mid dark-light">Send a Private Message</a>
+
+	<!--<a href="#" class="button mid dark-light">Send a Private Message</a>-->
 </div>
 <ul class="dropdown hover-effect">
 	<li class="dropdown-item active">
