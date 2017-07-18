@@ -130,13 +130,13 @@ border-top-color: #00d7b3 !important;
 					<!-- TAB HEADER -->
 					<div class="tab-header primary">
 						<!-- TAB ITEM -->
-						<div class="tab-item selected" style="width:50%;"> 
+						<div class="tab-item" style="width:50%;"> 
 							<p class="text-header">General Settings</p>
 						</div>
 						<!-- /TAB ITEM -->
 
 						<!-- TAB ITEM -->
-						<div class="tab-item" style="width:50%;">
+						<div class="tab-item selected" style="width:50%;">
 							<p class="text-header">Security Settings</p>
 						</div>
 						<!-- /TAB ITEM -->
@@ -234,26 +234,26 @@ border-top-color: #00d7b3 !important;
 						<div class="form-box-item " style="width:100%;">
 								<h4>Profile Information</h4>
 								<hr class="line-separator">
-								<form id="profile-info-form">
+								<form name="myform" method="POST" action="<?php echo base_url();?>index.php/account_profile/change_password" enctype="multipart/form-data">
 
 									<!-- INPUT CONTAINER -->
 									<div class="input-container">
 										<label for="new_email" class="rl-label">Current Password</label>
-										<input type="email" id="new_email" name="new_email" placeholder="Enter your current password...">
+										<input type="password" id="new_email" name="old_password" placeholder="Enter your current password...">
 									</div>
 									<!-- /INPUT CONTAINER -->
 
 									<!-- INPUT CONTAINER -->
 									<div class="input-container">
 										<label for="new_email" class="rl-label">New Password</label>
-										<input type="email" id="new_email" name="new_email" placeholder="Enter your new password...">
+										<input type="password" id="new_email" name="new_password" placeholder="Enter your new password...">
 									</div>
 									<!-- /INPUT CONTAINER -->
 
 									<!-- INPUT CONTAINER -->
 									<div class="input-container">
 										<label for="new_email" class="rl-label">Confirm New Password</label>
-										<input type="email" id="new_email" name="new_email" placeholder="Confirm your new password...">
+										<input type="password" id="new_email" name="confirm_pasword" placeholder="Confirm your new password...">
 									</div>
 									<!-- /INPUT CONTAINER -->
 

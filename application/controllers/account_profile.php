@@ -42,8 +42,7 @@ class Account_profile extends CI_Controller {
 		$email = $this->input->post('new_email');
 		$city = $this->input->post('addr');
 		$about = $this->input->post('about_z');
-		$pro_picimg = $this->input->post('picture');
-
+		
 		if(!empty($_FILES['picture']['name'])){
 				echo "sss";
                 $config['upload_path'] = 'profile_pic/';
@@ -74,6 +73,7 @@ class Account_profile extends CI_Controller {
 			if($update_user_data)
 			{
 				$this->session->set_flashdata("success", "Success , Your data updated successfully.");
+				$this->session->set_flashdata("user");
 			}else{
 				$this->session->set_flashdata("failed", "Something went wrong!");
 			}
@@ -84,7 +84,37 @@ class Account_profile extends CI_Controller {
 
 	}
 
-	
+	public function change_password()
+	{
+		$this->load->model('account_profile_u');
+		$lul = $this->session->userdata['logged_in'];
+		$user_id = $lul['user_id'];
+		$old_pass = $this->input->post('old_password');
+		$records = array('password'=>$old_pass);
+		//print_r($records);
+		$get_old_password = $this->account_profile_u->check_password($user_id,$records['password']);
+		if(!empty($get_old_password)){
+			$lul = $this->session->userdata['logged_in'];
+			$user_id = $lul['user_id'];
+			$nw_password = $this->input->post('new_password');
+			$pass_rcd=array('password'=>$nw_password);
+			print_r($records);
+			$update_user_password = $this->account_profile_u->update_password($user_id,$pass_rcd);
+			if($update_user_password)
+			{
+				$this->session->set_flashdata("success", "Success , Your password updated successfully.");
+				$this->session->set_flashdata("password");
+			}else{
+				$this->session->set_flashdata("failed", "Something went wrong!");
+			}
+		}else{
+			
+			$this->session->set_flashdata("failed", "Please check your password!");
+		} 
+			redirect('index.php/account_profile','refresh');	
+			
+		
+	}
 }
 
 /* End of file welcome.php */
