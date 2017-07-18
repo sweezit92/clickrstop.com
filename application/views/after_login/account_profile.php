@@ -162,7 +162,7 @@ border-top-color: #00d7b3 !important;
 								<div class="profile-image">
 									<div class="profile-image-data">
 										<figure class="user-avatar medium">
-											<img src="<?php echo base_url().$user_data['profile_picture']; ?>" alt="profile-default-image">
+											<img src="<?php echo base_url().$user_data['profile_picture']; ?>" alt="profile-default-image" id="lolwa_pic">
 										</figure>
 										<p class="text-header">Profile Photo</p>
 										<p class="upload-details">Minimum size 70x70px</p>
@@ -292,6 +292,20 @@ border-top-color: #00d7b3 !important;
   <script>
       var input = document.getElementById('cityz');
       var autocomplete = new google.maps.places.Autocomplete(input);
+
+	  function readURL(input) {
+		if (input.files && input.files[0]) {
+			var reader = new FileReader();
+				reader.onload = function (e) {
+					$('#lolwa_pic').attr('src', e.target.result);
+				}
+				reader.readAsDataURL(input.files[0]);
+			}
+		}
+
+		$("#pro_pic").change(function(){
+			readURL(this);
+		});
     </script>
 </body>
 </html>
