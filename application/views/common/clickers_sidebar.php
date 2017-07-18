@@ -1,13 +1,16 @@
+<?php 
+	$user_data = json_decode(json_encode($usr_data[0]), True);
+?>
 <div class="sidebar-item author-bio">
 	<!-- USER AVATAR -->
 	<a href="user-profile.html" class="user-avatar-wrap medium">
 		<figure class="user-avatar medium">
-			<img src="<?php echo base_url();?>images/avatar_09.jpg" alt="">
+			<img src="<?php echo base_url().$user_data['profile_picture'];?>" alt="">
 		</figure>
 	</a>
 	<!-- /USER AVATAR -->
-	<p class="text-header">Odin_Design</p>
-	<p class="text-oneline">Super Samurai Developers<br>Los Angeles, Usa</p>
+	<p class="text-header"><?php echo ucfirst($user_data['fname']);?>&nbsp;<?php echo ucfirst($user_data['lname']);?></p>
+	<p class="text-oneline"><?php echo ucfirst($user_data['city']);?></p>
 	<!-- SHARE LINKS -->
 
 	<!--<a href="#" class="button mid dark-light">Send a Private Message</a>-->

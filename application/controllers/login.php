@@ -17,6 +17,11 @@ class Login extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
+	function __construct()
+	 {
+	   parent::__construct();
+	   $this->load->model('Login_u','',TRUE);
+	  }
 	public function index()
 	{
 		//$this->load->view('module/home');
@@ -25,7 +30,7 @@ class Login extends CI_Controller {
 		$this->load->view("before_login/login", $data);
 		//$this->load->view('welcome_message');
 	}
-
+	
 	public function login_check(){
 		$this->load->model('Login_u');
 
@@ -55,7 +60,12 @@ class Login extends CI_Controller {
 			 {
 			   $sess_array = array(
 				 'user_id' => $row->user_id,
-				 'email' => $row->email
+				 'email' => $row->email,
+				 'user_type' => $row->user_type,
+				 'fname' => $row->fname,
+				 'lname' => $row->lname,
+				 'city' => $row->city,
+				 'profile_picture' => $row->profile_picture,
 			   );
 			   $this->session->set_userdata('logged_in', $sess_array);
 			 }

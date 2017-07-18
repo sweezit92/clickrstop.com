@@ -4,8 +4,8 @@
 			<nav>
 				<ul class="main-menu">
 					<!-- MENU ITEM -->
-					<li class="menu-item active" style="margin:0px;">
-						<a href="<?php echo base_url();?>" class="active" style="margin:0px;padding:0px;"><img src="<?php echo base_url();?>images/logora2.png" style="height:70px;margin:0px;padding:0px;"></a>
+					<li class="menu-item abc" style="margin:0px;border-right:none;">
+						<a href="<?php echo base_url();?>" class="" style="padding:10px 10px;"><img src="<?php echo base_url();?>images/LOGO_black.png" style="height:40px;margin:0px;padding:0px;"></a>
 					</li>
 					<!-- /MENU ITEM -->
 				

@@ -55,11 +55,13 @@ class Account_profile extends CI_Controller {
                 if($this->upload->do_upload('picture')){
                     $uploadData = $this->upload->data();
                     $picture = $uploadData['file_name'];
+					$records=array('fname'=>$fname,'lname'=>$lname,'email'=>$email,'city'=>$city,'about'=>$about,'profile_picture'=> 'profile_pic/'.$picture.'');
                 }else{
                     $picture = '';
+					$records=array('fname'=>$fname,'lname'=>$lname,'email'=>$email,'city'=>$city,'about'=>$about);
                 }
 		}else{
-			$picture = '';
+			$records=array('fname'=>$fname,'lname'=>$lname,'email'=>$email,'city'=>$city,'about'=>$about);
 		}
 		
 		//print_r($uploadData);
@@ -68,7 +70,7 @@ class Account_profile extends CI_Controller {
 			
 			$lul = $this->session->userdata['logged_in'];
 			$user_id = $lul['user_id'];
-			$records=array('fname'=>$fname,'lname'=>$lname,'email'=>$email,'city'=>$city,'about'=>$about,'profile_picture'=> 'profile_pic/'.$picture.'');
+			
 			$update_user_data = $this->account_profile_u->edit_user($user_id,$records);
 			if($update_user_data)
 			{
