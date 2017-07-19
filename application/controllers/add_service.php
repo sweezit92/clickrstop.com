@@ -22,8 +22,18 @@ class Add_service extends CI_Controller {
 		//$this->load->view('module/home');
 		$data["content"] = 'add_service';
 		$data["title"] = "Hire professional photographers";
-		$this->load->view("module/add_service", $data);
+		
 		//$this->load->view('welcome_message');
+
+		$this->load->model('account_profile_u');
+		if(isset($this->session->userdata['logged_in'])){
+			$lul = $this->session->userdata['logged_in'];
+			$sudhu_user_id = $lul['user_id'];
+			$data["usr_data"] = $this->account_profile_u->fetch_details($sudhu_user_id);
+		}else{
+			redirect('index.php/login','refresh');
+		}
+		$this->load->view("module/add_service", $data);
 	}
 }
 
