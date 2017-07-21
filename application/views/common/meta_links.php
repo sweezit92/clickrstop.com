@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="<?php echo base_url();?>css/jquery.range.css">
 	<link rel="stylesheet" href="<?php echo base_url();?>css/font-awesome.min.css">
 	<!-- favicon -->
-	<link rel="icon" href="<?php echo base_url();?>images/favicon.jpg">
+	<link rel="icon" href="<?php echo base_url();?>images/ICON.png" style="height:24px;width:30px !important;">
 	<style>
 		body{background:white !important;font-family: Roboto,Helvetica}
 		.abc:hover{
