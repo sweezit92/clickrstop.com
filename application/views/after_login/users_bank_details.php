@@ -83,6 +83,25 @@
 
 			<!-- CONTENT -->
 			<div class="content right">
+				<?php
+				if($this->session->flashdata('success')){
+			?>
+				<div class="form-popup headline primary align-center" style="margin-bottom:10px;width:100%;">
+					<h4><img src="<?php echo base_url();?>images/if_sign-check_299110.png" style="height:34px;margin-top:15px;float:left;"> &nbsp; <p style="margin-top:25px;float:left;margin-left:10px;"><?php echo $this->session->flashdata('success');?></p></h4>
+				</div>
+			<?php
+				}
+			?>
+
+			<?php
+				if($this->session->flashdata('failed')){
+			?>
+				<div class="form-popup headline primary align-center" style="margin-bottom:10px;width:100%;">
+					<h4><img src="<?php echo base_url();?>images/if_ic_cancel_48px_352263.png" style="height:34px;margin-top:15px;float:left;"> &nbsp; <p style="margin-top:25px;float:left;margin-left:10px;"><?php echo $this->session->flashdata('failed');?></p></h4>
+				</div>
+			<?php
+				}
+			?>
 				<!-- HEADLINE -->
 				<div class="headline buttons primary">
 					<h4>Add Bank Account Details</h4>
@@ -98,7 +117,7 @@
 				<div class="form-box-item full">
 					<h4>Details Specifications</h4>
 					<hr class="line-separator">
-					<form id="upload_form">
+					<form name="myform" method="POST" action="<?php echo base_url();?>index.php/users_bank_details/insert_details" enctype="multipart/form-data">
 						<!-- INPUT CONTAINER -->
 					
 						<!-- /INPUT CONTAINER -->
@@ -106,13 +125,13 @@
 						<!-- INPUT CONTAINER -->
 
 						<div class="input-container" >
-							<label for="item_name" class="rl-label required">Name</label>
-							<input type="text" id="item_name" name="item_name" placeholder="Enter Your Name...">
+							<label for="item_name" class="rl-label required">Full Name</label>
+							<input type="text" id="item_name" name="holder_name" placeholder="Account Holder Name...">
 						</div>
 
 						<div class="input-container" >
 							<label for="item_name" class="rl-label required">Name Of The Bank</label>
-							<input type="text" id="item_name" name="item_name" placeholder="Enter Name Of The Bank...">
+							<input type="text" id="item_name" name="bank_name" placeholder="Enter Name Of The Bank...">
 						</div>
 
 						
@@ -121,12 +140,12 @@
 						<!-- INPUT CONTAINER -->
 							<div class="input-container" >
 							<label for="item_name" class="rl-label required">Bank Account Number</label>
-							<input type="text" id="item_name" name="item_name" placeholder="Enter Your Bank Account Number...">
+							<input type="text" id="item_name" name="account_number" placeholder="Enter Your Bank Account Number...">
 						</div>
 
 						<div class="input-container" >
 							<label for="item_name" class="rl-label required">Bank IFSC Code</label>
-							<input type="text" id="item_name" name="item_name" placeholder="Enter Bank IFSC Code...">
+							<input type="text" id="item_name" name="ifsc_code" placeholder="Enter Bank IFSC Code...">
 						</div>
 						<!-- INPUT CONTAINER -->
 						<!-- INPUT CONTAINER -->
