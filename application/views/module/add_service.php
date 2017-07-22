@@ -4,6 +4,11 @@
 <?php
 	 $this->load->view("common/meta_links");
 ?>
+	 <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css" rel="stylesheet">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script> 
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script> 
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.6/summernote.css" rel="stylesheet">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.6/summernote.js"></script>
 </head>
 <body>
 
@@ -12,8 +17,6 @@
 		$this->load->view("common/header");
 	?>
 	<!-- /HEADER -->
-
-	
 
 	<!-- MAIN MENU -->
 	
@@ -104,19 +107,25 @@
 				<div class="form-box-item full">
 					<h4>Service Specifications</h4>
 					<hr class="line-separator">
-					<form id="upload_form">
+					<form id="upload_form" name="myform" method="POST" action="<?php echo base_url();?>index.php/add_service/insert_service" enctype="multipart/form-data">
 						<!-- INPUT CONTAINER -->
 						<div class="input-container">
 							<label for="category" class="rl-label required">Select Category</label>
 							<label for="category" class="select-block">
+								<?php
+									$categories_data = json_decode(json_encode($get_categories), True);
+									//print_r($categories_data);
+								?>
 								<select name="category" id="category">
 									<option selected disabled>Choose A Category...</option>
-									<option value="Wedding & Rice Ceremony">Wedding & Rice Ceremony</option>
-									<option value="Special Occasion">Special Occasion</option>
-									<option value="Candid">Candid</option>
-									<option value="Product">Product</option>
-									<option value="Corporate Events">Corporate Events</option>
-									<option value="Travel">Travel</option>
+									<?php
+									foreach($categories_data As $cat_val){
+									?>
+										<option value="<?php echo $cat_val['category_id'];?>"><?php echo $cat_val['category_name'];?></option>
+									<?php
+									}
+									?>
+									
 								</select>
 								<!-- SVG ARROW -->
 								<svg class="svg-arrow">
@@ -130,7 +139,7 @@
 						<!-- INPUT CONTAINER -->
 						<div class="input-container">
 							<label for="item_name" class="rl-label required">Title of the Service (Max 40 Characters)</label>
-							<input type="text" id="item_name" name="item_name" maxlength="40" placeholder="Enter them service title here.">
+							<input type="text" id="item_name" name="item_title" maxlength="40" placeholder="Enter them service title here.">
 						</div>
 						<!-- /INPUT CONTAINER -->
 
@@ -138,12 +147,18 @@
 						<div class="input-container">
 							<label for="item_description" class="rl-label required">Service Description</label>
 							<textarea id="item_description" name="item_description" placeholder="Enter them service description here."></textarea>
+							<div id="summernote"><p>Hello Summernote</p></div>
+							 <script>
+								$(document).ready(function() {
+									$('#summernote').summernote();
+								});
+							  </script>
 						</div>
 						
 						<!-- INPUT CONTAINER -->
 						<div class="input-container">
 							<label for="item_tags" class="rl-label required">Price (&#x20B9;)</label>
-							<input type="text" id="item_tags" name="item_tags" placeholder="Enter price for this service">
+							<input type="text" id="item_tags" name="item_price" placeholder="Enter price for this service">
 						</div>
 						<!-- /INPUT CONTAINER -->
 
@@ -177,7 +192,7 @@
 						
 
 						<hr class="line-separator">
-						<button class="button big dark">Submit Service <span class="primary">for Review</span></button>
+						<button class="button big dark" type="submit">Submit Service <span class="primary">for Review</span></button>
 					</form>
 				</div>
 				<!-- /FORM BOX ITEM -->
@@ -198,6 +213,7 @@
 	<?php
 		$this->load->view("common/footer");
 	?>
+
 	<script>
 		$(document).ready(function() {
 		  $(".add-more").click(function(){ 
@@ -213,5 +229,6 @@
 
 		});
 	</script>
+								 
 </body>
 </html>
